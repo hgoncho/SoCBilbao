@@ -1,73 +1,135 @@
 # SoCBilbao
 
-SoC basado en RISC-V con sincronización de tiempo precisa mediante IEEE 1588 PTP sobre Ethernet,
-implementado tanto en FPGA (Arty A7-35T) como en ASIC (IHP SG13G2 130 nm) mediante flujo open-source.
+SoC basado en RISC-V con sincronización de tiempo precisa mediante **IEEE 1588 PTP** sobre Ethernet, implementado tanto en FPGA (Arty A7-35T) como en ASIC (IHP SG13G2 130 nm) mediante flujo open-source.
 
-## Descripción
+Desarrollado como Trabajo de Fin de Máster en la Universidad del País Vasco (UPV/EHU), Cátedra SoC4Sensing.
 
-SoCBilbao integra los siguientes componentes:
+---
 
-- **PicoRV32** — núcleo RISC-V RV32IMC a 50 MHz
-- **Minimac2** — controlador Ethernet MII 10/100 Mbps
-- **HA1588** — periférico PTP con RTC y TSU para marcado temporal hardware
-- **Firmware bare-metal** — controlador PI de sincronización, CLI UART, drivers SPI Flash
+## Resultados
 
-La sincronización alcanzada en hardware es de **~8.5 ns de media** (σ = 5.7 ns, N = 29 muestras),
-por debajo del umbral de un ciclo de reloj de sistema (20 ns).
+| Métrica | Valor |
+|---|---|
+| Offset de sincronización (media, N=29) | **8,5 ns** (σ = 5,7 ns, máx. 22 ns) |
+| Frecuencia de sistema | 50 MHz · WNS = 5,29 ns (Arty A7) |
+| Ocupación FPGA (LUT / FF / BRAM) | 3.597 / 2.961 / 4,5 bloques |
+| Violaciones DRC (flujo ASIC) | **0** |
+| Violaciones de antena (flujo ASIC) | **0** |
+| Potencia estimada (ASIC) | 2,03 mW |
+| Área del die (ASIC) | 2,8 × 2,8 mm² |
+
+---
+
+## Arquitectura
+
+| Bloque | Descripción |
+|---|---|
+| **PicoRV32** | Núcleo softcore RISC-V (RV32IMC_Zicsr) a 50 MHz |
+| **Minimac2** | Controlador Ethernet MAC 10/100 Mbps con interfaz MII |
+| **HA1588** | Periférico PTP: RTC de alta resolución + TSU de captura hardware |
+| **SPI Flash XIP** | Carga de firmware desde Flash QSPI externa |
+| **SimpleUART** | Interfaz de comandos serie a 115200 baudios |
+
+---
 
 ## Estructura del repositorio
+
+```
 SoCBilbao/
+├── SoCBilbao_files/          # Fuentes RTL, firmware y simulación
+│   └── picorv32_ihp_SoCBILBAO/
+│       ├── shell.nix         # Entorno Nix reproducible para ORFS
+│       └── picosoc/
+│           ├── Makefile      # Sistema de construcción unificado
+│           ├── start.s       # Código de arranque RISC-V
+│           ├── sections.lds  # Plantilla del linker script
+│           ├── RTL/          # Descripción hardware en Verilog
+│           ├── firmware/     # Firmware bare-metal en C
+│           ├── boards/       # Ficheros específicos de plataforma
+│           │   ├── arty/     # Arty A7-35T (plataforma principal)
+│           │   ├── zedboard/ # ZedBoard (legacy)
+│           │   └── icebreaker/ # iCEBreaker (legacy)
+│           └── sim/          # Testbenches de simulación
+│               ├── cocotb/   # Testbench Python (SoC aislado)
+│               └── tb_dual_core/ # Testbench Verilog doble SoC (Questa)
+├── SoCBilbao_arty/           # Proyecto Vivado para FPGA Arty A7-35T
+└── OpenROAD_files/           # Flujo RTL-a-GDS con ORFS (IHP SG13G2)
+    ├── design_picosoc_ihp_SoCBilbao/  # Configuración del diseño ORFS
+    ├── src_picosoc_SoCBilbao/         # Fuentes RTL aplanadas para ORFS
+    ├── logs_picosoc_SoCBilbao/        # Logs de cada etapa del flujo
+    ├── reports_picosoc_SoCBilbao/     # Reportes de timing, DRC, congestión
+    ├── results_picosoc_SoCBilbao/     # Netlist y GDS generados
+    └── capturas/                      # Capturas de pantalla del layout
+```
 
-  ├── OpenROAD_files/       # Flujo RTL-to-GDS (ORFS, IHP SG13G2)
-  
-  ├── SoCBilbao_arty/       # Proyecto Vivado para FPGA Arty A7-35T
-  
-  └── SoCBilbao_files/      # RTL, firmware y testbenches
+---
 
+## Inicio rápido
 
-## Requisitos
+### Requisitos
 
 | Herramienta | Versión |
 |---|---|
 | riscv-none-elf-gcc (xPack) | v13.2.0-2 |
-| Icarus Verilog / Questa | v12.0 / 2023.4 |
-| CocoTB | v1.9.1 |
+| Icarus Verilog / Questa | ≥ v12 / 2023.4 |
+| CocoTB + cocotbext-eth + scapy | ≥ 1.9.1 |
 | Yosys | v0.62 |
 | OpenROAD Flow Scripts | commit `5fb699a0` |
-| Xilinx Vivado | v2022.2 |
-| KLayout | v0.30.6 |
+| Xilinx Vivado | ≥ 2022.2 |
 
-## Simulación
+### Compilar firmware para Arty A7-35T
 
 ```bash
-cd SoCBilbao_files
-make sim          # testbench dual-core CocoTB
-make sim_verilog  # testbench Verilog puro (Icarus)
+cd SoCBilbao_files/picorv32_ihp_SoCBILBAO/picosoc
+make arty_firmware
 ```
 
-## Síntesis FPGA
-
-Abrir el proyecto en Vivado desde `SoCBilbao_arty/` y ejecutar *Generate Bitstream*.
-Target: `XC7A35TICSG324-1L` (Arty A7-35T).
-
-## Flujo ASIC (OpenROAD)
+### Compilar firmware para simulación CocoTB
 
 ```bash
-cd OpenROAD_files
+cd SoCBilbao_files/picorv32_ihp_SoCBILBAO/picosoc
+make sim_firmware
+```
+
+### Simulación doble SoC (Questa)
+
+```bash
+cd SoCBilbao_files/picorv32_ihp_SoCBILBAO/picosoc/sim/tb_dual_core
+vsim -do "vsim tb_dual_core; run -all"
+```
+
+### Síntesis FPGA (Vivado)
+
+Abrir `SoCBilbao_arty/SoCBilbao_arty.xpr` en Vivado y ejecutar *Generate Bitstream*.
+
+### Flujo ASIC (OpenROAD)
+
+```bash
+cd SoCBilbao_files/picorv32_ihp_SoCBILBAO
 nix-shell
-make
+cd ../../../OpenROAD_files
+make DESIGN_CONFIG=design_picosoc_ihp_SoCBilbao/picosoc_SoCBilbao/config.mk
 ```
 
-PDK: IHP SG13G2 BiCMOS 130 nm. El GDS final se genera en `results/picosoc_ihp/base/6_1_merged.gds`.
+El GDS final se genera en `results_picosoc_SoCBilbao/picosoc_ihp/base/6_final.gds`.
 
-## Trabajo fin de máster
+---
 
-Este repositorio es el artefacto técnico del TFM *SoCBILBAO: Diseño e implementación de un SoC 
-RISC-V con soporte PTP sobre Ethernet* — Máster en Sistemas Electrónicos Avanzados, UPV/EHU,
-Cátedra SoC4Sensing, 2025.
+## Licencias de terceros
 
-## Licencia
+| Componente | Licencia |
+|---|---|
+| PicoRV32 | ISC (YosysHQ) |
+| Minimac2 | LGPL-2.1 (Milkymist Project) |
+| HA1588 | Apache 2.0 (FreeCores) |
+| PDK IHP SG13G2 | Apache 2.0 (IHP) |
+| OpenROAD Flow Scripts | BSD 3-Clause |
+| CocoTB | BSD 2-Clause (FOSSi Foundation) |
+| async_fifo | MIT (olofk) |
 
-MIT
+---
 
+## Autor
 
+**Gonzalo De Pablo** — TFM, UPV/EHU, 2026  
+Cátedra SoC4Sensing · Bilbao, España
