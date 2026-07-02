@@ -18,7 +18,9 @@ por debajo del umbral de un ciclo de reloj de sistema (20 ns).
 ## Estructura del repositorio
 SoCBilbao/
 ├── OpenROAD_files/       # Flujo RTL-to-GDS (ORFS, IHP SG13G2)
+
 ├── SoCBilbao_arty/       # Proyecto Vivado para FPGA Arty A7-35T
+
 └── SoCBilbao_files/      # RTL, firmware y testbenches
 
 
