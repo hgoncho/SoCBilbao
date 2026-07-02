@@ -1,0 +1,12 @@
+FIFO Creada utilizando el IP FIFO GENERATOR 13.2
+
+Nombre: dcfifo_128b_16_new
+Interface Type: Native
+Fifo Implementation: Independent Clocks Distributed RAM
+
+Read Mode: Standard FIFO
+Data Port Parameters:
+    Write Width: 128
+    Write Depth: 16
+
+Falgs: Full, Empty

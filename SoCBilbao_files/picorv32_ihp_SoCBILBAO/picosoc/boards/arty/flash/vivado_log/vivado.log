@@ -1,0 +1,47 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Wed May  6 13:36:06 2026
+# Process ID: 2170432
+# Current directory: /home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc
+# Command line: vivado -mode batch -source boards/arty/gen_mcs.tcl -notrace -log boards/arty/flash/vivado_log/vivado.log -journal boards/arty/flash/vivado_log/vivado.jou
+# Log file: /home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/boards/arty/flash/vivado_log/vivado.log
+# Journal file: /home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/boards/arty/flash/vivado_log/vivado.jou
+# Running On        :asictools2
+# Platform          :AlmaLinux
+# Operating System  :AlmaLinux release 8.10 (Cerulean Leopard)
+# Processor Detail  :Intel(R) Core(TM) i9-14900K
+# CPU Frequency     :3200.000 MHz
+# CPU Physical cores:24
+# CPU Logical cores :32
+# Host memory       :66927 MB
+# Swap memory       :28298 MB
+# Total Virtual     :95226 MB
+# Available Virtual :75867 MB
+#-----------------------------------------------------------
+source boards/arty/gen_mcs.tcl -notrace
+Command: write_cfgmem -force -format mcs -size 16 -interface SPIx4 -loadbit {up 0x00000000 /home/gonzalo/Vivado/picorv32_ihp_SoCBILBAO/picorv32_ihp_SoCBILBAO.runs/impl_1/arty_top.bit} -loaddata {up 0x00300000 boards/arty/arty_flash_firmware/firmware.bin} -file boards/arty/flash/Flash_arty_bit_fir_00300000.mcs
+Creating config memory files...
+Creating bitstream load up from address 0x00000000
+Loading bitfile /home/gonzalo/Vivado/picorv32_ihp_SoCBILBAO/picorv32_ihp_SoCBILBAO.runs/impl_1/arty_top.bit
+Creating bitstream load up from address 0x00300000
+Loading datafile boards/arty/arty_flash_firmware/firmware.bin
+Writing file boards/arty/flash/Flash_arty_bit_fir_00300000.mcs
+Writing log file boards/arty/flash/Flash_arty_bit_fir_00300000.prm
+===================================
+Configuration Memory information
+===================================
+File Format        MCS
+Interface          SPIX4
+Size               16M
+Start Address      0x00000000
+End Address        0x00FFFFFF
+
+Addr1         Addr2         Date                    File(s)
+0x00000000    0x0021728B    May  6 13:32:56 2026    /home/gonzalo/Vivado/picorv32_ihp_SoCBILBAO/picorv32_ihp_SoCBILBAO.runs/impl_1/arty_top.bit
+0x00300000    0x00303B47    May  6 13:36:04 2026    boards/arty/arty_flash_firmware/firmware.bin
+0 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_cfgmem completed successfully
+INFO: [Common 17-206] Exiting Vivado at Wed May  6 13:36:08 2026...

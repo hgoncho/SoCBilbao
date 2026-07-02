@@ -1,0 +1,25 @@
+#
+# An unexpected error has occurred (11)
+#
+Stack:
+/lib64/libc.so.6(+0x4e630) [0x7fd43b928630]
+/eda/Xilinx/Vivado/2024.1/lib/lnx64.o/Rhel/8/libstdc++.so.6(_ZNSt15basic_streambufIcSt11char_traitsIcEE6xsgetnEPcl+0x96) [0x7fd43bfe2f66]
+/eda/Xilinx/Vivado/2024.1/lib/lnx64.o/Rhel/8/libstdc++.so.6(_ZNSt15basic_streambufIcSt11char_traitsIcEE6xsgetnEPcl+0x96) [0x7fd43bfe2f66]
+/eda/Xilinx/Vivado/2024.1/lib/lnx64.o/Rhel/8/libstdc++.so.6(_ZNSi4readEPcl+0x4d) [0x7fd43bfbdc5d]
+/eda/Xilinx/Vivado/2024.1/lib/lnx64.o/librdi_common.so(ComMsgMgrFile::parse()+0xee) [0x7fd43e9962de]
+/eda/Xilinx/Vivado/2024.1/lib/lnx64.o/librdi_common.so(ComMsgMgrImpl::getMsgFile(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)+0x93) [0x7fd43e9a1cd3]
+/eda/Xilinx/Vivado/2024.1/lib/lnx64.o/librdi_common.so(ComMsgMgrInstanceImpl::checkId(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)+0x149) [0x7fd43e9b5d89]
+/eda/Xilinx/Vivado/2024.1/lib/lnx64.o/librdi_common.so(ComMsgMgrInstanceImpl::ComMsgMgrInstanceImpl(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, ComMsgMgr::MsgMask, char const*, __va_list_tag (&) [1])+0x131) [0x7fd43e9c2871]
+/eda/Xilinx/Vivado/2024.1/lib/lnx64.o/librdi_common.so(ComMsgMgrInstance::ComMsgMgrInstance(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, ComMsgMgr::MsgMask, char const*, __va_list_tag (&) [1])+0x60) [0x7fd43e9aed20]
+/eda/Xilinx/Vivado/2024.1/lib/lnx64.o/librdi_common.so(ComMsgMgrInstance::createInstance::eval(int, char const*, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, ComMsgMgr::MsgMask, char const*, ...)+0x9e) [0x7fd43e9aedee]
+/eda/Xilinx/Vivado/2024.1/lib/lnx64.o/librdi_common.so(+0xac053d) [0x7fd43ea5153d]
+/eda/Xilinx/Vivado/2024.1/lib/lnx64.o/librdi_common.so(HPAParamMgr::registerStringParam(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)+0xfb) [0x7fd43ea5222b]
+srcscanner(processCmd(void*, Tcl_Interp*, int, char const**)+0xf4) [0x53c334]
+/eda/Xilinx/Vivado/2024.1/lib/lnx64.o/libtcl8.6.so(TclInvokeStringCommand+0x7b) [0x7fd43d90772b]
+/eda/Xilinx/Vivado/2024.1/lib/lnx64.o/libtcl8.6.so(TclNRRunCallbacks+0x47) [0x7fd43d90c497]
+/eda/Xilinx/Vivado/2024.1/lib/lnx64.o/libtcl8.6.so(+0x45309) [0x7fd43d90e309]
+/eda/Xilinx/Vivado/2024.1/lib/lnx64.o/libtcl8.6.so(Tcl_EvalEx+0x13) [0x7fd43d90ea03]
+/eda/Xilinx/Vivado/2024.1/lib/lnx64.o/libtcl8.6.so(Tcl_Eval+0x15) [0x7fd43d90ea25]
+srcscanner(main+0x248) [0x501528]
+/lib64/libc.so.6(__libc_start_main+0xe5) [0x7fd43b914865]
+srcscanner() [0x504377]

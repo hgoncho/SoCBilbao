@@ -1,0 +1,111 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Mon May 25 12:23:17 2026
+# Process ID: 405445
+# Current directory: /home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/sim/cocotb
+# Command line: vivado
+# Log file: /home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/sim/cocotb/vivado.log
+# Journal file: /home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/sim/cocotb/vivado.jou
+# Running On        :asictools2
+# Platform          :AlmaLinux
+# Operating System  :AlmaLinux release 8.10 (Cerulean Leopard)
+# Processor Detail  :Intel(R) Core(TM) i9-14900K
+# CPU Frequency     :3200.000 MHz
+# CPU Physical cores:24
+# CPU Logical cores :32
+# Host memory       :66927 MB
+# Swap memory       :28298 MB
+# Total Virtual     :95226 MB
+# Available Virtual :76507 MB
+#-----------------------------------------------------------
+start_gui
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /home/asicdesign/eda/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /home/asicdesign/eda/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /home/asicdesign/eda/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /home/asicdesign/eda/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at /home/asicdesign/eda/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at /home/asicdesign/eda/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /home/asicdesign/eda/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /home/asicdesign/eda/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /home/asicdesign/eda/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+open_project /home/gonzalo/Vivado/picorv32_ihp_SoCBILBAO/picorv32_ihp_SoCBILBAO.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/zedboard/SoCBILBAO_top.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/arty/arty_top.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/ha1588/par/FIFO_OpenSource/async_fifo/rtl/async_fifo.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/ha1588/par/FIFO_OpenSource/async_fifo/rtl/fifomem.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/ha1588/rtl/top/ha1588.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/ha1588/rtl/bus/wishbone/ha1588_wb.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/minimac2/rtl/minimac2.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/minimac2/rtl/minimac2_ctlif.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/minimac2/rtl/minimac2_memory.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/minimac2/rtl/minimac2_psync.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/minimac2/rtl/minimac2_rx.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/minimac2/rtl/minimac2_sync.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/minimac2/rtl/minimac2_tx.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/picorv32_wb_adapter.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/ha1588/rtl/tsu/ptp_parser.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/ha1588/rtl/tsu/ptp_queue.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/ha1588/rtl/reg/reg.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/ha1588/par/FIFO_OpenSource/async_fifo/rtl/rptr_empty.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/ha1588/rtl/rtc/rtc.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/simpleuart.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/spimemio.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/ha1588/par/FIFO_OpenSource/async_fifo/rtl/sync_r2w.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/ha1588/par/FIFO_OpenSource/async_fifo/rtl/sync_w2r.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/ha1588/rtl/tsu/tsu.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/ha1588/rtl/bus/wishbone/wb_slv_wrapper.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/ha1588/par/FIFO_OpenSource/async_fifo/rtl/wptr_full.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/ha1588/par/FIFO_OpenSource/async_fifo/rtl/wrapper_dcfifo_128b_16_opensource.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/RM_IHP/RM_IHPSG13_1P_512x32_c2_bm_bist.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/minimac2/test/RAMB16BWER.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/spiflash.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/zedboard/zedboard_top.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/zedboard/tb_zedboard_top.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/ha1588/par/xilinx/ip/define.h'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/ha1588/par/xilinx/ip/dcfifo_128b_16.ngc'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/RM_IHP/RM_IHPSG13_2P_64x32_c2.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/minimac2/test/tb_minimac.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/ha1588/par/FIFO_OpenSource/async_fifo/rtl/async_bidir_ramif_fifo.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/ha1588/par/FIFO_OpenSource/async_fifo/rtl/fifomem_dp.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/ha1588/par/FIFO_OpenSource/async_fifo/rtl/async_bidir_fifo.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/ha1588/par/FIFO_OpenSource/async_fifo/rtl/sync_ptr.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/RTL/spiflash_tb.v'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/eda/Xilinx/Vivado/2024.1/data/ip'.
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/boards/arty/arty_top_flash.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/boards/zedboard/SoCBILBAO_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/RTL/picosoc_ihp_SoCBilbao_minimac2.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/boards/arty/arty_top_flash.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/boards/arty/arty_top_flash.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/boards/arty/arty_top_flash.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/boards/zedboard/SoCBILBAO_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/RTL/picosoc_ihp_SoCBilbao_minimac2.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/boards/zedboard/SoCBILBAO_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/boards/zedboard/SoCBILBAO_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/boards/arty/arty_top_flash.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/boards/zedboard/SoCBILBAO_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/RTL/picosoc_ihp_SoCBilbao_minimac2.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/RTL/picosoc_ihp_SoCBilbao_minimac2.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/RTL/picosoc_ihp_SoCBilbao_minimac2.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/boards/arty/arty_top_flash.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/boards/zedboard/SoCBILBAO_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/RTL/picosoc_ihp_SoCBilbao_minimac2.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/boards/zedboard/SoCBILBAO_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/boards/zedboard/SoCBILBAO_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/boards/arty/arty_top_flash.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/boards/zedboard/SoCBILBAO_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/RTL/picosoc_ihp_SoCBilbao_minimac2.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/boards/zedboard/SoCBILBAO_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/boards/zedboard/SoCBILBAO_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/boards/arty/arty_top_flash.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/boards/zedboard/SoCBILBAO_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/RTL/picosoc_ihp_SoCBilbao_minimac2.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/boards/arty/arty_top_flash.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/boards/arty/arty_top_flash.v:]

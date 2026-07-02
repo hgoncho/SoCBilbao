@@ -1,0 +1,157 @@
+/*
+
+AMD Vivado v2024.1 (64-bit) [Major: 2024, Minor: 1]
+SW Build: 5076996 on Wed May 22 18:36:09 MDT 2024
+IP Build: 5075265 on Wed May 22 21:45:21 MDT 2024
+IP Build: 5075265 on Wed May 22 21:45:21 MDT 2024
+
+Process ID (PID): 7722
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Wed Jun 17 11:59:18 CEST 2026
+Time zone: 	Central European Standard Time (Europe/Madrid)
+
+OS: AlmaLinux release 8.10 (Cerulean Leopard)
+OS Version: 4.18.0-553.22.1.el8_10.x86_64
+OS Architecture: amd64
+Available processors (cores): 32
+LSB Release Description: AlmaLinux release 8.10 (Cerulean Leopard)
+
+Display: 19.0
+Screen size: 3440x1440
+Local screen bounds: x = 0, y = 27, width = 3440, height = 1413
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+OS font scaling: 100%
+Anti-Alias Enabled: false
+
+Java version: 	21.0.1 64-bit
+JavaFX version: 21.0.1
+Java home: 	/home/asicdesign/eda/Xilinx/Vivado/2024.1/tps/lnx64/jre21.0.1_12
+Java executable: 	/home/asicdesign/eda/Xilinx/Vivado/2024.1/tps/lnx64/jre21.0.1_12/bin/java
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms512m, -Xmx4072m, -Xss10m, -Xrs]
+Java initial memory (-Xms): 	512 MB
+Java maximum memory (-Xmx):	 3 GB
+
+User name: 	gonzalo
+User home directory: /home/gonzalo
+User working directory: /home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /home/asicdesign/eda/Xilinx/Vivado
+HDI_APPROOT: /eda/Xilinx/Vivado/2024.1
+RDI_DATADIR: /home/asicdesign/eda/Xilinx/SharedData/2024.1/data:/eda/Xilinx/Vivado/2024.1/data
+RDI_BINDIR: /home/asicdesign/eda/Xilinx/Vivado/2024.1/bin
+
+Vivado preferences file: /home/gonzalo/.Xilinx/Vivado/2024.1/vivado.xml
+Vivado preferences directory: /home/gonzalo/.Xilinx/Vivado/2024.1/
+Vivado layouts directory: /home/gonzalo/.Xilinx/Vivado/2024.1/data/layouts
+PlanAhead jar file: 	/home/asicdesign/eda/Xilinx/Vivado/2024.1/lib/classes/planAhead.jar
+Vivado log file: 	/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/vivado.log
+Vivado journal file: 	/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-7722-asictools2
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+RDI_APPROOT: /eda/Xilinx/Vivado/2024.1
+RDI_BASEROOT: /eda/Xilinx/Vivado
+RDI_BINROOT: /eda/Xilinx/Vivado/2024.1/bin
+RDI_BUILD: yes
+RDI_DATADIR: /eda/Xilinx/SharedData/2024.1/data:/eda/Xilinx/Vivado/2024.1/data
+RDI_INSTALLROOT: /eda/Xilinx
+RDI_INSTALLVER: 2024.1
+RDI_JAVA_PLATFORM: 
+RDI_JAVA_VERSION: 21.0.1_12
+RDI_LIBDIR: /eda/Xilinx/Vivado/2024.1/lib/lnx64.o/Rhel/8:/eda/Xilinx/Vivado/2024.1/lib/lnx64.o/Rhel:/eda/Xilinx/Vivado/2024.1/lib/lnx64.o
+RDI_OPT_EXT: .o
+RDI_PATCHROOT: 
+RDI_PLATFORM: lnx64
+RDI_PREPEND_PATH: /eda/Xilinx/Vivado/2024.1/ids_lite/ISE/bin/lin64
+RDI_PROG: /eda/Xilinx/Vivado/2024.1/bin/unwrapped/lnx64.o/vivado
+RDI_SESSION_INFO: /home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc:asictools2_1781690346_7624
+RDI_SHARED_DATA: /eda/Xilinx/SharedData/2024.1/data
+RDI_TPS_ROOT: /eda/Xilinx/Vivado/2024.1/tps/lnx64
+RDI_USE_JDK21: True
+SHELL: /bin/bash
+VERDI_HOME: /eda/synopsys/2023-24/RHELx86/VERDI_2023.12/bin
+VIVADO_HOME: /eda/Xilinx/Vivado/2024.1/bin
+XILINX: /eda/Xilinx/Vivado/2024.1/ids_lite/ISE
+XILINXD_LICENSE_FILE: 1717@158.227.75.36
+XILINX_DSP: /eda/Xilinx/Vivado/2024.1/ids_lite/ISE
+XILINX_HLS: /eda/Xilinx/Vitis_HLS/2024.1
+XILINX_PLANAHEAD: /eda/Xilinx/Vivado/2024.1
+XILINX_VIVADO: /eda/Xilinx/Vivado/2024.1
+XILINX_VIVADO_HLS: /eda/Xilinx/Vivado/2024.1
+
+
+GUI allocated memory:	512 MB
+GUI max memory:		4,072 MB
+Engine allocated memory: 1,507 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,569 MB. GUI used memory: 70 MB. Current time: 6/17/26, 11:59:19 AM CEST
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "/home/gonzalo/Vivado/picorv32_ihp_SoCBILBAO/picorv32_ihp_SoCBILBAO.xpr", 0); // b.c (PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS)
+// [GUI Memory]: 85 MB (+87035kb) [00:00:15]
+// [Engine Memory]: 1,599 MB (+1524689kb) [00:00:15]
+// Opening Vivado Project: /home/gonzalo/Vivado/picorv32_ihp_SoCBILBAO/picorv32_ihp_SoCBILBAO.xpr. Version: Vivado v2024.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// TclEventType: MSGMGR_MOVEMSG
+// Tcl Message: open_project /home/gonzalo/Vivado/picorv32_ihp_SoCBILBAO/picorv32_ihp_SoCBILBAO.xpr 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 1,767 MB (+93014kb) [00:00:17]
+// [GUI Memory]: 111 MB (+22707kb) [00:00:17]
+// Tcl Message: open_project /home/gonzalo/Vivado/picorv32_ihp_SoCBILBAO/picorv32_ihp_SoCBILBAO.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/eda/Xilinx/Vivado/2024.1/data/ip'. 
+// [Engine Memory]: 1,868 MB (+12688kb) [00:00:18]
+// Project name: picorv32_ihp_SoCBILBAO; location: /home/gonzalo/Vivado/picorv32_ihp_SoCBILBAO; part: xc7a35ticsg324-1L
+dismissDialog("Open Project"); // bj (Open Project Progress)
+// [GUI Memory]: 139 MB (+23682kb) [00:00:21]
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK", "Critical Messages"); // f (PAResourceAtoD.CmdMsgDialog_OK)
+dismissDialog("Critical Messages"); // a (dialog0)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, arty_top (arty_top.v)]", 2); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, arty_top (arty_top.v), u_asic : SoCBILBAO_top (SoCBILBAO_top.v)]", 4); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, arty_top (arty_top.v), u_asic : SoCBILBAO_top (SoCBILBAO_top.v), soc : picosoc_SoCBilbao_minimac2 (picosoc_ihp_SoCBilbao_minimac2.v)]", 5); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, arty_top (arty_top.v), u_asic : SoCBILBAO_top (SoCBILBAO_top.v), soc : picosoc_SoCBilbao_minimac2 (picosoc_ihp_SoCBilbao_minimac2.v), minimac2core : minimac2 (minimac2.v)]", 8); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, arty_top (arty_top.v), u_asic : SoCBILBAO_top (SoCBILBAO_top.v), soc : picosoc_SoCBilbao_minimac2 (picosoc_ihp_SoCBilbao_minimac2.v), minimac2core : minimac2 (minimac2.v), memory : minimac2_memory (minimac2_memory.v)]", 11); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, arty_top (arty_top.v), u_asic : SoCBILBAO_top (SoCBILBAO_top.v), soc : picosoc_SoCBilbao_minimac2 (picosoc_ihp_SoCBilbao_minimac2.v), minimac2core : minimac2 (minimac2.v), memory : minimac2_memory (minimac2_memory.v), rxb0 : RAMB16BWER_arty (RAMB16BWER_wrapper_arty.v)]", 12, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, arty_top (arty_top.v), u_asic : SoCBILBAO_top (SoCBILBAO_top.v), soc : picosoc_SoCBilbao_minimac2 (picosoc_ihp_SoCBilbao_minimac2.v), minimac2core : minimac2 (minimac2.v), memory : minimac2_memory (minimac2_memory.v), rxb0 : RAMB16BWER_arty (RAMB16BWER_wrapper_arty.v)]", 12, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// [GUI Memory]: 148 MB (+1207kb) [00:01:23]

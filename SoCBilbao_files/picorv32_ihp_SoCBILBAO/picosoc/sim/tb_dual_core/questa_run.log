@@ -1,0 +1,165 @@
+# 
+# vsim -lib sim/tb_dual_core/questa_work tb_dual_core
+# vsim -lib sim/tb_dual_core/questa_work tb_dual_core 
+# Start time: 13:04:19 on Jun 04,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: RTL/minimac2/rtl/minimac2_memory.v(66): (vopt-2685) [TFMPC] - Too few port connections for 'rxb0'.  Expected 18, found 16.
+# ** Warning: RTL/minimac2/rtl/minimac2_memory.v(66): (vopt-2718) [TFMPC] - Missing connection for port 'DOPB'.
+# ** Warning: RTL/minimac2/rtl/minimac2_memory.v(66): (vopt-2718) [TFMPC] - Missing connection for port 'DOPA'.
+# ** Warning: RTL/minimac2/rtl/minimac2_memory.v(97): (vopt-2685) [TFMPC] - Too few port connections for 'rxb1'.  Expected 18, found 16.
+# ** Warning: RTL/minimac2/rtl/minimac2_memory.v(97): (vopt-2718) [TFMPC] - Missing connection for port 'DOPB'.
+# ** Warning: RTL/minimac2/rtl/minimac2_memory.v(97): (vopt-2718) [TFMPC] - Missing connection for port 'DOPA'.
+# ** Warning: RTL/minimac2/rtl/minimac2_memory.v(130): (vopt-2685) [TFMPC] - Too few port connections for 'txb'.  Expected 18, found 16.
+# ** Warning: RTL/minimac2/rtl/minimac2_memory.v(130): (vopt-2718) [TFMPC] - Missing connection for port 'DOPB'.
+# ** Warning: RTL/minimac2/rtl/minimac2_memory.v(130): (vopt-2718) [TFMPC] - Missing connection for port 'DOPA'.
+# ** Warning: RTL/ha1588/par/FIFO_OpenSource/async_fifo/rtl/wrapper_dcfifo_128b_16_opensource.v(38): (vopt-2685) [TFMPC] - Too few port connections for 'fifo_inst'.  Expected 16, found 14.
+# ** Warning: RTL/ha1588/par/FIFO_OpenSource/async_fifo/rtl/wrapper_dcfifo_128b_16_opensource.v(38): (vopt-2718) [TFMPC] - Missing connection for port 'arempty'.
+# ** Warning: RTL/ha1588/par/FIFO_OpenSource/async_fifo/rtl/wrapper_dcfifo_128b_16_opensource.v(38): (vopt-2718) [TFMPC] - Missing connection for port 'awfull'.
+# ** Warning: RTL/picosoc_ihp_SoCBilbao_minimac2.v(467): (vopt-2685) [TFMPC] - Too few port connections for 'cpu'.  Expected 27, found 10.
+# ** Warning: RTL/picosoc_ihp_SoCBilbao_minimac2.v(467): (vopt-2718) [TFMPC] - Missing connection for port 'trace_data'.
+# ** Warning: RTL/picosoc_ihp_SoCBilbao_minimac2.v(467): (vopt-2718) [TFMPC] - Missing connection for port 'trace_valid'.
+# ** Warning: RTL/picosoc_ihp_SoCBilbao_minimac2.v(467): (vopt-2718) [TFMPC] - Missing connection for port 'eoi'.
+# ** Warning: RTL/picosoc_ihp_SoCBilbao_minimac2.v(467): (vopt-2718) [TFMPC] - Missing connection for port 'pcpi_ready'.
+# ** Warning: RTL/picosoc_ihp_SoCBilbao_minimac2.v(467): (vopt-2718) [TFMPC] - Missing connection for port 'pcpi_wait'.
+# ** Warning: RTL/picosoc_ihp_SoCBilbao_minimac2.v(467): (vopt-2718) [TFMPC] - Missing connection for port 'pcpi_rd'.
+# ** Warning: RTL/picosoc_ihp_SoCBilbao_minimac2.v(467): (vopt-2718) [TFMPC] - Missing connection for port 'pcpi_wr'.
+# ** Warning: RTL/picosoc_ihp_SoCBilbao_minimac2.v(467): (vopt-2718) [TFMPC] - Missing connection for port 'pcpi_rs2'.
+# ** Warning: RTL/picosoc_ihp_SoCBilbao_minimac2.v(467): (vopt-2718) [TFMPC] - Missing connection for port 'pcpi_rs1'.
+# ** Warning: RTL/picosoc_ihp_SoCBilbao_minimac2.v(467): (vopt-2718) [TFMPC] - Missing connection for port 'pcpi_insn'.
+# ** Warning: RTL/picosoc_ihp_SoCBilbao_minimac2.v(467): (vopt-2718) [TFMPC] - Missing connection for port 'pcpi_valid'.
+# ** Warning: RTL/picosoc_ihp_SoCBilbao_minimac2.v(467): (vopt-2718) [TFMPC] - Missing connection for port 'mem_la_wstrb'.
+# ** Warning: RTL/picosoc_ihp_SoCBilbao_minimac2.v(467): (vopt-2718) [TFMPC] - Missing connection for port 'mem_la_wdata'.
+# ** Warning: RTL/picosoc_ihp_SoCBilbao_minimac2.v(467): (vopt-2718) [TFMPC] - Missing connection for port 'mem_la_addr'.
+# ** Warning: RTL/picosoc_ihp_SoCBilbao_minimac2.v(467): (vopt-2718) [TFMPC] - Missing connection for port 'mem_la_write'.
+# ** Warning: RTL/picosoc_ihp_SoCBilbao_minimac2.v(467): (vopt-2718) [TFMPC] - Missing connection for port 'mem_la_read'.
+# ** Warning: RTL/picosoc_ihp_SoCBilbao_minimac2.v(467): (vopt-2718) [TFMPC] - Missing connection for port 'trap'.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=30.
+# //  Questa Sim-64
+# //  Version 2023.4 linux_x86_64 Oct  9 2023
+# //
+# //  Copyright 1991-2023 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading work.tb_dual_core(fast)
+# run -all
+# 
+# =================================================
+#   tb_dual_core - test de sincronizacion PTP
+#   Target : FPGA
+#   Desfase inicial CORE1 : 100000 ns
+#   UART clkdiv           : 40  (1.25 Mbps sim)
+#   Timeout               : 800 ms
+# =================================================
+# 
+# [TB] Esperando arranque de CORE0...
+# [TB] t=0 ns  CORE0 sale de reset
+# [TB] t=100000 ns  CORE1 sale de reset (desfase=100000 ns)
+# [CORE0] Booting..
+# [CORE1] Booting..
+# [TB] CORE0 listo - detectado 'Press ENTER'
+# [TB] CORE1 listo - detectado 'Press ENTER'
+# [TB] >>> Enviando ENTER a CORE0
+# [TB] Esperando arranque de CORE1...
+# [TB] >>> Enviando ENTER a CORE1
+# [TB] Esperando bucle principal CORE0...
+# [CORE0] Press ENTER to continue..
+# [CORE1] Press ENTER to continue..
+# [TB] CORE0 en bucle principal
+# [TB] Esperando bucle principal CORE1...
+# [TB] CORE1 en bucle principal
+# 
+# [TB] ==============================================
+# [TB] FASE 1: Tiempos RTC ANTES de sincronizar
+# [TB] ==============================================
+# [TB] >>> Comando 'x' → CORE0
+# [CORE0] Esperando comando...
+# [CORE1] Esperando comando...
+# [CORE0] Recibido comando de test RTC PTP
+# [CORE0] --- Test de Lectura RTC ---
+# [CORE0] RTC -> Segundos: 0 | Nanosegundos: 8620896
+# [CORE0] RTC -> Segundos: 0 | Nanosegundos: 12861760
+# [CORE0] RTC -> Segundos: 0 | Nanosegundos: 17200224
+# [CORE0] RTC -> Segundos: 0 | Nanosegundos: 21538688
+# [CORE0] RTC -> Segundos: 0 | Nanosegundos: 25877152
+# [TB] >>> Comando 'x' → CORE1
+# [CORE1] Recibido comando de test RTC PTP
+# [CORE1] --- Test de Lectura RTC ---
+# [CORE1] RTC -> Segundos: 0 | Nanosegundos: 35002272
+# [CORE1] RTC -> Segundos: 0 | Nanosegundos: 39340736
+# [CORE1] RTC -> Segundos: 0 | Nanosegundos: 43679200
+# [CORE1] RTC -> Segundos: 0 | Nanosegundos: 48017664
+# [CORE1] RTC -> Segundos: 0 | Nanosegundos: 52356128
+# 
+# [TB] ==============================================
+# [TB] FASE 2: Sincronizacion PTP en curso...
+# [TB]          CORE0 = maestro  |  CORE1 = esclavo
+# [TB] ==============================================
+# [TB] >>> Comando 'z' → CORE0 (activa auto_sync)
+# [TB] Esperando primer calculo PTP en CORE1...
+# [CORE0] PTP Continuo ENCENDIDO (pulsa 'z' para apagar)
+# [TB] CORE1 - primer calculo PTP completado
+# [CORE1] PTP_CALC_DONE
+# [TB] t=190761000 ns  Sincronizacion completada
+# 
+# [TB] ==============================================
+# [TB] FASE 3: Tiempos RTC DESPUES de sincronizar
+# [TB] ==============================================
+# [TB] >>> Comando 'x' → CORE0
+# [CORE0] Recibido comando de test RTC PTP
+# [CORE0] --- Test de Lectura RTC ---
+# [CORE0] RTC -> Segundos: 0 | Nanosegundos: 300072640
+# [CORE0] RTC -> Segundos: 0 | Nanosegundos: 304508704
+# [CORE0] RTC -> Segundos: 0 | Nanosegundos: 308944768
+# [CORE0] RTC -> Segundos: 0 | Nanosegundos: 313380832
+# [CORE0] RTC -> Segundos: 0 | Nanosegundos: 317816896
+# [TB] >>> Comando 'x' → CORE1
+# [CORE1] Recibido comando de test RTC PTP
+# [CORE1] --- Test de Lectura RTC ---
+# [CORE1] RTC -> Segundos: 0 | Nanosegundos: 327106325
+# [CORE1] RTC -> Segundos: 0 | Nanosegundos: 331542844
+# [CORE1] RTC -> Segundos: 0 | Nanosegundos: 335979362
+# [CORE1] RTC -> Segundos: 0 | Nanosegundos: 340415880
+# [CORE1] RTC -> Segundos: 0 | Nanosegundos: 344852399
+# [TB] >>> Comando 'z' → CORE0 (apaga auto_sync)
+# [TB] >>> Comando 't' → CORE1 (offset y delay PTP)
+# [CORE0] PTP Continuo APAGADO
+# [CORE1] Recibido comando de tiempos sync
+# [CORE1] Tiempos de sincronizacin: 
+# [CORE1] SOY ESCLAVO
+# [CORE1] time1: 
+# [CORE1] 00 00 00 00 00 00 0f d4 be 60 
+# [CORE1] 0s, 265600608ns
+# [CORE1] time2: 
+# [CORE1] 00 00 00 00 00 00 0f d2 4d 60 
+# [CORE1] 0s, 265440608ns
+# [CORE1] time3: 
+# [CORE1] 00 00 00 00 00 00 10 a0 30 a0 
+# [CORE1] 0s, 278933664ns
+# [CORE1] time4: 
+# [CORE1] 00 00 00 00 00 00 10 a2 a1 a0 
+# [CORE1] 0s, 279093664ns
+# [CORE1] Offset: 
+# [CORE1] -0s, 160000ns
+# [CORE1] Delay: 
+# [CORE1] 0s, 0ns
+# [CORE1] Ciclos calculados de diff: 0 ciclos 
+# [CORE1] Total de calculos de error ns: 
+# [CORE1] 1
+# [CORE1] 0 
+# 
+# [TB] ==============================================
+# [TB] Test completado correctamente
+# [TB] ==============================================
+# 
+# ** Note: $finish    : sim/tb_dual_core/tb_dual_core.v(506)
+#    Time: 259138410 ns  Iteration: 1  Instance: /tb_dual_core
+# End time: 13:04:31 on Jun 04,2026, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 30

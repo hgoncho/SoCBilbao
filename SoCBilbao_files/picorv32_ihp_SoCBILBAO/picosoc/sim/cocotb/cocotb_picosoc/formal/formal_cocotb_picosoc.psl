@@ -1,0 +1,11 @@
+vunit axis (cocotb_picosoc)
+{
+    default clock is rising_edge(clk);
+
+    f_reset : assume {not rst_n};
+
+
+
+
+
+}

@@ -1,0 +1,287 @@
+/*
+
+AMD Vivado v2024.1 (64-bit) [Major: 2024, Minor: 1]
+SW Build: 5076996 on Wed May 22 18:36:09 MDT 2024
+IP Build: 5075265 on Wed May 22 21:45:21 MDT 2024
+IP Build: 5075265 on Wed May 22 21:45:21 MDT 2024
+
+Process ID (PID): 405445
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Mon May 25 12:23:25 CEST 2026
+Time zone: 	Central European Standard Time (Europe/Madrid)
+
+OS: AlmaLinux release 8.10 (Cerulean Leopard)
+OS Version: 4.18.0-553.22.1.el8_10.x86_64
+OS Architecture: amd64
+Available processors (cores): 32
+LSB Release Description: AlmaLinux release 8.10 (Cerulean Leopard)
+
+Display: 12.0
+Screen size: 3440x1440
+Local screen bounds: x = 0, y = 27, width = 3440, height = 1413
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+OS font scaling: 100%
+Anti-Alias Enabled: false
+
+Java version: 	21.0.1 64-bit
+JavaFX version: 21.0.1
+Java home: 	/home/asicdesign/eda/Xilinx/Vivado/2024.1/tps/lnx64/jre21.0.1_12
+Java executable: 	/home/asicdesign/eda/Xilinx/Vivado/2024.1/tps/lnx64/jre21.0.1_12/bin/java
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms512m, -Xmx4072m, -Xss10m, -Xrs]
+Java initial memory (-Xms): 	512 MB
+Java maximum memory (-Xmx):	 3 GB
+
+User name: 	gonzalo
+User home directory: /home/gonzalo
+User working directory: /home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/sim/cocotb
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /home/asicdesign/eda/Xilinx/Vivado
+HDI_APPROOT: /eda/Xilinx/Vivado/2024.1
+RDI_DATADIR: /home/asicdesign/eda/Xilinx/SharedData/2024.1/data:/eda/Xilinx/Vivado/2024.1/data
+RDI_BINDIR: /home/asicdesign/eda/Xilinx/Vivado/2024.1/bin
+
+Vivado preferences file: /home/gonzalo/.Xilinx/Vivado/2024.1/vivado.xml
+Vivado preferences directory: /home/gonzalo/.Xilinx/Vivado/2024.1/
+Vivado layouts directory: /home/gonzalo/.Xilinx/Vivado/2024.1/data/layouts
+PlanAhead jar file: 	/home/asicdesign/eda/Xilinx/Vivado/2024.1/lib/classes/planAhead.jar
+Vivado log file: 	/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/sim/cocotb/vivado.log
+Vivado journal file: 	/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/sim/cocotb/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-405445-asictools2
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+RDI_APPROOT: /eda/Xilinx/Vivado/2024.1
+RDI_BASEROOT: /eda/Xilinx/Vivado
+RDI_BINROOT: /eda/Xilinx/Vivado/2024.1/bin
+RDI_BUILD: yes
+RDI_DATADIR: /eda/Xilinx/SharedData/2024.1/data:/eda/Xilinx/Vivado/2024.1/data
+RDI_INSTALLROOT: /eda/Xilinx
+RDI_INSTALLVER: 2024.1
+RDI_JAVA_PLATFORM: 
+RDI_JAVA_VERSION: 21.0.1_12
+RDI_LIBDIR: /eda/Xilinx/Vivado/2024.1/lib/lnx64.o/Rhel/8:/eda/Xilinx/Vivado/2024.1/lib/lnx64.o/Rhel:/eda/Xilinx/Vivado/2024.1/lib/lnx64.o
+RDI_OPT_EXT: .o
+RDI_PATCHROOT: 
+RDI_PLATFORM: lnx64
+RDI_PREPEND_PATH: /eda/Xilinx/Vivado/2024.1/ids_lite/ISE/bin/lin64
+RDI_PROG: /eda/Xilinx/Vivado/2024.1/bin/unwrapped/lnx64.o/vivado
+RDI_SESSION_INFO: /home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/sim/cocotb:asictools2_1779704596_405347
+RDI_SHARED_DATA: /eda/Xilinx/SharedData/2024.1/data
+RDI_TPS_ROOT: /eda/Xilinx/Vivado/2024.1/tps/lnx64
+RDI_USE_JDK21: True
+SHELL: /bin/bash
+VERDI_HOME: /eda/synopsys/2023-24/RHELx86/VERDI_2023.12/bin
+VIVADO_HOME: /eda/Xilinx/Vivado/2024.1/bin
+XILINX: /eda/Xilinx/Vivado/2024.1/ids_lite/ISE
+XILINXD_LICENSE_FILE: 1717@158.227.75.36
+XILINX_DSP: /eda/Xilinx/Vivado/2024.1/ids_lite/ISE
+XILINX_HLS: /eda/Xilinx/Vitis_HLS/2024.1
+XILINX_PLANAHEAD: /eda/Xilinx/Vivado/2024.1
+XILINX_VIVADO: /eda/Xilinx/Vivado/2024.1
+XILINX_VIVADO_HLS: /eda/Xilinx/Vivado/2024.1
+
+
+GUI allocated memory:	512 MB
+GUI max memory:		4,072 MB
+Engine allocated memory: 1,564 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,638 MB. GUI used memory: 71 MB. Current time: 5/25/26, 12:23:26 PM CEST
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "/home/gonzalo/Vivado/picorv32_ihp_SoCBILBAO/picorv32_ihp_SoCBILBAO.xpr", 0); // b.c (PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS)
+// [GUI Memory]: 83 MB (+84713kb) [00:00:08]
+// [Engine Memory]: 1,639 MB (+1566849kb) [00:00:08]
+// Opening Vivado Project: /home/gonzalo/Vivado/picorv32_ihp_SoCBILBAO/picorv32_ihp_SoCBILBAO.xpr. Version: Vivado v2024.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 146 MB (+61676kb) [00:00:09]
+// [Engine Memory]: 1,770 MB (+51957kb) [00:00:09]
+// [Engine Memory]: 1,862 MB (+3586kb) [00:00:10]
+// Tcl Message: open_project /home/gonzalo/Vivado/picorv32_ihp_SoCBILBAO/picorv32_ihp_SoCBILBAO.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/eda/Xilinx/Vivado/2024.1/data/ip'. 
+// Project name: picorv32_ihp_SoCBILBAO; location: /home/gonzalo/Vivado/picorv32_ihp_SoCBILBAO; part: xc7a35ticsg324-1L
+dismissDialog("Open Project"); // bj (Open Project Progress)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK", "Critical Messages"); // f (PAResourceAtoD.CmdMsgDialog_OK)
+dismissDialog("Critical Messages"); // a (dialog0)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_dual_core (tb_dual_core.v)]", 2); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_dual_core (tb_dual_core.v), core0 : arty_top_spiflash (arty_top_flash.v)]", 3); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_dual_core (tb_dual_core.v), core0 : arty_top_spiflash (arty_top_flash.v), u_asic : SoCBILBAO_top (SoCBILBAO_top.v)]", 4); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_dual_core (tb_dual_core.v), core0 : arty_top_spiflash (arty_top_flash.v), u_asic : SoCBILBAO_top (SoCBILBAO_top.v), soc : picosoc_SoCBilbao_minimac2 (picosoc_ihp_SoCBilbao_minimac2.v)]", 5); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// [GUI Memory]: 157 MB (+3557kb) [00:02:01]
+// Elapsed time: 546 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_dual_core (tb_dual_core.v), core0 : arty_top_spiflash (arty_top_flash.v), u_asic : SoCBILBAO_top (SoCBILBAO_top.v), soc : picosoc_SoCBilbao_minimac2 (picosoc_ihp_SoCBilbao_minimac2.v), PTP_HA1588 : ha1588_wb (ha1588_wb.v)]", 9); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_dual_core (tb_dual_core.v), core0 : arty_top_spiflash (arty_top_flash.v), u_asic : SoCBILBAO_top (SoCBILBAO_top.v), soc : picosoc_SoCBilbao_minimac2 (picosoc_ihp_SoCBilbao_minimac2.v), PTP_HA1588 : ha1588_wb (ha1588_wb.v), ha1588_inst : ha1588 (ha1588.v)]", 11); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_dual_core (tb_dual_core.v), core0 : arty_top_spiflash (arty_top_flash.v), u_asic : SoCBILBAO_top (SoCBILBAO_top.v), soc : picosoc_SoCBilbao_minimac2 (picosoc_ihp_SoCBilbao_minimac2.v), PTP_HA1588 : ha1588_wb (ha1588_wb.v), ha1588_inst : ha1588 (ha1588.v), u_tx_tsu : tsu (tsu.v)]", 15); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_dual_core (tb_dual_core.v), core0 : arty_top_spiflash (arty_top_flash.v), u_asic : SoCBILBAO_top (SoCBILBAO_top.v), soc : picosoc_SoCBilbao_minimac2 (picosoc_ihp_SoCBilbao_minimac2.v), PTP_HA1588 : ha1588_wb (ha1588_wb.v), ha1588_inst : ha1588 (ha1588.v), u_tx_tsu : tsu (tsu.v), queue : ptp_queue (ptp_queue.v)]", 17); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_dual_core (tb_dual_core.v), core0 : arty_top_spiflash (arty_top_flash.v), u_asic : SoCBILBAO_top (SoCBILBAO_top.v), soc : picosoc_SoCBilbao_minimac2 (picosoc_ihp_SoCBilbao_minimac2.v), PTP_HA1588 : ha1588_wb (ha1588_wb.v), ha1588_inst : ha1588 (ha1588.v), u_tx_tsu : tsu (tsu.v), queue : ptp_queue (ptp_queue.v), dcfifo : wrapper_dcfifo_128b_16_opensource (wrapper_dcfifo_128b_16_opensource.v), fifo_inst : async_fifo (async_fifo.v)]", 19); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed time: 101 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_dual_core (tb_dual_core.v), core0 : arty_top_spiflash (arty_top_flash.v), u_asic : SoCBILBAO_top (SoCBILBAO_top.v), soc : picosoc_SoCBilbao_minimac2 (picosoc_ihp_SoCBilbao_minimac2.v)]", 5); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_dual_core (tb_dual_core.v), core0 : arty_top_spiflash (arty_top_flash.v), u_asic : SoCBILBAO_top (SoCBILBAO_top.v), soc : picosoc_SoCBilbao_minimac2 (picosoc_ihp_SoCBilbao_minimac2.v)]", 5); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_dual_core (tb_dual_core.v), core0 : arty_top_spiflash (arty_top_flash.v), u_asic : SoCBILBAO_top (SoCBILBAO_top.v), soc : picosoc_SoCBilbao_minimac2 (picosoc_ihp_SoCBilbao_minimac2.v), PTP_HA1588 : ha1588_wb (ha1588_wb.v)]", 9); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_dual_core (tb_dual_core.v), core0 : arty_top_spiflash (arty_top_flash.v), u_asic : SoCBILBAO_top (SoCBILBAO_top.v), soc : picosoc_SoCBilbao_minimac2 (picosoc_ihp_SoCBilbao_minimac2.v)]", 5); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_dual_core (tb_dual_core.v), core0 : arty_top_spiflash (arty_top_flash.v), u_asic : SoCBILBAO_top (SoCBILBAO_top.v), soc : picosoc_SoCBilbao_minimac2 (picosoc_ihp_SoCBilbao_minimac2.v)]", 5, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_dual_core (tb_dual_core.v), core0 : arty_top_spiflash (arty_top_flash.v), u_asic : SoCBILBAO_top (SoCBILBAO_top.v), soc : picosoc_SoCBilbao_minimac2 (picosoc_ihp_SoCBilbao_minimac2.v)]", 5, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 1,985 MB. GUI used memory: 81 MB. Current time: 5/25/26, 12:34:41 PM CEST
+// [Engine Memory]: 1,985 MB (+31082kb) [00:11:22]
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // u (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+// Elapsed time: 19 seconds
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 78, 304); // ac (picosoc_ihp_SoCBilbao_minimac2.v)
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 78, 304, false, false, false, false, true); // ac (picosoc_ihp_SoCBilbao_minimac2.v) - Double Click
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 60, 338); // ac (picosoc_ihp_SoCBilbao_minimac2.v)
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 60, 338, false, false, false, false, true); // ac (picosoc_ihp_SoCBilbao_minimac2.v) - Double Click
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 74, 230); // ac (picosoc_ihp_SoCBilbao_minimac2.v)
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 74, 230, false, false, false, false, true); // ac (picosoc_ihp_SoCBilbao_minimac2.v) - Double Click
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 30, 216); // ac (picosoc_ihp_SoCBilbao_minimac2.v)
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 30, 216, false, false, false, false, true); // ac (picosoc_ihp_SoCBilbao_minimac2.v) - Double Click
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 754, 264); // ac (picosoc_ihp_SoCBilbao_minimac2.v)
+// Elapsed time: 73 seconds
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 52, 563); // ac (picosoc_ihp_SoCBilbao_minimac2.v)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_dual_core (tb_dual_core.v), core0 : arty_top_spiflash (arty_top_flash.v), u_asic : SoCBILBAO_top (SoCBILBAO_top.v)]", 4, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_dual_core (tb_dual_core.v), core0 : arty_top_spiflash (arty_top_flash.v), u_asic : SoCBILBAO_top (SoCBILBAO_top.v)]", 4, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectCodeEditor("SoCBILBAO_top.v", 378, 383); // ac (SoCBILBAO_top.v)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,017 MB. GUI used memory: 82 MB. Current time: 5/25/26, 12:36:46 PM CEST
+// Elapsed time: 14 seconds
+selectCodeEditor("SoCBILBAO_top.v", 302, 293); // ac (SoCBILBAO_top.v)
+typeControlKey(null, null, 'z');
+// Elapsed time: 19 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_dual_core (tb_dual_core.v), core0 : arty_top_spiflash (arty_top_flash.v)]", 3, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_dual_core (tb_dual_core.v), core0 : arty_top_spiflash (arty_top_flash.v)]", 3, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 2,067 MB. GUI used memory: 83 MB. Current time: 5/25/26, 12:37:21 PM CEST
+// Elapsed time: 150 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_dual_core (tb_dual_core.v), core0 : arty_top_spiflash (arty_top_flash.v)]", 3); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_dual_core (tb_dual_core.v), core0 : arty_top_spiflash (arty_top_flash.v)]", 3); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed time: 20 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_dual_core (tb_dual_core.v), core0 : arty_top_spiflash (arty_top_flash.v)]", 3); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_dual_core (tb_dual_core.v), core0 : arty_top_spiflash (arty_top_flash.v), u_asic : SoCBILBAO_top (SoCBILBAO_top.v)]", 4); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_dual_core (tb_dual_core.v), core0 : arty_top_spiflash (arty_top_flash.v), u_asic : SoCBILBAO_top (SoCBILBAO_top.v), soc : picosoc_SoCBilbao_minimac2 (picosoc_ihp_SoCBilbao_minimac2.v)]", 5); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed time: 77 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_dual_core (tb_dual_core.v), core0 : arty_top_spiflash (arty_top_flash.v), u_asic : SoCBILBAO_top (SoCBILBAO_top.v), soc : picosoc_SoCBilbao_minimac2 (picosoc_ihp_SoCBilbao_minimac2.v)]", 5); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_dual_core (tb_dual_core.v), core0 : arty_top_spiflash (arty_top_flash.v), u_asic : SoCBILBAO_top (SoCBILBAO_top.v), soc : picosoc_SoCBilbao_minimac2 (picosoc_ihp_SoCBilbao_minimac2.v), minimac2core : minimac2 (minimac2.v)]", 8); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_dual_core (tb_dual_core.v), core0 : arty_top_spiflash (arty_top_flash.v), u_asic : SoCBILBAO_top (SoCBILBAO_top.v), soc : picosoc_SoCBilbao_minimac2 (picosoc_ihp_SoCBilbao_minimac2.v), minimac2core : minimac2 (minimac2.v), memory : minimac2_memory (minimac2_memory.v)]", 11); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_dual_core (tb_dual_core.v), core0 : arty_top_spiflash (arty_top_flash.v), u_asic : SoCBILBAO_top (SoCBILBAO_top.v), soc : picosoc_SoCBilbao_minimac2 (picosoc_ihp_SoCBilbao_minimac2.v), minimac2core : minimac2 (minimac2.v), memory : minimac2_memory (minimac2_memory.v)]", 11); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_dual_core (tb_dual_core.v), core0 : arty_top_spiflash (arty_top_flash.v), u_asic : SoCBILBAO_top (SoCBILBAO_top.v), soc : picosoc_SoCBilbao_minimac2 (picosoc_ihp_SoCBilbao_minimac2.v), minimac2core : minimac2 (minimac2.v)]", 8); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed time: 378 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_dual_core (tb_dual_core.v), core0 : arty_top_spiflash (arty_top_flash.v)]", 3); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_dual_core (tb_dual_core.v), core0 : arty_top_spiflash (arty_top_flash.v)]", 3); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_dual_core (tb_dual_core.v), core0 : arty_top_spiflash (arty_top_flash.v), u_asic : SoCBILBAO_top (SoCBILBAO_top.v)]", 4); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed time: 174 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_dual_core (tb_dual_core.v), core0 : arty_top_spiflash (arty_top_flash.v)]", 3, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_dual_core (tb_dual_core.v), core0 : arty_top_spiflash (arty_top_flash.v), u_asic : SoCBILBAO_top (SoCBILBAO_top.v)]", 4, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_dual_core (tb_dual_core.v), core0 : arty_top_spiflash (arty_top_flash.v), u_asic : SoCBILBAO_top (SoCBILBAO_top.v)]", 4, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_dual_core (tb_dual_core.v), core0 : arty_top_spiflash (arty_top_flash.v), u_asic : SoCBILBAO_top (SoCBILBAO_top.v)]", 4, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_dual_core (tb_dual_core.v), core0 : arty_top_spiflash (arty_top_flash.v), u_asic : SoCBILBAO_top (SoCBILBAO_top.v)]", 4, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 2,068 MB. GUI used memory: 83 MB. Current time: 5/25/26, 1:07:21 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,068 MB. GUI used memory: 66 MB. Current time: 5/25/26, 1:37:21 PM CEST
+// Elapsed time: 3596 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_dual_core (tb_dual_core.v), core0 : arty_top_spiflash (arty_top_flash.v), u_asic : SoCBILBAO_top (SoCBILBAO_top.v)]", 4); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_dual_core (tb_dual_core.v), core0 : arty_top_spiflash (arty_top_flash.v), u_asic : SoCBILBAO_top (SoCBILBAO_top.v), soc : picosoc_SoCBilbao_minimac2 (picosoc_ihp_SoCBilbao_minimac2.v)]", 5, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_dual_core (tb_dual_core.v), core0 : arty_top_spiflash (arty_top_flash.v), u_asic : SoCBILBAO_top (SoCBILBAO_top.v), soc : picosoc_SoCBilbao_minimac2 (picosoc_ihp_SoCBilbao_minimac2.v)]", 5, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 78, 37); // ac (picosoc_ihp_SoCBilbao_minimac2.v)
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 78, 37, false, false, false, false, true); // ac (picosoc_ihp_SoCBilbao_minimac2.v) - Double Click
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 282, 246); // ac (picosoc_ihp_SoCBilbao_minimac2.v)
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 105, 145); // ac (picosoc_ihp_SoCBilbao_minimac2.v)
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 105, 145, false, false, false, false, true); // ac (picosoc_ihp_SoCBilbao_minimac2.v) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 2,088 MB (+4128kb) [01:27:50]
+// Elapsed Time for: 'L.f': 01h:27m:40s
+// Elapsed Time for: 'L.f': 01h:27m:42s
+// HMemoryUtils.trashcanNow. Engine heap size: 2,098 MB. GUI used memory: 65 MB. Current time: 5/25/26, 1:51:11 PM CEST
+// Elapsed time: 11 seconds
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 1023, 437); // ac (picosoc_ihp_SoCBilbao_minimac2.v)
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 67, 138); // ac (picosoc_ihp_SoCBilbao_minimac2.v)
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 67, 138, false, false, false, false, true); // ac (picosoc_ihp_SoCBilbao_minimac2.v) - Double Click
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 93, 174); // ac (picosoc_ihp_SoCBilbao_minimac2.v)
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 93, 174, false, false, false, false, true); // ac (picosoc_ihp_SoCBilbao_minimac2.v) - Double Click
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 1, 160); // ac (picosoc_ihp_SoCBilbao_minimac2.v)
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 284, 158); // ac (picosoc_ihp_SoCBilbao_minimac2.v)
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 70, 397); // ac (picosoc_ihp_SoCBilbao_minimac2.v)
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 70, 397, false, false, false, false, true); // ac (picosoc_ihp_SoCBilbao_minimac2.v) - Double Click
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 634, 575); // ac (picosoc_ihp_SoCBilbao_minimac2.v)
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 833, 570); // ac (picosoc_ihp_SoCBilbao_minimac2.v)
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 0, 396); // ac (picosoc_ihp_SoCBilbao_minimac2.v)
+typeControlKey((HResource) null, "picosoc_ihp_SoCBilbao_minimac2.v", 'c'); // ac (picosoc_ihp_SoCBilbao_minimac2.v)
+// Elapsed time: 69 seconds
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 771, 563); // ac (picosoc_ihp_SoCBilbao_minimac2.v)
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 31, 168); // ac (picosoc_ihp_SoCBilbao_minimac2.v)
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 31, 168, false, false, false, false, true); // ac (picosoc_ihp_SoCBilbao_minimac2.v) - Double Click
+typeControlKey((HResource) null, "picosoc_ihp_SoCBilbao_minimac2.v", 'v'); // ac (picosoc_ihp_SoCBilbao_minimac2.v)
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 28, 139); // ac (picosoc_ihp_SoCBilbao_minimac2.v)
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 28, 139, false, false, false, false, true); // ac (picosoc_ihp_SoCBilbao_minimac2.v) - Double Click
+typeControlKey((HResource) null, "picosoc_ihp_SoCBilbao_minimac2.v", 'v'); // ac (picosoc_ihp_SoCBilbao_minimac2.v)
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 272, 159); // ac (picosoc_ihp_SoCBilbao_minimac2.v)
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 318, 186); // ac (picosoc_ihp_SoCBilbao_minimac2.v)
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 272, 160); // ac (picosoc_ihp_SoCBilbao_minimac2.v)
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 277, 481); // ac (picosoc_ihp_SoCBilbao_minimac2.v)
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 192, 365); // ac (picosoc_ihp_SoCBilbao_minimac2.v)
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 192, 365, false, false, false, false, true); // ac (picosoc_ihp_SoCBilbao_minimac2.v) - Double Click
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 258, 558); // ac (picosoc_ihp_SoCBilbao_minimac2.v)
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 48, 413); // ac (picosoc_ihp_SoCBilbao_minimac2.v)
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 48, 413, false, false, false, false, true); // ac (picosoc_ihp_SoCBilbao_minimac2.v) - Double Click
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 149, 673); // ac (picosoc_ihp_SoCBilbao_minimac2.v)
+// Elapsed time: 35 seconds
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 426, 401); // ac (picosoc_ihp_SoCBilbao_minimac2.v)
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 285, 518); // ac (picosoc_ihp_SoCBilbao_minimac2.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 01h:30m:38s
+// Elapsed Time for: 'L.f': 01h:30m:40s
+// Elapsed time: 545 seconds
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 113, 509); // ac (picosoc_ihp_SoCBilbao_minimac2.v)
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 82, 357, false, false, false, true, false); // ac (picosoc_ihp_SoCBilbao_minimac2.v) - Popup Trigger
+selectMenu(RDIResource.HCodeEditor_BLANK_OPERATIONS, "Blank Operations"); // ah (RDIResource.HCodeEditor_BLANK_OPERATIONS)
+selectMenuItem(RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS, "Toggle Line Comments"); // ap (RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS)
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 102, 380); // ac (picosoc_ihp_SoCBilbao_minimac2.v)
+selectCodeEditor("picosoc_ihp_SoCBilbao_minimac2.v", 101, 183, false, false, false, true, false); // ac (picosoc_ihp_SoCBilbao_minimac2.v) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS, "Toggle Line Comments"); // ap (RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_dual_core (tb_dual_core.v), core0 : arty_top_spiflash (arty_top_flash.v), u_asic : SoCBILBAO_top (SoCBILBAO_top.v), soc : picosoc_SoCBilbao_minimac2 (picosoc_ihp_SoCBilbao_minimac2.v)]", 5); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed Time for: 'L.f': 01h:39m:56s
+// HMemoryUtils.trashcanNow. Engine heap size: 2,136 MB. GUI used memory: 66 MB. Current time: 5/25/26, 2:03:26 PM CEST
+// Elapsed Time for: 'L.f': 01h:39m:58s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_dual_core (tb_dual_core.v), core0 : arty_top_spiflash (arty_top_flash.v), u_asic : SoCBILBAO_top (SoCBILBAO_top.v), soc : picosoc_SoCBilbao_minimac2 (picosoc_ihp_SoCBilbao_minimac2.v), memory : picosoc_mem (picosoc_ihp_SoCBilbao_minimac2.v)]", 12, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_dual_core (tb_dual_core.v), core0 : arty_top_spiflash (arty_top_flash.v), u_asic : SoCBILBAO_top (SoCBILBAO_top.v), soc : picosoc_SoCBilbao_minimac2 (picosoc_ihp_SoCBilbao_minimac2.v), memory : picosoc_mem (picosoc_ihp_SoCBilbao_minimac2.v)]", 12, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click

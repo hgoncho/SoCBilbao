@@ -1,0 +1,970 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2023.4 2023.10, Oct  9 2023
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc
+T_opt
+!s110 1780571060
+V8gCSDk=B5^RjOnIeghd3X2
+04 12 4 work tb_dual_core fast 0
+=1-10981925fc8e-6a215bb3-eceb0-34ad82
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work sim/tb_dual_core/questa_work
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2023.4;77
+varty_top_spiflash
+Z3 2sim/tb_dual_core/tb_dual_core.v|boards/arty/arty_top_flash.v|boards/zedboard/SoCBILBAO_top.v|RTL/spimemio.v|RTL/simpleuart.v|../picorv32.v|RTL/spiflash/spiflash.v|RTL/picosoc_ihp_SoCBilbao_minimac2.v|RTL/picorv32_wb_adapter.v|RTL/minimac2/rtl/minimac2.v|RTL/minimac2/rtl/minimac2_rx.v|RTL/minimac2/rtl/minimac2_tx.v|RTL/minimac2/rtl/minimac2_ctlif.v|RTL/minimac2/rtl/minimac2_memory.v|RTL/minimac2/rtl/minimac2_psync.v|RTL/minimac2/rtl/minimac2_sync.v|boards/arty/RAMB16BWER_wrapper_arty.v|RTL/ha1588/rtl/top/ha1588.v|RTL/ha1588/rtl/reg/reg.v|RTL/ha1588/rtl/bus/wishbone/wb_slv_wrapper.v|RTL/ha1588/rtl/bus/wishbone/ha1588_wb.v|RTL/ha1588/rtl/rtc/rtc.v|RTL/ha1588/rtl/tsu/tsu.v|RTL/ha1588/rtl/tsu/ptp_parser.v|RTL/ha1588/rtl/tsu/ptp_queue.v|RTL/ha1588/par/define.h|RTL/ha1588/par/FIFO_OpenSource/async_fifo/rtl/wrapper_dcfifo_128b_16_opensource.v|RTL/ha1588/par/FIFO_OpenSource/async_fifo/rtl/async_fifo.v|RTL/ha1588/par/FIFO_OpenSource/async_fifo/rtl/sync_r2w.v|RTL/ha1588/par/FIFO_OpenSource/async_fifo/rtl/sync_w2r.v|RTL/ha1588/par/FIFO_OpenSource/async_fifo/rtl/rptr_empty.v|RTL/ha1588/par/FIFO_OpenSource/async_fifo/rtl/fifomem.v|RTL/ha1588/par/FIFO_OpenSource/async_fifo/rtl/wptr_full.v
+Z4 !s110 1780571059
+!i10b 1
+!s100 o<Sdiogn:jWm@=LoUzA490
+IkeEMfZZBaA4Wi=;a8[X781
+R1
+Z5 w1780482354
+Z6 8boards/arty/arty_top_flash.v
+Z7 Fboards/arty/arty_top_flash.v
+!i122 0
+L0 22 108
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2023.4;77
+r1
+!s85 0
+31
+Z10 !s108 1780571059.000000
+Z11 !s107 RTL/ha1588/par/FIFO_OpenSource/async_fifo/rtl/wptr_full.v|RTL/ha1588/par/FIFO_OpenSource/async_fifo/rtl/fifomem.v|RTL/ha1588/par/FIFO_OpenSource/async_fifo/rtl/rptr_empty.v|RTL/ha1588/par/FIFO_OpenSource/async_fifo/rtl/sync_w2r.v|RTL/ha1588/par/FIFO_OpenSource/async_fifo/rtl/sync_r2w.v|RTL/ha1588/par/FIFO_OpenSource/async_fifo/rtl/async_fifo.v|RTL/ha1588/par/FIFO_OpenSource/async_fifo/rtl/wrapper_dcfifo_128b_16_opensource.v|RTL/ha1588/par/define.h|RTL/ha1588/rtl/tsu/ptp_queue.v|RTL/ha1588/rtl/tsu/ptp_parser.v|RTL/ha1588/rtl/tsu/tsu.v|RTL/ha1588/rtl/rtc/rtc.v|RTL/ha1588/rtl/bus/wishbone/ha1588_wb.v|RTL/ha1588/rtl/bus/wishbone/wb_slv_wrapper.v|RTL/ha1588/rtl/reg/reg.v|RTL/ha1588/rtl/top/ha1588.v|boards/arty/RAMB16BWER_wrapper_arty.v|RTL/minimac2/rtl/minimac2_sync.v|RTL/minimac2/rtl/minimac2_psync.v|RTL/minimac2/rtl/minimac2_memory.v|RTL/minimac2/rtl/minimac2_ctlif.v|RTL/minimac2/rtl/minimac2_tx.v|RTL/minimac2/rtl/minimac2_rx.v|RTL/minimac2/rtl/minimac2.v|RTL/picorv32_wb_adapter.v|RTL/picosoc_ihp_SoCBilbao_minimac2.v|RTL/spiflash/spiflash.v|../picorv32.v|RTL/simpleuart.v|RTL/spimemio.v|boards/zedboard/SoCBILBAO_top.v|boards/arty/arty_top_flash.v|sim/tb_dual_core/tb_dual_core.v|
+Z12 !s90 -work|sim/tb_dual_core/questa_work|+incdir+RTL/ha1588/par|+define+NO_ICE40_DEFAULT_ASSIGNMENTS|+define+FPGA_SIM+FPGA|sim/tb_dual_core/tb_dual_core.v|boards/arty/arty_top_flash.v|boards/zedboard/SoCBILBAO_top.v|RTL/spimemio.v|RTL/simpleuart.v|../picorv32.v|RTL/spiflash/spiflash.v|RTL/picosoc_ihp_SoCBilbao_minimac2.v|RTL/picorv32_wb_adapter.v|RTL/minimac2/rtl/minimac2.v|RTL/minimac2/rtl/minimac2_rx.v|RTL/minimac2/rtl/minimac2_tx.v|RTL/minimac2/rtl/minimac2_ctlif.v|RTL/minimac2/rtl/minimac2_memory.v|RTL/minimac2/rtl/minimac2_psync.v|RTL/minimac2/rtl/minimac2_sync.v|boards/arty/RAMB16BWER_wrapper_arty.v|RTL/ha1588/rtl/top/ha1588.v|RTL/ha1588/rtl/reg/reg.v|RTL/ha1588/rtl/bus/wishbone/wb_slv_wrapper.v|RTL/ha1588/rtl/bus/wishbone/ha1588_wb.v|RTL/ha1588/rtl/rtc/rtc.v|RTL/ha1588/rtl/tsu/tsu.v|RTL/ha1588/rtl/tsu/ptp_parser.v|RTL/ha1588/rtl/tsu/ptp_queue.v|RTL/ha1588/par/define.h|RTL/ha1588/par/FIFO_OpenSource/async_fifo/rtl/wrapper_dcfifo_128b_16_opensource.v|RTL/ha1588/par/FIFO_OpenSource/async_fifo/rtl/async_fifo.v|RTL/ha1588/par/FIFO_OpenSource/async_fifo/rtl/sync_r2w.v|RTL/ha1588/par/FIFO_OpenSource/async_fifo/rtl/sync_w2r.v|RTL/ha1588/par/FIFO_OpenSource/async_fifo/rtl/rptr_empty.v|RTL/ha1588/par/FIFO_OpenSource/async_fifo/rtl/fifomem.v|RTL/ha1588/par/FIFO_OpenSource/async_fifo/rtl/wptr_full.v|
+!i113 0
+Z13 o-work sim/tb_dual_core/questa_work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z14 !s92 -work sim/tb_dual_core/questa_work +incdir+RTL/ha1588/par +define+NO_ICE40_DEFAULT_ASSIGNMENTS +define+FPGA_SIM+FPGA -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vasync_fifo
+R3
+R4
+!i10b 1
+!s100 bUDMFA>0N=@;[L=iaMo610
+I7aoEE2[9KFX<XXZAIBQoS0
+R1
+w1772020391
+8RTL/ha1588/par/FIFO_OpenSource/async_fifo/rtl/async_fifo.v
+FRTL/ha1588/par/FIFO_OpenSource/async_fifo/rtl/async_fifo.v
+!i122 0
+L0 7 100
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R2
+vfifomem
+R3
+R4
+!i10b 1
+!s100 La^9iP843f[7k@FG3jI@d0
+IRk7QL90W0X2gboD]mAUBi1
+R1
+Z15 w1772012720
+8RTL/ha1588/par/FIFO_OpenSource/async_fifo/rtl/fifomem.v
+FRTL/ha1588/par/FIFO_OpenSource/async_fifo/rtl/fifomem.v
+!i122 0
+L0 7 44
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R2
+vha1588
+R3
+R4
+!i10b 1
+!s100 XnB_oUWn6mJiEH`ANCVSI1
+IU7?Ki=JT5lJ6FNAaOdPI=0
+R1
+Z16 w1772012725
+8RTL/ha1588/rtl/top/ha1588.v
+FRTL/ha1588/rtl/top/ha1588.v
+!i122 0
+L0 26 147
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R2
+vha1588_wb
+R3
+R4
+!i10b 1
+!s100 P7O1O3>ok]bCMZ]JXzkeg1
+I]=hOOEeOW^lId]N9klkfP0
+R1
+w1772540691
+8RTL/ha1588/rtl/bus/wishbone/ha1588_wb.v
+FRTL/ha1588/rtl/bus/wishbone/ha1588_wb.v
+!i122 0
+L0 24 74
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R2
+vminimac2
+R3
+R4
+!i10b 1
+!s100 :4R6aMi1P37D807;ljcId0
+I?9<K85=<`ao@3IMQaEQhl0
+R1
+Z17 w1778236777
+8RTL/minimac2/rtl/minimac2.v
+FRTL/minimac2/rtl/minimac2.v
+Z18 8RTL/spiflash/spiflash.v
+Z19 FRTL/spiflash/spiflash.v
+!i122 0
+L0 18 176
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R2
+vminimac2_ctlif
+R3
+R4
+!i10b 1
+!s100 nzh09VeP5TbSRUa@NM3KT1
+IeM_8kn8F5Q[MYdz9QmYRH1
+R1
+R17
+8RTL/minimac2/rtl/minimac2_ctlif.v
+FRTL/minimac2/rtl/minimac2_ctlif.v
+R18
+R19
+!i122 0
+L0 18 133
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R2
+vminimac2_memory
+R3
+R4
+!i10b 1
+!s100 08PSJMWfQR6=7^dYQ[[6m2
+I4L=^i82FPK;EXYo4WKgK02
+R1
+R17
+8RTL/minimac2/rtl/minimac2_memory.v
+FRTL/minimac2/rtl/minimac2_memory.v
+R18
+R19
+!i122 0
+L0 18 161
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R2
+vminimac2_psync
+R3
+R4
+!i10b 1
+!s100 Q6^UzX]5S]b?oh^5Ih4O80
+IgYRIT_PS>QnVY_9Ll=^P13
+R1
+R17
+8RTL/minimac2/rtl/minimac2_psync.v
+FRTL/minimac2/rtl/minimac2_psync.v
+R18
+R19
+!i122 0
+L0 18 31
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R2
+vminimac2_rx
+R3
+R4
+!i10b 1
+!s100 _2zS2Xz1UNlU27Ob4BFg31
+IaYaTO=fzoNd0gb^mGA0E@1
+R1
+R17
+8RTL/minimac2/rtl/minimac2_rx.v
+FRTL/minimac2/rtl/minimac2_rx.v
+R18
+R19
+!i122 0
+L0 18 132
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R2
+vminimac2_sync
+R3
+R4
+!i10b 1
+!s100 Zn>z8CoLYZcZMC?DjGe7T0
+IlTeH=OOUcRFAnJIYhkP<e3
+R1
+R17
+8RTL/minimac2/rtl/minimac2_sync.v
+FRTL/minimac2/rtl/minimac2_sync.v
+R18
+R19
+!i122 0
+L0 18 76
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R2
+vminimac2_tx
+R3
+R4
+!i10b 1
+!s100 i@9LIMo?BU0TzNHLI]ZaG1
+ITSGmBOWfm:?TB3OPHeKlU3
+R1
+R17
+8RTL/minimac2/rtl/minimac2_tx.v
+FRTL/minimac2/rtl/minimac2_tx.v
+R18
+R19
+!i122 0
+L0 18 86
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R2
+vpicorv32
+R3
+R4
+!i10b 1
+!s100 Y@7TG2HeZ7]n>mSaoQnNC0
+IeRP9B6FK[;_`SoLCJneSi0
+R1
+Z20 w1772012713
+Z21 8../picorv32.v
+Z22 F../picorv32.v
+!i122 0
+L0 62 2106
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R2
+vpicorv32_pcpi_div
+R3
+R4
+!i10b 1
+!s100 fJ[WBi2hDPYM@;POGodgF0
+I66VSl1>XlePoFI@PnlANb1
+R1
+R20
+R21
+R22
+!i122 0
+L0 2421 91
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R2
+vpicorv32_pcpi_fast_mul
+R3
+R4
+!i10b 1
+!s100 f4RgnI[NZ]n@iZWUTE7W^3
+I;fn@PU=zf;^o@8o>n7OzA0
+R1
+R20
+R21
+R22
+!i122 0
+L0 2319 96
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R2
+vpicorv32_pcpi_mul
+R3
+R4
+!i10b 1
+!s100 G2h@HgKk6F6QCYO=aE6@I2
+I^lfl8U:]ALG=:^D8hzDeJ2
+R1
+R20
+R21
+R22
+!i122 0
+L0 2198 120
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R2
+vpicorv32_wb_adapter
+R3
+R4
+!i10b 1
+!s100 LfP8L;14SNF_27H=]FO6W2
+I`M690QlgkjY25D^TH[T>H3
+R1
+R17
+8RTL/picorv32_wb_adapter.v
+FRTL/picorv32_wb_adapter.v
+R18
+R19
+!i122 0
+L0 1 64
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R2
+vpicosoc_mem
+R3
+R4
+!i10b 1
+!s100 h6I3GWNhE0>505aJI5NfB2
+ITNmMo`hUE5Bdc3>G@llC>1
+R1
+Z23 w1779710603
+Z24 8RTL/picosoc_ihp_SoCBilbao_minimac2.v
+Z25 FRTL/picosoc_ihp_SoCBilbao_minimac2.v
+R18
+R19
+!i122 0
+L0 803 19
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R2
+vpicosoc_regs
+R3
+R4
+!i10b 1
+!s100 DdKHCj3`50DEB80DM8d`Z0
+Ik]6@72ee@QVdPnX_dV8N22
+R1
+R23
+R24
+R25
+R18
+R19
+!i122 0
+L0 738 17
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R2
+vpicosoc_SoCBilbao_minimac2
+R3
+R4
+!i10b 1
+!s100 E0hdAmldbOGM<>gfM=?j_0
+Iab6J4KSoSNSmQ?ZUkz>2l3
+R1
+R23
+R24
+R25
+R18
+R19
+!i122 0
+L0 36 653
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R2
+npicosoc_@so@c@bilbao_minimac2
+vptp_parser
+R3
+R4
+!i10b 1
+!s100 FDPd=@L^^Q2IgHkcFnXi61
+I>`>E`]aghg0M8iknR@mT>1
+R1
+w1772624449
+8RTL/ha1588/rtl/tsu/ptp_parser.v
+FRTL/ha1588/rtl/tsu/ptp_parser.v
+!i122 0
+L0 24 225
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R2
+vptp_queue
+R3
+R4
+!i10b 1
+!s100 D8TzAPTYY[S7UH@^:CYa_0
+I0nEkRXD20oEXOAZ4YgC]d0
+R1
+w1773059577
+8RTL/ha1588/rtl/tsu/ptp_queue.v
+FRTL/ha1588/rtl/tsu/ptp_queue.v
+!i122 0
+L0 25 87
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R2
+vRAMB16BWER_arty
+R3
+R4
+!i10b 1
+!s100 dUD64G0f:1>Z@0j[bSZE93
+IFZC]5O:A@CdgiL;PZJ`P83
+R1
+w1780476623
+8boards/arty/RAMB16BWER_wrapper_arty.v
+Fboards/arty/RAMB16BWER_wrapper_arty.v
+!i122 0
+L0 3 150
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R2
+n@r@a@m@b16@b@w@e@r_arty
+vrgs
+R3
+R4
+!i10b 1
+!s100 [a<P5ZDbXLB572m[iUe4;0
+Iic1H;gMeAX1hW]55TFQll0
+R1
+R16
+8RTL/ha1588/rtl/reg/reg.v
+FRTL/ha1588/rtl/reg/reg.v
+!i122 0
+L0 24 394
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R2
+vrptr_empty
+R3
+R4
+!i10b 1
+!s100 mT;ASS;g>WVLG>6QoQHR10
+Io70>cb2OdfI2Bf]Gj1eID0
+R1
+R15
+8RTL/ha1588/par/FIFO_OpenSource/async_fifo/rtl/rptr_empty.v
+FRTL/ha1588/par/FIFO_OpenSource/async_fifo/rtl/rptr_empty.v
+!i122 0
+Z26 L0 7 57
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R2
+vrtc
+R3
+R4
+!i10b 1
+!s100 GO=YPRVbM6Ua519?29GmU0
+IooI4jM]h]8WF@@5;;99RL1
+R1
+R16
+8RTL/ha1588/rtl/rtc/rtc.v
+FRTL/ha1588/rtl/rtc/rtc.v
+!i122 0
+L0 24 150
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R2
+vsimpleuart
+R3
+R4
+!i10b 1
+!s100 DX99n5T88c81m6@G3GGJD0
+IWf?foKSLW2SWZzGRL;E582
+R1
+R5
+8RTL/simpleuart.v
+FRTL/simpleuart.v
+R6
+R7
+!i122 0
+L0 20 118
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R2
+vSoCBILBAO_top
+R3
+R4
+!i10b 1
+!s100 mmKP55SaiDIo6Xio8<4fz2
+Ick<H<:f=9V3HRlf>^AVd30
+R1
+R5
+8boards/zedboard/SoCBILBAO_top.v
+Fboards/zedboard/SoCBILBAO_top.v
+R6
+R7
+!i122 0
+L0 1 152
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R2
+n@so@c@b@i@l@b@a@o_top
+vspiflash
+R3
+R4
+!i10b 1
+!s100 ARhRWd@;7[iC4`hET:Db52
+ImJzO<7:KU^Z^8@DfZJ6JH3
+R1
+R17
+R18
+R19
+!i122 0
+L0 39 371
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R2
+vspimemio
+R3
+R4
+!i10b 1
+!s100 ]KcDD3UI?>>G`5GhKi15Z2
+Ik<^T3BVARn9>hhPhY]k@Z2
+R1
+R5
+Z27 8RTL/spimemio.v
+Z28 FRTL/spimemio.v
+R6
+R7
+!i122 0
+L0 20 357
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R2
+vspimemio_xfer
+R3
+R4
+!i10b 1
+!s100 [YF]`CDDXjW4a@S[6Cj@U1
+I8_gTNf:o9neU@eR_[R5QQ0
+R1
+R5
+R27
+R28
+R6
+R7
+!i122 0
+L0 378 202
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R2
+vsync_r2w
+R3
+R4
+!i10b 1
+!s100 G9jG7zT9JNRRgS[lBUE:[2
+IBzH7IO6XVk<I20zA;ZdkN0
+R1
+R15
+8RTL/ha1588/par/FIFO_OpenSource/async_fifo/rtl/sync_r2w.v
+FRTL/ha1588/par/FIFO_OpenSource/async_fifo/rtl/sync_r2w.v
+!i122 0
+Z29 L0 7 23
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R2
+vsync_w2r
+R3
+R4
+!i10b 1
+!s100 HQzigW3MmdnHIdnYEYOBS2
+I92R?:^]BzGFVlXcg3agcF1
+R1
+R15
+8RTL/ha1588/par/FIFO_OpenSource/async_fifo/rtl/sync_w2r.v
+FRTL/ha1588/par/FIFO_OpenSource/async_fifo/rtl/sync_w2r.v
+!i122 0
+R29
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R2
+vtb_dual_core
+R3
+R4
+!i10b 1
+!s100 gFRBhT`jbP?eXHHT]AKED2
+I[<RiIghne2Dz>bERUc>TQ2
+R1
+w1780571056
+8sim/tb_dual_core/tb_dual_core.v
+Fsim/tb_dual_core/tb_dual_core.v
+!i122 0
+L0 25 486
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R2
+vtsu
+R3
+R4
+!i10b 1
+!s100 ^5JOVX<9Af0^UP<AJB:Ka3
+Ia:AZF[eJgcDk@ZNA;DeVb0
+R1
+w1772629582
+8RTL/ha1588/rtl/tsu/tsu.v
+FRTL/ha1588/rtl/tsu/tsu.v
+!i122 0
+L0 24 365
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R2
+vwb_slv_wrapper
+R3
+R4
+!i10b 1
+!s100 emLI_VQUSI9>b39>kfK`A3
+I3HkgZI:i3_`7OI^^Gz[KI0
+R1
+R16
+8RTL/ha1588/rtl/bus/wishbone/wb_slv_wrapper.v
+FRTL/ha1588/rtl/bus/wishbone/wb_slv_wrapper.v
+!i122 0
+L0 24 52
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R2
+vwptr_full
+R3
+R4
+!i10b 1
+!s100 QhoDJC<JTJfjajnZEeUYJ0
+Iig;9]JIdKLaX@LjIM2KbP2
+R1
+R15
+8RTL/ha1588/par/FIFO_OpenSource/async_fifo/rtl/wptr_full.v
+FRTL/ha1588/par/FIFO_OpenSource/async_fifo/rtl/wptr_full.v
+!i122 0
+R26
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R2
+vwrapper_dcfifo_128b_16_opensource
+R3
+R4
+!i10b 1
+!s100 N6h]46CJZ[?YB7BZla@Zc3
+IcfZJlL0>4FaANHT0J]ah52
+R1
+w1772624447
+8RTL/ha1588/par/FIFO_OpenSource/async_fifo/rtl/wrapper_dcfifo_128b_16_opensource.v
+FRTL/ha1588/par/FIFO_OpenSource/async_fifo/rtl/wrapper_dcfifo_128b_16_opensource.v
+!i122 0
+L0 5 81
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R2

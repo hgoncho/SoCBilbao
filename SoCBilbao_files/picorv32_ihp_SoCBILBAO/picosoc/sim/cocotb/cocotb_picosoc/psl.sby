@@ -1,0 +1,36 @@
+[tasks]
+bmc
+cover
+
+[options]
+depth 5
+bmc: mode bmc
+cover: mode cover
+[engines]
+bmc: smtbmc z3
+cover: smtbmc z3
+
+[script]
+--pycode-begin--
+import os
+with open("fileset.vhdl.txt", "r") as file:
+    vhdl_sources = file.read().splitlines()
+files = []
+for file in vhdl_sources:
+    files.append(os.path.basename(file))
+for file in os.listdir('formal'):
+    if file.endswith('.psl'):
+        output(f'ghdl --std=08 {file} {" ".join(files)} -e cocotb_picosoc')
+--pycode-end--
+prep -top cocotb_picosoc
+
+[files]
+--pycode-begin--
+with open("fileset.vhdl.txt", "r") as file:
+        vhdl_sources = file.read().splitlines()
+for file in vhdl_sources:
+        output(f'{file}')
+for file in os.listdir('formal'):
+    if file.endswith('.psl'):
+        output(f'formal/{file}')
+--pycode-end--

@@ -1,0 +1,12 @@
+===================================
+Configuration Memory information
+===================================
+File Format        MCS
+Interface          SPIX4
+Size               16M
+Start Address      0x00000000
+End Address        0x00FFFFFF
+
+Addr1         Addr2         Date                    File(s)
+0x00000000    0x0021728B    May  6 13:32:56 2026    /home/gonzalo/Vivado/picorv32_ihp_SoCBILBAO/picorv32_ihp_SoCBILBAO.runs/impl_1/arty_top.bit
+0x00300000    0x00303B47    May  6 13:36:04 2026    boards/arty/arty_flash_firmware/firmware.bin

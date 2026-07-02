@@ -1,0 +1,259 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Tue Mar 17 12:00:33 2026
+[*]
+[dumpfile] "/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/zedboard/zedboard_sim.vcd"
+[dumpfile_mtime] "Tue Mar 17 11:57:09 2026"
+[dumpfile_size] 2271737711
+[savefile] "/home/gonzalo/modelos_picosoc/picorv32_ihp_SoCBILBAO/picosoc/zedboard/Señales_simulacion_zedboard.gtkw"
+[timestart] 19360000000
+[size] 1920 1006
+[pos] -1 -1
+*-30.900000 23228080000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb_zedboard_top.
+[treeopen] tb_zedboard_top.uut.
+[treeopen] tb_zedboard_top.uut.u_asic.
+[treeopen] tb_zedboard_top.uut.u_asic.soc.
+[treeopen] tb_zedboard_top.uut.u_asic.soc.minimac2core.
+[treeopen] tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.
+[treeopen] tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.u_rx_tsu.
+[treeopen] tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.queue.dcfifo.fifo_inst.
+[sst_width] 297
+[signals_width] 274
+[sst_expanded] 1
+[sst_vpaned_height] 319
+@28
+tb_zedboard_top.uut.u_asic.soc.clk
+@40020
+tb_zedboard_top.uut.u_asic.soc.ser_tx
+@28
+tb_zedboard_top.uut.u_asic.soc.ser_rx
+@800200
+-IRQs
+@22
+tb_zedboard_top.uut.u_asic.soc.irq[31:0]
+tb_zedboard_top.uut.u_asic.soc.irq_mask[31:0]
+tb_zedboard_top.uut.u_asic.soc.irq_status[31:0]
+@28
+tb_zedboard_top.uut.u_asic.soc.irq_tx_minimac2
+tb_zedboard_top.uut.u_asic.soc.irq_rx_minimac2
+@1000200
+-IRQs
+@c00200
+-Bus nativo
+@22
+tb_zedboard_top.uut.u_asic.soc.mem_addr[31:0]
+@28
+tb_zedboard_top.uut.u_asic.soc.mem_instr
+@22
+tb_zedboard_top.uut.u_asic.soc.mem_rdata[31:0]
+@28
+tb_zedboard_top.uut.u_asic.soc.mem_ready
+tb_zedboard_top.uut.u_asic.soc.mem_valid
+@22
+tb_zedboard_top.uut.u_asic.soc.mem_wdata[31:0]
+tb_zedboard_top.uut.u_asic.soc.mem_wstrb[3:0]
+@1401200
+-Bus nativo
+@c00200
+-Minimac CSR
+@22
+tb_zedboard_top.uut.u_asic.soc.minimac2_csr_a[13:0]
+tb_zedboard_top.uut.u_asic.soc.minimac2_csr_di[31:0]
+tb_zedboard_top.uut.u_asic.soc.minimac2_csr_do[31:0]
+@28
+tb_zedboard_top.uut.u_asic.soc.minimac2_csr_sel
+tb_zedboard_top.uut.u_asic.soc.minimac2_csr_we
+tb_zedboard_top.uut.u_asic.soc.minimac_wait
+@1401200
+-Minimac CSR
+@c00200
+-Wishbone master
+@22
+tb_zedboard_top.uut.u_asic.soc.wb_m_adr_o[31:0]
+@28
+tb_zedboard_top.uut.u_asic.soc.wb_m_cyc_o
+@22
+tb_zedboard_top.uut.u_asic.soc.wb_m_dat_i[31:0]
+tb_zedboard_top.uut.u_asic.soc.wb_m_dat_o[31:0]
+tb_zedboard_top.uut.u_asic.soc.wb_m_sel_o[3:0]
+@28
+tb_zedboard_top.uut.u_asic.soc.wb_m_stb_o
+tb_zedboard_top.uut.u_asic.soc.wb_m_we_o
+@22
+tb_zedboard_top.uut.u_asic.soc.wb_mem_rdata[31:0]
+@28
+tb_zedboard_top.uut.u_asic.soc.wb_mem_ready
+tb_zedboard_top.uut.u_asic.soc.wb_periph_sel
+tb_zedboard_top.uut.u_asic.soc.wb_selector[2:0]
+@1401200
+-Wishbone master
+@c00200
+-Wishbone minimac
+@28
+tb_zedboard_top.uut.u_asic.soc.wb_mm2_ack_o
+@22
+tb_zedboard_top.uut.u_asic.soc.wb_mm2_adr_i[31:0]
+@28
+tb_zedboard_top.uut.u_asic.soc.wb_mm2_cyc_i
+@22
+tb_zedboard_top.uut.u_asic.soc.wb_mm2_dat_i[31:0]
+tb_zedboard_top.uut.u_asic.soc.wb_mm2_dat_o[31:0]
+tb_zedboard_top.uut.u_asic.soc.wb_mm2_sel_i[3:0]
+@28
+tb_zedboard_top.uut.u_asic.soc.wb_mm2_stb_i
+tb_zedboard_top.uut.u_asic.soc.wb_mm2_we_i
+tb_zedboard_top.uut.u_asic.soc.wb_periph_mm2
+@1401200
+-Wishbone minimac
+@c00200
+-minimac TX
+@28
+tb_zedboard_top.uut.u_asic.soc.phy_tx_clk
+@22
+tb_zedboard_top.uut.u_asic.soc.phy_tx_data[3:0]
+@28
+tb_zedboard_top.uut.u_asic.soc.phy_tx_en
+@22
+tb_zedboard_top.uut.u_asic.soc.minimac2core.phy_tx_count[10:0]
+@28
+tb_zedboard_top.uut.u_asic.soc.minimac2core.phy_tx_done
+tb_zedboard_top.uut.u_asic.soc.minimac2core.phy_tx_start
+@1401200
+-minimac TX
+@800200
+-minimac RX
+@28
+tb_zedboard_top.uut.u_asic.soc.minimac2core.phy_rx_clk
+@22
+tb_zedboard_top.uut.u_asic.soc.minimac2core.phy_rx_count_0[10:0]
+tb_zedboard_top.uut.u_asic.soc.minimac2core.phy_rx_count_1[10:0]
+tb_zedboard_top.uut.u_asic.soc.minimac2core.phy_rx_data[3:0]
+@28
+tb_zedboard_top.uut.u_asic.soc.minimac2core.phy_rx_done[1:0]
+tb_zedboard_top.uut.u_asic.soc.minimac2core.phy_rx_ready[1:0]
+@22
+tb_zedboard_top.uut.u_asic.soc.minimac2core.ctlif.rx_count_0[10:0]
+tb_zedboard_top.uut.u_asic.soc.minimac2core.ctlif.rx_count_1[10:0]
+@28
+tb_zedboard_top.uut.u_asic.soc.minimac2core.ctlif.slot0_state[1:0]
+@29
+tb_zedboard_top.uut.u_asic.soc.minimac2core.ctlif.slot1_state[1:0]
+@1000200
+-minimac RX
+@c00200
+-Wishbone ha1588
+@28
+tb_zedboard_top.uut.u_asic.soc.wb_ha_ack_o
+@22
+tb_zedboard_top.uut.u_asic.soc.wb_ha_adr_i[31:0]
+@28
+tb_zedboard_top.uut.u_asic.soc.wb_ha_cyc_i
+@22
+tb_zedboard_top.uut.u_asic.soc.wb_ha_dat_i[31:0]
+tb_zedboard_top.uut.u_asic.soc.wb_ha_dat_o[31:0]
+tb_zedboard_top.uut.u_asic.soc.wb_ha_sel_i[3:0]
+@28
+tb_zedboard_top.uut.u_asic.soc.wb_ha_stb_i
+tb_zedboard_top.uut.u_asic.soc.wb_ha_we_i
+tb_zedboard_top.uut.u_asic.soc.wb_periph_ha
+@1401200
+-Wishbone ha1588
+@c00200
+-PTP TX
+@28
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.parser.int_sop
+@22
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.parser.int_data[31:0]
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.parser.int_data_d1[31:0]
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.parser.ptp_cksum[11:0]
+@28
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.parser.int_eop
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.parser.int_mod[1:0]
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.parser.int_valid
+@22
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.parser.int_cnt[9:0]
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.parser.ptp_cnt[9:0]
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.parser.ptp_data[31:0]
+@28
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.parser.ptp_event
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.parser.ptp_found
+@22
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.parser.ptp_infor[31:0]
+@1401200
+-PTP TX
+@c00200
+-TSU RX
+@28
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.u_rx_tsu.parser.int_eop
+@22
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.u_rx_tsu.parser.int_data[31:0]
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.u_rx_tsu.parser.ptp_cnt[9:0]
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.u_rx_tsu.parser.ptp_data[31:0]
+@28
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.u_rx_tsu.parser.int_sop
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.u_rx_tsu.parser.ptp_event
+@22
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.u_rx_tsu.parser.ptp_cksum[11:0]
+@1401200
+-TSU RX
+@c00200
+-FIFO PTP TX
+@28
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.queue.rdempty
+@22
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.queue.data[127:0]
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.queue.rdusedw[3:0]
+@28
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.queue.wrclk
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.queue.wrfull
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.queue.wrreq
+@22
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.queue.wrusedw[3:0]
+@1401200
+-FIFO PTP TX
+@c00200
+-TSU TX
+@28
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.ts_req
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.ts_req_d1
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.ts_req_d2
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.ts_req_d3
+@22
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.rtc_time_stamp[79:0]
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.tsu_time_stamp[79:0]
+@28
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.ts_ack_clr
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.ts_ack
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.ts_ack_d1
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.ts_ack_d2
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.ts_ack_d3
+@1401200
+-TSU TX
+@c00200
+-GMII TX PHY
+@28
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.tx_gmii_clk
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.tx_gmii_ctrl
+@22
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.tx_gmii_data[7:0]
+@28
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.gmii_ctrl_conv
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.gmii_ctrl
+@22
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.gmii_data[7:0]
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.gmii_data_conv[7:0]
+@1401200
+-GMII TX PHY
+@800200
+-GMII RX PHY
+@28
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.rx_giga_mode
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.rx_gmii_clk
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.rx_gmii_ctrl
+@22
+tb_zedboard_top.uut.u_asic.soc.PTP_HA1588.rx_gmii_data[7:0]
+@1000200
+-GMII RX PHY
+[pattern_trace] 1
+[pattern_trace] 0

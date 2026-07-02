@@ -1,0 +1,1 @@
+write_cfgmem -force -format mcs -size 16 -interface SPIx4 -loadbit "up 0x00000000 /home/gonzalo/Vivado/picorv32_ihp_SoCBILBAO/picorv32_ihp_SoCBILBAO.runs/impl_1/arty_top.bit" -loaddata "up 0x00300000 boards/arty/arty_flash_firmware/firmware.bin" -file "boards/arty/flash/Flash_arty_bit_fir_00300000.mcs"
