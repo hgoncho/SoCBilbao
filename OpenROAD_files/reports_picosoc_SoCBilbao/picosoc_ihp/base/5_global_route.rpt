@@ -1,0 +1,1109 @@
+
+==========================================================================
+global route report_tns
+--------------------------------------------------------------------------
+tns max 0.00
+
+==========================================================================
+global route report_wns
+--------------------------------------------------------------------------
+wns max 0.00
+
+==========================================================================
+global route report_worst_slack
+--------------------------------------------------------------------------
+worst slack max 2.23
+
+==========================================================================
+global route report_clock_min_period
+--------------------------------------------------------------------------
+clk_core period_min = 11.06 fmax = 90.38
+
+==========================================================================
+global route report_clock_skew
+--------------------------------------------------------------------------
+Clock clk_core
+   1.82 source latency picosoc_core.soc.cpu.mem_wdata[26]$_DFFE_PP_/CLK ^
+  -1.31 target latency picosoc_core.soc.irq_status[26]$_SDFFE_PN0P_/CLK ^
+   0.15 clock uncertainty
+   0.00 CRPR
+--------------
+   0.66 setup skew
+
+
+==========================================================================
+global route report_checks -path_delay min
+--------------------------------------------------------------------------
+Startpoint: picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rgs.txq_rst_d2$_DFF_P_
+            (rising edge-triggered flip-flop clocked by clk_core)
+Endpoint: picosoc_core.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.queue.dcfifo.fifo_inst.rptr_empty.rbin[0]$_DFF_PP0_
+          (removal check against rising-edge clock clk_core)
+Path Group: asynchronous
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock clk_core (rise edge)
+                          0.00    0.00   clock source latency
+     1    0.15    0.26    0.00    0.00 ^ sg13g2_IOPad_io_clock/p2c (sg13g2_IOPadIn)
+                                         clock (net)
+                  0.33    0.12    0.12 ^ wire21428/A (sg13g2_buf_16)
+     2    0.21    0.05    0.17    0.29 ^ wire21428/X (sg13g2_buf_16)
+                                         net21427 (net)
+                  0.32    0.16    0.45 ^ clkbuf_regs_0_clk_core/A (sg13g2_buf_16)
+     1    0.02    0.03    0.16    0.60 ^ clkbuf_regs_0_clk_core/X (sg13g2_buf_16)
+                                         clock_regs (net)
+                  0.03    0.00    0.60 ^ clkbuf_0_clock_regs/A (sg13g2_buf_16)
+     2    0.21    0.05    0.08    0.69 ^ clkbuf_0_clock_regs/X (sg13g2_buf_16)
+                                         clknet_0_clock_regs (net)
+                  0.14    0.06    0.75 ^ clkbuf_1_1_0_clock_regs/A (sg13g2_buf_16)
+     4    0.23    0.06    0.13    0.88 ^ clkbuf_1_1_0_clock_regs/X (sg13g2_buf_16)
+                                         clknet_1_1_0_clock_regs (net)
+                  0.14    0.06    0.94 ^ clkbuf_3_5_0_clock_regs/A (sg13g2_buf_16)
+     4    0.17    0.03    0.12    1.05 ^ clkbuf_3_5_0_clock_regs/X (sg13g2_buf_16)
+                                         clknet_3_5_0_clock_regs (net)
+                  0.19    0.09    1.14 ^ clkbuf_5_23_0_clock_regs/A (sg13g2_buf_16)
+     7    0.20    0.06    0.14    1.28 ^ clkbuf_5_23_0_clock_regs/X (sg13g2_buf_16)
+                                         clknet_5_23_0_clock_regs (net)
+                  0.13    0.05    1.34 ^ clkbuf_leaf_40_clock_regs/A (sg13g2_buf_16)
+    18    0.10    0.04    0.12    1.46 ^ clkbuf_leaf_40_clock_regs/X (sg13g2_buf_16)
+                                         clknet_leaf_40_clock_regs (net)
+                  0.04    0.01    1.47 ^ picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rgs.txq_rst_d2$_DFF_P_/CLK (sg13g2_dfrbpq_1)
+     2    0.01    0.03    0.18    1.65 v picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rgs.txq_rst_d2$_DFF_P_/Q (sg13g2_dfrbpq_1)
+                                         picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rgs.txq_rst_d2 (net)
+                  0.03    0.00    1.65 v _080979_/B (sg13g2_nand2b_1)
+     3    0.04    0.18    0.15    1.80 ^ _080979_/Y (sg13g2_nand2b_1)
+                                         _028222_ (net)
+                  0.18    0.01    1.81 ^ picosoc_core.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.queue.dcfifo.fifo_inst.rptr_empty.rbin[0]$_DFF_PP0_/RESET_B (sg13g2_dfrbpq_1)
+                                  1.81   data arrival time
+
+                          0.00    0.00   clock clk_core (rise edge)
+                          0.00    0.00   clock source latency
+     1    0.15    0.26    0.00    0.00 ^ sg13g2_IOPad_io_clock/p2c (sg13g2_IOPadIn)
+                                         clock (net)
+                  0.33    0.12    0.12 ^ wire21428/A (sg13g2_buf_16)
+     2    0.21    0.05    0.17    0.29 ^ wire21428/X (sg13g2_buf_16)
+                                         net21427 (net)
+                  0.32    0.16    0.45 ^ clkbuf_regs_0_clk_core/A (sg13g2_buf_16)
+     1    0.02    0.03    0.16    0.60 ^ clkbuf_regs_0_clk_core/X (sg13g2_buf_16)
+                                         clock_regs (net)
+                  0.03    0.00    0.60 ^ clkbuf_0_clock_regs/A (sg13g2_buf_16)
+     2    0.21    0.05    0.08    0.69 ^ clkbuf_0_clock_regs/X (sg13g2_buf_16)
+                                         clknet_0_clock_regs (net)
+                  0.14    0.06    0.75 ^ clkbuf_1_1_0_clock_regs/A (sg13g2_buf_16)
+     4    0.23    0.06    0.13    0.88 ^ clkbuf_1_1_0_clock_regs/X (sg13g2_buf_16)
+                                         clknet_1_1_0_clock_regs (net)
+                  0.14    0.06    0.94 ^ clkbuf_3_5_0_clock_regs/A (sg13g2_buf_16)
+     4    0.17    0.03    0.12    1.05 ^ clkbuf_3_5_0_clock_regs/X (sg13g2_buf_16)
+                                         clknet_3_5_0_clock_regs (net)
+                  0.20    0.10    1.15 ^ clkbuf_5_20_0_clock_regs/A (sg13g2_buf_16)
+     7    0.30    0.08    0.14    1.29 ^ clkbuf_5_20_0_clock_regs/X (sg13g2_buf_16)
+                                         clknet_5_20_0_clock_regs (net)
+                  0.18    0.08    1.37 ^ clkbuf_leaf_42_clock_regs/A (sg13g2_buf_16)
+    16    0.09    0.04    0.14    1.51 ^ clkbuf_leaf_42_clock_regs/X (sg13g2_buf_16)
+                                         clknet_leaf_42_clock_regs (net)
+                  0.04    0.00    1.51 ^ picosoc_core.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.queue.dcfifo.fifo_inst.rptr_empty.rbin[0]$_DFF_PP0_/CLK (sg13g2_dfrbpq_1)
+                          0.15    1.66   clock uncertainty
+                          0.00    1.66   clock reconvergence pessimism
+                         -0.15    1.51   library removal time
+                                  1.51   data required time
+-----------------------------------------------------------------------------
+                                  1.51   data required time
+                                 -1.81   data arrival time
+-----------------------------------------------------------------------------
+                                  0.29   slack (MET)
+
+
+Startpoint: picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rtc.time_adj_08n_32f[4]$_DFF_PP0_
+            (rising edge-triggered flip-flop clocked by clk_core)
+Endpoint: picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rtc.time_adj_16b_00n_24f[4]$_DFF_PP0_
+          (rising edge-triggered flip-flop clocked by clk_core)
+Path Group: clk_core
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock clk_core (rise edge)
+                          0.00    0.00   clock source latency
+     1    0.15    0.26    0.00    0.00 ^ sg13g2_IOPad_io_clock/p2c (sg13g2_IOPadIn)
+                                         clock (net)
+                  0.33    0.12    0.12 ^ wire21428/A (sg13g2_buf_16)
+     2    0.21    0.05    0.17    0.29 ^ wire21428/X (sg13g2_buf_16)
+                                         net21427 (net)
+                  0.32    0.16    0.45 ^ clkbuf_regs_0_clk_core/A (sg13g2_buf_16)
+     1    0.02    0.03    0.16    0.60 ^ clkbuf_regs_0_clk_core/X (sg13g2_buf_16)
+                                         clock_regs (net)
+                  0.03    0.00    0.60 ^ clkbuf_0_clock_regs/A (sg13g2_buf_16)
+     2    0.21    0.05    0.08    0.69 ^ clkbuf_0_clock_regs/X (sg13g2_buf_16)
+                                         clknet_0_clock_regs (net)
+                  0.12    0.05    0.74 ^ clkbuf_1_0_0_clock_regs/A (sg13g2_buf_16)
+     4    0.29    0.07    0.13    0.87 ^ clkbuf_1_0_0_clock_regs/X (sg13g2_buf_16)
+                                         clknet_1_0_0_clock_regs (net)
+                  0.15    0.06    0.93 ^ clkbuf_3_1_0_clock_regs/A (sg13g2_buf_16)
+     4    0.16    0.05    0.12    1.05 ^ clkbuf_3_1_0_clock_regs/X (sg13g2_buf_16)
+                                         clknet_3_1_0_clock_regs (net)
+                  0.10    0.04    1.10 ^ clkbuf_5_5_0_clock_regs/A (sg13g2_buf_16)
+     7    0.24    0.05    0.12    1.21 ^ clkbuf_5_5_0_clock_regs/X (sg13g2_buf_16)
+                                         clknet_5_5_0_clock_regs (net)
+                  0.15    0.07    1.28 ^ clkbuf_leaf_20_clock_regs/A (sg13g2_buf_16)
+    11    0.11    0.04    0.13    1.41 ^ clkbuf_leaf_20_clock_regs/X (sg13g2_buf_16)
+                                         clknet_leaf_20_clock_regs (net)
+                  0.05    0.01    1.41 ^ picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rtc.time_adj_08n_32f[4]$_DFF_PP0_/CLK (sg13g2_dfrbpq_1)
+     1    0.00    0.02    0.17    1.58 v picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rtc.time_adj_08n_32f[4]$_DFF_PP0_/Q (sg13g2_dfrbpq_1)
+                                         picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rtc.time_adj_08n_32f[4] (net)
+                  0.02    0.00    1.58 v picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rtc.time_adj_16b_00n_24f[4]$_DFF_PP0_/D (sg13g2_dfrbpq_1)
+                                  1.58   data arrival time
+
+                          0.00    0.00   clock clk_core (rise edge)
+                          0.00    0.00   clock source latency
+     1    0.15    0.26    0.00    0.00 ^ sg13g2_IOPad_io_clock/p2c (sg13g2_IOPadIn)
+                                         clock (net)
+                  0.33    0.12    0.12 ^ wire21428/A (sg13g2_buf_16)
+     2    0.21    0.05    0.17    0.29 ^ wire21428/X (sg13g2_buf_16)
+                                         net21427 (net)
+                  0.32    0.16    0.45 ^ clkbuf_regs_0_clk_core/A (sg13g2_buf_16)
+     1    0.02    0.03    0.16    0.60 ^ clkbuf_regs_0_clk_core/X (sg13g2_buf_16)
+                                         clock_regs (net)
+                  0.03    0.00    0.60 ^ clkbuf_0_clock_regs/A (sg13g2_buf_16)
+     2    0.21    0.05    0.08    0.69 ^ clkbuf_0_clock_regs/X (sg13g2_buf_16)
+                                         clknet_0_clock_regs (net)
+                  0.12    0.05    0.74 ^ clkbuf_1_0_0_clock_regs/A (sg13g2_buf_16)
+     4    0.29    0.07    0.13    0.87 ^ clkbuf_1_0_0_clock_regs/X (sg13g2_buf_16)
+                                         clknet_1_0_0_clock_regs (net)
+                  0.15    0.06    0.93 ^ clkbuf_3_1_0_clock_regs/A (sg13g2_buf_16)
+     4    0.16    0.05    0.12    1.05 ^ clkbuf_3_1_0_clock_regs/X (sg13g2_buf_16)
+                                         clknet_3_1_0_clock_regs (net)
+                  0.10    0.04    1.10 ^ clkbuf_5_5_0_clock_regs/A (sg13g2_buf_16)
+     7    0.24    0.05    0.12    1.21 ^ clkbuf_5_5_0_clock_regs/X (sg13g2_buf_16)
+                                         clknet_5_5_0_clock_regs (net)
+                  0.18    0.09    1.30 ^ clkbuf_leaf_103_clock_regs/A (sg13g2_buf_16)
+    11    0.08    0.04    0.14    1.44 ^ clkbuf_leaf_103_clock_regs/X (sg13g2_buf_16)
+                                         clknet_leaf_103_clock_regs (net)
+                  0.04    0.00    1.44 ^ picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rtc.time_adj_16b_00n_24f[4]$_DFF_PP0_/CLK (sg13g2_dfrbpq_1)
+                          0.15    1.59   clock uncertainty
+                          0.00    1.59   clock reconvergence pessimism
+                         -0.03    1.56   library hold time
+                                  1.56   data required time
+-----------------------------------------------------------------------------
+                                  1.56   data required time
+                                 -1.58   data arrival time
+-----------------------------------------------------------------------------
+                                  0.02   slack (MET)
+
+
+
+==========================================================================
+global route report_checks -path_delay max
+--------------------------------------------------------------------------
+Startpoint: io_resetn_PAD (input port clocked by clk_core)
+Endpoint: picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rx_tsu.ts_req_d1$_DFF_PN0_
+          (recovery check against rising-edge clock clk_core)
+Path Group: asynchronous
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock clk_core (rise edge)
+                          0.00    0.00   clock network delay (propagated)
+                          3.00    3.00 ^ input external delay
+     2    1.24    0.00    0.00    3.00 ^ io_resetn_PAD (inout)
+                                         io_resetn_PAD (net)
+                  0.00    0.00    3.00 ^ sg13g2_IOPad_io_reset/pad (sg13g2_IOPadIn)
+     6    0.15    0.28    0.12    3.12 ^ sg13g2_IOPad_io_reset/p2c (sg13g2_IOPadIn)
+                                         picosoc_core.resetn (net)
+                  0.35    0.13    3.25 ^ place20740/A (sg13g2_buf_1)
+     6    0.08    0.33    0.36    3.61 ^ place20740/X (sg13g2_buf_1)
+                                         net20739 (net)
+                  0.33    0.00    3.61 ^ place20681/A (sg13g2_buf_1)
+     8    0.07    0.28    0.32    3.93 ^ place20681/X (sg13g2_buf_1)
+                                         net20680 (net)
+                  0.28    0.01    3.94 ^ place20680/A (sg13g2_buf_1)
+     8    0.06    0.25    0.29    4.23 ^ place20680/X (sg13g2_buf_1)
+                                         net20679 (net)
+                  0.25    0.00    4.23 ^ place20679/A (sg13g2_buf_1)
+     8    0.06    0.27    0.30    4.53 ^ place20679/X (sg13g2_buf_1)
+                                         net20678 (net)
+                  0.27    0.01    4.54 ^ place20678/A (sg13g2_buf_1)
+     8    0.06    0.25    0.29    4.82 ^ place20678/X (sg13g2_buf_1)
+                                         net20677 (net)
+                  0.25    0.01    4.83 ^ place20677/A (sg13g2_buf_1)
+     5    0.11    0.45    0.40    5.23 ^ place20677/X (sg13g2_buf_1)
+                                         net20676 (net)
+                  0.45    0.02    5.25 ^ place20676/A (sg13g2_buf_1)
+     8    0.07    0.27    0.33    5.58 ^ place20676/X (sg13g2_buf_1)
+                                         net20675 (net)
+                  0.27    0.00    5.59 ^ place20675/A (sg13g2_buf_1)
+     7    0.11    0.45    0.41    6.00 ^ place20675/X (sg13g2_buf_1)
+                                         net20674 (net)
+                  0.45    0.04    6.04 ^ place20674/A (sg13g2_buf_1)
+     8    0.10    0.43    0.42    6.46 ^ place20674/X (sg13g2_buf_1)
+                                         net20673 (net)
+                  0.43    0.04    6.50 ^ place20673/A (sg13g2_buf_1)
+     4    0.04    0.15    0.25    6.75 ^ place20673/X (sg13g2_buf_1)
+                                         net20672 (net)
+                  0.15    0.00    6.75 ^ picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rx_tsu.ts_req_d1$_DFF_PN0_/RESET_B (sg13g2_dfrbpq_1)
+                                  6.75   data arrival time
+
+                         20.00   20.00   clock clk_core (rise edge)
+                          0.00   20.00   clock source latency
+     1    0.15    0.26    0.00   20.00 ^ sg13g2_IOPad_io_clock/p2c (sg13g2_IOPadIn)
+                                         clock (net)
+                  0.33    0.12   20.12 ^ wire21428/A (sg13g2_buf_16)
+     2    0.21    0.05    0.17   20.29 ^ wire21428/X (sg13g2_buf_16)
+                                         net21427 (net)
+                  0.32    0.16   20.45 ^ clkbuf_regs_0_clk_core/A (sg13g2_buf_16)
+     1    0.02    0.03    0.16   20.60 ^ clkbuf_regs_0_clk_core/X (sg13g2_buf_16)
+                                         clock_regs (net)
+                  0.03    0.00   20.60 ^ clkbuf_0_clock_regs/A (sg13g2_buf_16)
+     2    0.21    0.05    0.08   20.69 ^ clkbuf_0_clock_regs/X (sg13g2_buf_16)
+                                         clknet_0_clock_regs (net)
+                  0.14    0.06   20.75 ^ clkbuf_1_1_0_clock_regs/A (sg13g2_buf_16)
+     4    0.23    0.06    0.13   20.88 ^ clkbuf_1_1_0_clock_regs/X (sg13g2_buf_16)
+                                         clknet_1_1_0_clock_regs (net)
+                  0.14    0.06   20.94 ^ clkbuf_3_4_0_clock_regs/A (sg13g2_buf_16)
+     4    0.15    0.05    0.13   21.07 ^ clkbuf_3_4_0_clock_regs/X (sg13g2_buf_16)
+                                         clknet_3_4_0_clock_regs (net)
+                  0.06    0.02   21.08 ^ clkbuf_5_18_0_clock_regs/A (sg13g2_buf_16)
+     7    0.21    0.07    0.11   21.19 ^ clkbuf_5_18_0_clock_regs/X (sg13g2_buf_16)
+                                         clknet_5_18_0_clock_regs (net)
+                  0.07    0.02   21.21 ^ clkbuf_leaf_26_clock_regs/A (sg13g2_buf_16)
+    16    0.10    0.04    0.10   21.31 ^ clkbuf_leaf_26_clock_regs/X (sg13g2_buf_16)
+                                         clknet_leaf_26_clock_regs (net)
+                  0.04    0.01   21.31 ^ picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rx_tsu.ts_req_d1$_DFF_PN0_/CLK (sg13g2_dfrbpq_1)
+                         -0.15   21.16   clock uncertainty
+                          0.00   21.16   clock reconvergence pessimism
+                         -0.16   21.01   library recovery time
+                                 21.01   data required time
+-----------------------------------------------------------------------------
+                                 21.01   data required time
+                                 -6.75   data arrival time
+-----------------------------------------------------------------------------
+                                 14.25   slack (MET)
+
+
+Startpoint: picosoc_core.soc.spimemio.xfer_io3_90$_DFF_N_
+            (rising edge-triggered flip-flop clocked by clk_core')
+Endpoint: io_flash_io3_PAD (output port clocked by clk_core)
+Path Group: clk_core
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                         10.00   10.00   clock clk_core' (rise edge)
+                          0.00   10.00   clock source latency
+     1    0.15    0.29    0.00   10.00 v sg13g2_IOPad_io_clock/p2c (sg13g2_IOPadIn)
+                                         clock (net)
+                  0.35    0.12   10.12 v wire21428/A (sg13g2_buf_16)
+     2    0.20    0.05    0.18   10.29 v wire21428/X (sg13g2_buf_16)
+                                         net21427 (net)
+                  0.31    0.16   10.45 v clkbuf_regs_0_clk_core/A (sg13g2_buf_16)
+     1    0.02    0.03    0.16   10.61 v clkbuf_regs_0_clk_core/X (sg13g2_buf_16)
+                                         clock_regs (net)
+                  0.03    0.00   10.61 v clkbuf_0_clock_regs/A (sg13g2_buf_16)
+     2    0.21    0.04    0.09   10.70 v clkbuf_0_clock_regs/X (sg13g2_buf_16)
+                                         clknet_0_clock_regs (net)
+                  0.12    0.05   10.75 v clkbuf_1_0_0_clock_regs/A (sg13g2_buf_16)
+     4    0.29    0.06    0.13   10.88 v clkbuf_1_0_0_clock_regs/X (sg13g2_buf_16)
+                                         clknet_1_0_0_clock_regs (net)
+                  0.14    0.06   10.94 v clkbuf_3_1_0_clock_regs/A (sg13g2_buf_16)
+     4    0.16    0.04    0.13   11.07 v clkbuf_3_1_0_clock_regs/X (sg13g2_buf_16)
+                                         clknet_3_1_0_clock_regs (net)
+                  0.10    0.04   11.11 v clkbuf_5_7_0_clock_regs/A (sg13g2_buf_16)
+     7    0.20    0.06    0.12   11.23 v clkbuf_5_7_0_clock_regs/X (sg13g2_buf_16)
+                                         clknet_5_7_0_clock_regs (net)
+                  0.07    0.02   11.25 v clkbuf_leaf_195_clock_regs/A (sg13g2_buf_16)
+    11    0.09    0.03    0.10   11.35 v clkbuf_leaf_195_clock_regs/X (sg13g2_buf_16)
+                                         clknet_leaf_195_clock_regs (net)
+                  0.04    0.00   11.36 v _076449__21422/A (sg13g2_inv_1)
+     1    0.01    0.03    0.04   11.40 ^ _076449__21422/Y (sg13g2_inv_1)
+                                         net21421 (net)
+                  0.03    0.00   11.40 ^ picosoc_core.soc.spimemio.xfer_io3_90$_DFF_N_/CLK (sg13g2_dfrbpq_1)
+     1    0.01    0.03    0.18   11.57 ^ picosoc_core.soc.spimemio.xfer_io3_90$_DFF_N_/Q (sg13g2_dfrbpq_1)
+                                         picosoc_core.soc.spimemio.xfer_io3_90 (net)
+                  0.03    0.00   11.57 ^ _118585_/A1 (sg13g2_mux2_1)
+     1    0.02    0.09    0.13   11.71 ^ _118585_/X (sg13g2_mux2_1)
+                                         _059210_ (net)
+                  0.09    0.00   11.71 ^ _118587_/A1 (sg13g2_mux2_1)
+     1    0.11    0.44    0.37   12.08 ^ _118587_/X (sg13g2_mux2_1)
+                                         _059212_ (net)
+                  0.46    0.08   12.15 ^ place17378/A (sg13g2_buf_2)
+     1    0.24    0.40    0.36   12.51 ^ place17378/X (sg13g2_buf_2)
+                                         net17377 (net)
+                  1.09    0.35   12.86 ^ sg13g2_IOPad_io_flash_io3/c2p (sg13g2_IOPadInOut4mA)
+     2    1.21    1.32    1.75   14.62 ^ sg13g2_IOPad_io_flash_io3/pad (sg13g2_IOPadInOut4mA)
+                                         io_flash_io3_PAD (net)
+                  0.99    0.00   14.62 ^ io_flash_io3_PAD (inout)
+                                 14.62   data arrival time
+
+                         20.00   20.00   clock clk_core (rise edge)
+                          0.00   20.00   clock network delay (propagated)
+                         -0.15   19.85   clock uncertainty
+                          0.00   19.85   clock reconvergence pessimism
+                         -3.00   16.85   output external delay
+                                 16.85   data required time
+-----------------------------------------------------------------------------
+                                 16.85   data required time
+                                -14.62   data arrival time
+-----------------------------------------------------------------------------
+                                  2.23   slack (MET)
+
+
+
+==========================================================================
+global route report_checks -unconstrained
+--------------------------------------------------------------------------
+Startpoint: io_resetn_PAD (input port clocked by clk_core)
+Endpoint: picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rx_tsu.ts_req_d1$_DFF_PN0_
+          (recovery check against rising-edge clock clk_core)
+Path Group: asynchronous
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock clk_core (rise edge)
+                          0.00    0.00   clock network delay (propagated)
+                          3.00    3.00 ^ input external delay
+     2    1.24    0.00    0.00    3.00 ^ io_resetn_PAD (inout)
+                                         io_resetn_PAD (net)
+                  0.00    0.00    3.00 ^ sg13g2_IOPad_io_reset/pad (sg13g2_IOPadIn)
+     6    0.15    0.28    0.12    3.12 ^ sg13g2_IOPad_io_reset/p2c (sg13g2_IOPadIn)
+                                         picosoc_core.resetn (net)
+                  0.35    0.13    3.25 ^ place20740/A (sg13g2_buf_1)
+     6    0.08    0.33    0.36    3.61 ^ place20740/X (sg13g2_buf_1)
+                                         net20739 (net)
+                  0.33    0.00    3.61 ^ place20681/A (sg13g2_buf_1)
+     8    0.07    0.28    0.32    3.93 ^ place20681/X (sg13g2_buf_1)
+                                         net20680 (net)
+                  0.28    0.01    3.94 ^ place20680/A (sg13g2_buf_1)
+     8    0.06    0.25    0.29    4.23 ^ place20680/X (sg13g2_buf_1)
+                                         net20679 (net)
+                  0.25    0.00    4.23 ^ place20679/A (sg13g2_buf_1)
+     8    0.06    0.27    0.30    4.53 ^ place20679/X (sg13g2_buf_1)
+                                         net20678 (net)
+                  0.27    0.01    4.54 ^ place20678/A (sg13g2_buf_1)
+     8    0.06    0.25    0.29    4.82 ^ place20678/X (sg13g2_buf_1)
+                                         net20677 (net)
+                  0.25    0.01    4.83 ^ place20677/A (sg13g2_buf_1)
+     5    0.11    0.45    0.40    5.23 ^ place20677/X (sg13g2_buf_1)
+                                         net20676 (net)
+                  0.45    0.02    5.25 ^ place20676/A (sg13g2_buf_1)
+     8    0.07    0.27    0.33    5.58 ^ place20676/X (sg13g2_buf_1)
+                                         net20675 (net)
+                  0.27    0.00    5.59 ^ place20675/A (sg13g2_buf_1)
+     7    0.11    0.45    0.41    6.00 ^ place20675/X (sg13g2_buf_1)
+                                         net20674 (net)
+                  0.45    0.04    6.04 ^ place20674/A (sg13g2_buf_1)
+     8    0.10    0.43    0.42    6.46 ^ place20674/X (sg13g2_buf_1)
+                                         net20673 (net)
+                  0.43    0.04    6.50 ^ place20673/A (sg13g2_buf_1)
+     4    0.04    0.15    0.25    6.75 ^ place20673/X (sg13g2_buf_1)
+                                         net20672 (net)
+                  0.15    0.00    6.75 ^ picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rx_tsu.ts_req_d1$_DFF_PN0_/RESET_B (sg13g2_dfrbpq_1)
+                                  6.75   data arrival time
+
+                         20.00   20.00   clock clk_core (rise edge)
+                          0.00   20.00   clock source latency
+     1    0.15    0.26    0.00   20.00 ^ sg13g2_IOPad_io_clock/p2c (sg13g2_IOPadIn)
+                                         clock (net)
+                  0.33    0.12   20.12 ^ wire21428/A (sg13g2_buf_16)
+     2    0.21    0.05    0.17   20.29 ^ wire21428/X (sg13g2_buf_16)
+                                         net21427 (net)
+                  0.32    0.16   20.45 ^ clkbuf_regs_0_clk_core/A (sg13g2_buf_16)
+     1    0.02    0.03    0.16   20.60 ^ clkbuf_regs_0_clk_core/X (sg13g2_buf_16)
+                                         clock_regs (net)
+                  0.03    0.00   20.60 ^ clkbuf_0_clock_regs/A (sg13g2_buf_16)
+     2    0.21    0.05    0.08   20.69 ^ clkbuf_0_clock_regs/X (sg13g2_buf_16)
+                                         clknet_0_clock_regs (net)
+                  0.14    0.06   20.75 ^ clkbuf_1_1_0_clock_regs/A (sg13g2_buf_16)
+     4    0.23    0.06    0.13   20.88 ^ clkbuf_1_1_0_clock_regs/X (sg13g2_buf_16)
+                                         clknet_1_1_0_clock_regs (net)
+                  0.14    0.06   20.94 ^ clkbuf_3_4_0_clock_regs/A (sg13g2_buf_16)
+     4    0.15    0.05    0.13   21.07 ^ clkbuf_3_4_0_clock_regs/X (sg13g2_buf_16)
+                                         clknet_3_4_0_clock_regs (net)
+                  0.06    0.02   21.08 ^ clkbuf_5_18_0_clock_regs/A (sg13g2_buf_16)
+     7    0.21    0.07    0.11   21.19 ^ clkbuf_5_18_0_clock_regs/X (sg13g2_buf_16)
+                                         clknet_5_18_0_clock_regs (net)
+                  0.07    0.02   21.21 ^ clkbuf_leaf_26_clock_regs/A (sg13g2_buf_16)
+    16    0.10    0.04    0.10   21.31 ^ clkbuf_leaf_26_clock_regs/X (sg13g2_buf_16)
+                                         clknet_leaf_26_clock_regs (net)
+                  0.04    0.01   21.31 ^ picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rx_tsu.ts_req_d1$_DFF_PN0_/CLK (sg13g2_dfrbpq_1)
+                         -0.15   21.16   clock uncertainty
+                          0.00   21.16   clock reconvergence pessimism
+                         -0.16   21.01   library recovery time
+                                 21.01   data required time
+-----------------------------------------------------------------------------
+                                 21.01   data required time
+                                 -6.75   data arrival time
+-----------------------------------------------------------------------------
+                                 14.25   slack (MET)
+
+
+Startpoint: picosoc_core.soc.spimemio.xfer_io3_90$_DFF_N_
+            (rising edge-triggered flip-flop clocked by clk_core')
+Endpoint: io_flash_io3_PAD (output port clocked by clk_core)
+Path Group: clk_core
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                         10.00   10.00   clock clk_core' (rise edge)
+                          0.00   10.00   clock source latency
+     1    0.15    0.29    0.00   10.00 v sg13g2_IOPad_io_clock/p2c (sg13g2_IOPadIn)
+                                         clock (net)
+                  0.35    0.12   10.12 v wire21428/A (sg13g2_buf_16)
+     2    0.20    0.05    0.18   10.29 v wire21428/X (sg13g2_buf_16)
+                                         net21427 (net)
+                  0.31    0.16   10.45 v clkbuf_regs_0_clk_core/A (sg13g2_buf_16)
+     1    0.02    0.03    0.16   10.61 v clkbuf_regs_0_clk_core/X (sg13g2_buf_16)
+                                         clock_regs (net)
+                  0.03    0.00   10.61 v clkbuf_0_clock_regs/A (sg13g2_buf_16)
+     2    0.21    0.04    0.09   10.70 v clkbuf_0_clock_regs/X (sg13g2_buf_16)
+                                         clknet_0_clock_regs (net)
+                  0.12    0.05   10.75 v clkbuf_1_0_0_clock_regs/A (sg13g2_buf_16)
+     4    0.29    0.06    0.13   10.88 v clkbuf_1_0_0_clock_regs/X (sg13g2_buf_16)
+                                         clknet_1_0_0_clock_regs (net)
+                  0.14    0.06   10.94 v clkbuf_3_1_0_clock_regs/A (sg13g2_buf_16)
+     4    0.16    0.04    0.13   11.07 v clkbuf_3_1_0_clock_regs/X (sg13g2_buf_16)
+                                         clknet_3_1_0_clock_regs (net)
+                  0.10    0.04   11.11 v clkbuf_5_7_0_clock_regs/A (sg13g2_buf_16)
+     7    0.20    0.06    0.12   11.23 v clkbuf_5_7_0_clock_regs/X (sg13g2_buf_16)
+                                         clknet_5_7_0_clock_regs (net)
+                  0.07    0.02   11.25 v clkbuf_leaf_195_clock_regs/A (sg13g2_buf_16)
+    11    0.09    0.03    0.10   11.35 v clkbuf_leaf_195_clock_regs/X (sg13g2_buf_16)
+                                         clknet_leaf_195_clock_regs (net)
+                  0.04    0.00   11.36 v _076449__21422/A (sg13g2_inv_1)
+     1    0.01    0.03    0.04   11.40 ^ _076449__21422/Y (sg13g2_inv_1)
+                                         net21421 (net)
+                  0.03    0.00   11.40 ^ picosoc_core.soc.spimemio.xfer_io3_90$_DFF_N_/CLK (sg13g2_dfrbpq_1)
+     1    0.01    0.03    0.18   11.57 ^ picosoc_core.soc.spimemio.xfer_io3_90$_DFF_N_/Q (sg13g2_dfrbpq_1)
+                                         picosoc_core.soc.spimemio.xfer_io3_90 (net)
+                  0.03    0.00   11.57 ^ _118585_/A1 (sg13g2_mux2_1)
+     1    0.02    0.09    0.13   11.71 ^ _118585_/X (sg13g2_mux2_1)
+                                         _059210_ (net)
+                  0.09    0.00   11.71 ^ _118587_/A1 (sg13g2_mux2_1)
+     1    0.11    0.44    0.37   12.08 ^ _118587_/X (sg13g2_mux2_1)
+                                         _059212_ (net)
+                  0.46    0.08   12.15 ^ place17378/A (sg13g2_buf_2)
+     1    0.24    0.40    0.36   12.51 ^ place17378/X (sg13g2_buf_2)
+                                         net17377 (net)
+                  1.09    0.35   12.86 ^ sg13g2_IOPad_io_flash_io3/c2p (sg13g2_IOPadInOut4mA)
+     2    1.21    1.32    1.75   14.62 ^ sg13g2_IOPad_io_flash_io3/pad (sg13g2_IOPadInOut4mA)
+                                         io_flash_io3_PAD (net)
+                  0.99    0.00   14.62 ^ io_flash_io3_PAD (inout)
+                                 14.62   data arrival time
+
+                         20.00   20.00   clock clk_core (rise edge)
+                          0.00   20.00   clock network delay (propagated)
+                         -0.15   19.85   clock uncertainty
+                          0.00   19.85   clock reconvergence pessimism
+                         -3.00   16.85   output external delay
+                                 16.85   data required time
+-----------------------------------------------------------------------------
+                                 16.85   data required time
+                                -14.62   data arrival time
+-----------------------------------------------------------------------------
+                                  2.23   slack (MET)
+
+
+
+==========================================================================
+global route report_check_types -max_slew -max_cap -max_fanout -violators
+--------------------------------------------------------------------------
+max slew
+
+Pin                                    Limit    Slew   Slack
+------------------------------------------------------------
+sg13g2_IOPad_io_flash_io3/pad           1.20    1.32   -0.12 (VIOLATED)
+sg13g2_IOPad_io_mii_data/pad            1.20    1.32   -0.12 (VIOLATED)
+sg13g2_IOPad_io_flash_io0/pad           1.20    1.32   -0.12 (VIOLATED)
+sg13g2_IOPad_io_flash_io1/pad           1.20    1.32   -0.12 (VIOLATED)
+sg13g2_IOPad_io_flash_io2/pad           1.20    1.32   -0.12 (VIOLATED)
+io_flash_io0_PAD                        1.20    1.32   -0.12 (VIOLATED)
+io_flash_io1_PAD                        1.20    1.32   -0.12 (VIOLATED)
+io_flash_io2_PAD                        1.20    1.32   -0.12 (VIOLATED)
+io_flash_io3_PAD                        1.20    1.32   -0.12 (VIOLATED)
+io_phy_mii_data_PAD                     1.20    1.32   -0.12 (VIOLATED)
+
+max fanout
+
+Pin                                   Limit Fanout  Slack
+---------------------------------------------------------
+place20553/X                              8     21    -13 (VIOLATED)
+clkbuf_leaf_5_clock_regs/X                8     20    -12 (VIOLATED)
+clkbuf_leaf_71_clock_regs/X               8     20    -12 (VIOLATED)
+sg13g2_IOPad_io_phy_rx_data_3/p2c         8     20    -12 (VIOLATED)
+clkbuf_leaf_109_clock_regs/X              8     19    -11 (VIOLATED)
+clkbuf_leaf_110_clock_regs/X              8     19    -11 (VIOLATED)
+clkbuf_leaf_51_clock_regs/X               8     19    -11 (VIOLATED)
+clkbuf_leaf_70_clock_regs/X               8     19    -11 (VIOLATED)
+clkbuf_leaf_115_clock_regs/X              8     18    -10 (VIOLATED)
+clkbuf_leaf_129_clock_regs/X              8     18    -10 (VIOLATED)
+clkbuf_leaf_130_clock_regs/X              8     18    -10 (VIOLATED)
+clkbuf_leaf_148_clock_regs/X              8     18    -10 (VIOLATED)
+clkbuf_leaf_17_clock_regs/X               8     18    -10 (VIOLATED)
+clkbuf_leaf_193_clock_regs/X              8     18    -10 (VIOLATED)
+clkbuf_leaf_197_clock_regs/X              8     18    -10 (VIOLATED)
+clkbuf_leaf_198_clock_regs/X              8     18    -10 (VIOLATED)
+clkbuf_leaf_207_clock_regs/X              8     18    -10 (VIOLATED)
+clkbuf_leaf_215_clock_regs/X              8     18    -10 (VIOLATED)
+clkbuf_leaf_40_clock_regs/X               8     18    -10 (VIOLATED)
+clkbuf_leaf_41_clock_regs/X               8     18    -10 (VIOLATED)
+clkbuf_leaf_52_clock_regs/X               8     18    -10 (VIOLATED)
+clkbuf_leaf_88_clock_regs/X               8     18    -10 (VIOLATED)
+clkbuf_leaf_0_clock_regs/X                8     17     -9 (VIOLATED)
+clkbuf_leaf_101_clock_regs/X              8     17     -9 (VIOLATED)
+clkbuf_leaf_107_clock_regs/X              8     17     -9 (VIOLATED)
+clkbuf_leaf_133_clock_regs/X              8     17     -9 (VIOLATED)
+clkbuf_leaf_141_clock_regs/X              8     17     -9 (VIOLATED)
+clkbuf_leaf_143_clock_regs/X              8     17     -9 (VIOLATED)
+clkbuf_leaf_155_clock_regs/X              8     17     -9 (VIOLATED)
+clkbuf_leaf_156_clock_regs/X              8     17     -9 (VIOLATED)
+clkbuf_leaf_15_clock_regs/X               8     17     -9 (VIOLATED)
+clkbuf_leaf_162_clock_regs/X              8     17     -9 (VIOLATED)
+clkbuf_leaf_16_clock_regs/X               8     17     -9 (VIOLATED)
+clkbuf_leaf_170_clock_regs/X              8     17     -9 (VIOLATED)
+clkbuf_leaf_181_clock_regs/X              8     17     -9 (VIOLATED)
+clkbuf_leaf_183_clock_regs/X              8     17     -9 (VIOLATED)
+clkbuf_leaf_18_clock_regs/X               8     17     -9 (VIOLATED)
+clkbuf_leaf_192_clock_regs/X              8     17     -9 (VIOLATED)
+clkbuf_leaf_194_clock_regs/X              8     17     -9 (VIOLATED)
+clkbuf_leaf_199_clock_regs/X              8     17     -9 (VIOLATED)
+clkbuf_leaf_216_clock_regs/X              8     17     -9 (VIOLATED)
+clkbuf_leaf_21_clock_regs/X               8     17     -9 (VIOLATED)
+clkbuf_leaf_23_clock_regs/X               8     17     -9 (VIOLATED)
+clkbuf_leaf_25_clock_regs/X               8     17     -9 (VIOLATED)
+clkbuf_leaf_30_clock_regs/X               8     17     -9 (VIOLATED)
+clkbuf_leaf_34_clock_regs/X               8     17     -9 (VIOLATED)
+clkbuf_leaf_3_clock_regs/X                8     17     -9 (VIOLATED)
+clkbuf_leaf_49_clock_regs/X               8     17     -9 (VIOLATED)
+clkbuf_leaf_53_clock_regs/X               8     17     -9 (VIOLATED)
+clkbuf_leaf_65_clock_regs/X               8     17     -9 (VIOLATED)
+clkbuf_leaf_67_clock_regs/X               8     17     -9 (VIOLATED)
+clkbuf_leaf_69_clock_regs/X               8     17     -9 (VIOLATED)
+clkbuf_leaf_72_clock_regs/X               8     17     -9 (VIOLATED)
+clkbuf_leaf_73_clock_regs/X               8     17     -9 (VIOLATED)
+clkbuf_leaf_76_clock_regs/X               8     17     -9 (VIOLATED)
+clkbuf_leaf_77_clock_regs/X               8     17     -9 (VIOLATED)
+clkbuf_leaf_82_clock_regs/X               8     17     -9 (VIOLATED)
+clkbuf_leaf_83_clock_regs/X               8     17     -9 (VIOLATED)
+clkbuf_leaf_86_clock_regs/X               8     17     -9 (VIOLATED)
+clkbuf_leaf_87_clock_regs/X               8     17     -9 (VIOLATED)
+clkbuf_leaf_89_clock_regs/X               8     17     -9 (VIOLATED)
+clkbuf_leaf_90_clock_regs/X               8     17     -9 (VIOLATED)
+clkbuf_leaf_91_clock_regs/X               8     17     -9 (VIOLATED)
+clkbuf_leaf_92_clock_regs/X               8     17     -9 (VIOLATED)
+clkbuf_leaf_95_clock_regs/X               8     17     -9 (VIOLATED)
+clkbuf_leaf_97_clock_regs/X               8     17     -9 (VIOLATED)
+clkbuf_leaf_98_clock_regs/X               8     17     -9 (VIOLATED)
+clkbuf_leaf_99_clock_regs/X               8     17     -9 (VIOLATED)
+clkbuf_leaf_100_clock_regs/X              8     16     -8 (VIOLATED)
+clkbuf_leaf_102_clock_regs/X              8     16     -8 (VIOLATED)
+clkbuf_leaf_108_clock_regs/X              8     16     -8 (VIOLATED)
+clkbuf_leaf_10_clock_regs/X               8     16     -8 (VIOLATED)
+clkbuf_leaf_111_clock_regs/X              8     16     -8 (VIOLATED)
+clkbuf_leaf_125_clock_regs/X              8     16     -8 (VIOLATED)
+clkbuf_leaf_134_clock_regs/X              8     16     -8 (VIOLATED)
+clkbuf_leaf_136_clock_regs/X              8     16     -8 (VIOLATED)
+clkbuf_leaf_140_clock_regs/X              8     16     -8 (VIOLATED)
+clkbuf_leaf_142_clock_regs/X              8     16     -8 (VIOLATED)
+clkbuf_leaf_144_clock_regs/X              8     16     -8 (VIOLATED)
+clkbuf_leaf_145_clock_regs/X              8     16     -8 (VIOLATED)
+clkbuf_leaf_150_clock_regs/X              8     16     -8 (VIOLATED)
+clkbuf_leaf_161_clock_regs/X              8     16     -8 (VIOLATED)
+clkbuf_leaf_164_clock_regs/X              8     16     -8 (VIOLATED)
+clkbuf_leaf_167_clock_regs/X              8     16     -8 (VIOLATED)
+clkbuf_leaf_168_clock_regs/X              8     16     -8 (VIOLATED)
+clkbuf_leaf_169_clock_regs/X              8     16     -8 (VIOLATED)
+clkbuf_leaf_172_clock_regs/X              8     16     -8 (VIOLATED)
+clkbuf_leaf_173_clock_regs/X              8     16     -8 (VIOLATED)
+clkbuf_leaf_176_clock_regs/X              8     16     -8 (VIOLATED)
+clkbuf_leaf_200_clock_regs/X              8     16     -8 (VIOLATED)
+clkbuf_leaf_209_clock_regs/X              8     16     -8 (VIOLATED)
+clkbuf_leaf_210_clock_regs/X              8     16     -8 (VIOLATED)
+clkbuf_leaf_22_clock_regs/X               8     16     -8 (VIOLATED)
+clkbuf_leaf_26_clock_regs/X               8     16     -8 (VIOLATED)
+clkbuf_leaf_27_clock_regs/X               8     16     -8 (VIOLATED)
+clkbuf_leaf_28_clock_regs/X               8     16     -8 (VIOLATED)
+clkbuf_leaf_2_clock_regs/X                8     16     -8 (VIOLATED)
+clkbuf_leaf_32_clock_regs/X               8     16     -8 (VIOLATED)
+clkbuf_leaf_36_clock_regs/X               8     16     -8 (VIOLATED)
+clkbuf_leaf_42_clock_regs/X               8     16     -8 (VIOLATED)
+clkbuf_leaf_47_clock_regs/X               8     16     -8 (VIOLATED)
+clkbuf_leaf_4_clock_regs/X                8     16     -8 (VIOLATED)
+clkbuf_leaf_61_clock_regs/X               8     16     -8 (VIOLATED)
+clkbuf_leaf_62_clock_regs/X               8     16     -8 (VIOLATED)
+clkbuf_leaf_68_clock_regs/X               8     16     -8 (VIOLATED)
+clkbuf_leaf_74_clock_regs/X               8     16     -8 (VIOLATED)
+clkbuf_leaf_78_clock_regs/X               8     16     -8 (VIOLATED)
+clkbuf_leaf_81_clock_regs/X               8     16     -8 (VIOLATED)
+clkbuf_leaf_93_clock_regs/X               8     16     -8 (VIOLATED)
+clkbuf_leaf_106_clock_regs/X              8     15     -7 (VIOLATED)
+clkbuf_leaf_120_clock_regs/X              8     15     -7 (VIOLATED)
+clkbuf_leaf_121_clock_regs/X              8     15     -7 (VIOLATED)
+clkbuf_leaf_131_clock_regs/X              8     15     -7 (VIOLATED)
+clkbuf_leaf_149_clock_regs/X              8     15     -7 (VIOLATED)
+clkbuf_leaf_14_clock_regs/X               8     15     -7 (VIOLATED)
+clkbuf_leaf_153_clock_regs/X              8     15     -7 (VIOLATED)
+clkbuf_leaf_191_clock_regs/X              8     15     -7 (VIOLATED)
+clkbuf_leaf_196_clock_regs/X              8     15     -7 (VIOLATED)
+clkbuf_leaf_203_clock_regs/X              8     15     -7 (VIOLATED)
+clkbuf_leaf_206_clock_regs/X              8     15     -7 (VIOLATED)
+clkbuf_leaf_24_clock_regs/X               8     15     -7 (VIOLATED)
+clkbuf_leaf_37_clock_regs/X               8     15     -7 (VIOLATED)
+clkbuf_leaf_56_clock_regs/X               8     15     -7 (VIOLATED)
+clkbuf_leaf_7_clock_regs/X                8     15     -7 (VIOLATED)
+clkbuf_leaf_85_clock_regs/X               8     15     -7 (VIOLATED)
+clkbuf_leaf_8_clock_regs/X                8     15     -7 (VIOLATED)
+clkbuf_leaf_94_clock_regs/X               8     15     -7 (VIOLATED)
+clkbuf_leaf_96_clock_regs/X               8     15     -7 (VIOLATED)
+clkbuf_leaf_9_clock_regs/X                8     15     -7 (VIOLATED)
+clkbuf_leaf_122_clock_regs/X              8     14     -6 (VIOLATED)
+clkbuf_leaf_124_clock_regs/X              8     14     -6 (VIOLATED)
+clkbuf_leaf_135_clock_regs/X              8     14     -6 (VIOLATED)
+clkbuf_leaf_151_clock_regs/X              8     14     -6 (VIOLATED)
+clkbuf_leaf_159_clock_regs/X              8     14     -6 (VIOLATED)
+clkbuf_leaf_165_clock_regs/X              8     14     -6 (VIOLATED)
+clkbuf_leaf_182_clock_regs/X              8     14     -6 (VIOLATED)
+clkbuf_leaf_185_clock_regs/X              8     14     -6 (VIOLATED)
+clkbuf_leaf_188_clock_regs/X              8     14     -6 (VIOLATED)
+clkbuf_leaf_189_clock_regs/X              8     14     -6 (VIOLATED)
+clkbuf_leaf_202_clock_regs/X              8     14     -6 (VIOLATED)
+clkbuf_leaf_208_clock_regs/X              8     14     -6 (VIOLATED)
+clkbuf_leaf_35_clock_regs/X               8     14     -6 (VIOLATED)
+clkbuf_leaf_57_clock_regs/X               8     14     -6 (VIOLATED)
+clkbuf_leaf_63_clock_regs/X               8     14     -6 (VIOLATED)
+clkbuf_leaf_66_clock_regs/X               8     14     -6 (VIOLATED)
+clkbuf_leaf_84_clock_regs/X               8     14     -6 (VIOLATED)
+clkbuf_leaf_104_clock_regs/X              8     13     -5 (VIOLATED)
+clkbuf_leaf_114_clock_regs/X              8     13     -5 (VIOLATED)
+clkbuf_leaf_116_clock_regs/X              8     13     -5 (VIOLATED)
+clkbuf_leaf_12_clock_regs/X               8     13     -5 (VIOLATED)
+clkbuf_leaf_139_clock_regs/X              8     13     -5 (VIOLATED)
+clkbuf_leaf_13_clock_regs/X               8     13     -5 (VIOLATED)
+clkbuf_leaf_154_clock_regs/X              8     13     -5 (VIOLATED)
+clkbuf_leaf_160_clock_regs/X              8     13     -5 (VIOLATED)
+clkbuf_leaf_166_clock_regs/X              8     13     -5 (VIOLATED)
+clkbuf_leaf_171_clock_regs/X              8     13     -5 (VIOLATED)
+clkbuf_leaf_175_clock_regs/X              8     13     -5 (VIOLATED)
+clkbuf_leaf_184_clock_regs/X              8     13     -5 (VIOLATED)
+clkbuf_leaf_187_clock_regs/X              8     13     -5 (VIOLATED)
+clkbuf_leaf_19_clock_regs/X               8     13     -5 (VIOLATED)
+clkbuf_leaf_1_clock_regs/X                8     13     -5 (VIOLATED)
+clkbuf_leaf_205_clock_regs/X              8     13     -5 (VIOLATED)
+clkbuf_leaf_75_clock_regs/X               8     13     -5 (VIOLATED)
+clkbuf_leaf_105_clock_regs/X              8     12     -4 (VIOLATED)
+clkbuf_leaf_126_clock_regs/X              8     12     -4 (VIOLATED)
+clkbuf_leaf_128_clock_regs/X              8     12     -4 (VIOLATED)
+clkbuf_leaf_132_clock_regs/X              8     12     -4 (VIOLATED)
+clkbuf_leaf_138_clock_regs/X              8     12     -4 (VIOLATED)
+clkbuf_leaf_146_clock_regs/X              8     12     -4 (VIOLATED)
+clkbuf_leaf_152_clock_regs/X              8     12     -4 (VIOLATED)
+clkbuf_leaf_157_clock_regs/X              8     12     -4 (VIOLATED)
+clkbuf_leaf_163_clock_regs/X              8     12     -4 (VIOLATED)
+clkbuf_leaf_179_clock_regs/X              8     12     -4 (VIOLATED)
+clkbuf_leaf_186_clock_regs/X              8     12     -4 (VIOLATED)
+clkbuf_leaf_204_clock_regs/X              8     12     -4 (VIOLATED)
+clkbuf_leaf_212_clock_regs/X              8     12     -4 (VIOLATED)
+clkbuf_leaf_217_clock_regs/X              8     12     -4 (VIOLATED)
+clkbuf_leaf_29_clock_regs/X               8     12     -4 (VIOLATED)
+clkbuf_leaf_33_clock_regs/X               8     12     -4 (VIOLATED)
+clkbuf_leaf_43_clock_regs/X               8     12     -4 (VIOLATED)
+clkbuf_leaf_50_clock_regs/X               8     12     -4 (VIOLATED)
+clkbuf_leaf_54_clock_regs/X               8     12     -4 (VIOLATED)
+clkbuf_leaf_6_clock_regs/X                8     12     -4 (VIOLATED)
+clkbuf_leaf_80_clock_regs/X               8     12     -4 (VIOLATED)
+place19267/X                              8     12     -4 (VIOLATED)
+sg13g2_IOPad_io_phy_rx_data_0/p2c         8     12     -4 (VIOLATED)
+sg13g2_IOPad_io_phy_rx_data_2/p2c         8     12     -4 (VIOLATED)
+clkbuf_leaf_103_clock_regs/X              8     11     -3 (VIOLATED)
+clkbuf_leaf_117_clock_regs/X              8     11     -3 (VIOLATED)
+clkbuf_leaf_118_clock_regs/X              8     11     -3 (VIOLATED)
+clkbuf_leaf_119_clock_regs/X              8     11     -3 (VIOLATED)
+clkbuf_leaf_11_clock_regs/X               8     11     -3 (VIOLATED)
+clkbuf_leaf_137_clock_regs/X              8     11     -3 (VIOLATED)
+clkbuf_leaf_174_clock_regs/X              8     11     -3 (VIOLATED)
+clkbuf_leaf_195_clock_regs/X              8     11     -3 (VIOLATED)
+clkbuf_leaf_20_clock_regs/X               8     11     -3 (VIOLATED)
+clkbuf_leaf_214_clock_regs/X              8     11     -3 (VIOLATED)
+clkbuf_leaf_55_clock_regs/X               8     11     -3 (VIOLATED)
+clkbuf_leaf_58_clock_regs/X               8     11     -3 (VIOLATED)
+clkbuf_leaf_60_clock_regs/X               8     11     -3 (VIOLATED)
+clkbuf_leaf_79_clock_regs/X               8     11     -3 (VIOLATED)
+clkbuf_leaf_127_clock_regs/X              8     10     -2 (VIOLATED)
+clkbuf_leaf_180_clock_regs/X              8     10     -2 (VIOLATED)
+clkbuf_leaf_211_clock_regs/X              8     10     -2 (VIOLATED)
+clkbuf_leaf_213_clock_regs/X              8     10     -2 (VIOLATED)
+clkbuf_leaf_31_clock_regs/X               8     10     -2 (VIOLATED)
+clkbuf_leaf_46_clock_regs/X               8     10     -2 (VIOLATED)
+picosoc_core.soc.cpu.mem_wdata[15]$_DFFE_PP_/Q      8      9        (VIOLATED)
+picosoc_core.soc.cpu.mem_wdata[7]$_DFFE_PP_/Q      8      9        (VIOLATED)
+place19265/X                              8      9        (VIOLATED)
+
+max capacitance
+
+Pin                                    Limit     Cap   Slack
+------------------------------------------------------------
+io_clk_PAD                              0.50    1.24   -0.74 (VIOLATED)
+io_phy_dv_PAD                           0.50    1.24   -0.74 (VIOLATED)
+io_phy_rx_clk_PAD                       0.50    1.24   -0.74 (VIOLATED)
+io_phy_rx_data_0_PAD                    0.50    1.24   -0.74 (VIOLATED)
+io_phy_rx_data_1_PAD                    0.50    1.24   -0.74 (VIOLATED)
+io_phy_rx_data_2_PAD                    0.50    1.24   -0.74 (VIOLATED)
+io_phy_rx_data_3_PAD                    0.50    1.24   -0.74 (VIOLATED)
+io_phy_tx_clk_PAD                       0.50    1.24   -0.74 (VIOLATED)
+io_resetn_PAD                           0.50    1.24   -0.74 (VIOLATED)
+io_ser_rx_PAD                           0.50    1.24   -0.74 (VIOLATED)
+io_flash_io0_PAD                        0.50    1.21   -0.71 (VIOLATED)
+io_flash_io1_PAD                        0.50    1.21   -0.71 (VIOLATED)
+io_flash_io2_PAD                        0.50    1.21   -0.71 (VIOLATED)
+io_flash_io3_PAD                        0.50    1.21   -0.71 (VIOLATED)
+io_phy_mii_data_PAD                     0.50    1.21   -0.71 (VIOLATED)
+sg13g2_IOPad_io_flash_io0/pad           0.50    1.21   -0.71 (VIOLATED)
+sg13g2_IOPad_io_flash_io1/pad           0.50    1.21   -0.71 (VIOLATED)
+sg13g2_IOPad_io_flash_io2/pad           0.50    1.21   -0.71 (VIOLATED)
+sg13g2_IOPad_io_flash_io3/pad           0.50    1.21   -0.71 (VIOLATED)
+sg13g2_IOPad_io_mii_data/pad            0.50    1.21   -0.71 (VIOLATED)
+io_flash_clk_PAD                        0.50    1.00   -0.50 (VIOLATED)
+io_flash_csb_PAD                        0.50    1.00   -0.50 (VIOLATED)
+io_phy_mii_clk_PAD                      0.50    1.00   -0.50 (VIOLATED)
+io_phy_rst_n_PAD                        0.50    1.00   -0.50 (VIOLATED)
+io_phy_tx_data_0_PAD                    0.50    1.00   -0.50 (VIOLATED)
+io_phy_tx_data_1_PAD                    0.50    1.00   -0.50 (VIOLATED)
+io_phy_tx_data_2_PAD                    0.50    1.00   -0.50 (VIOLATED)
+io_phy_tx_data_3_PAD                    0.50    1.00   -0.50 (VIOLATED)
+io_phy_tx_en_PAD                        0.50    1.00   -0.50 (VIOLATED)
+io_pps_led_100ms_PAD                    0.50    1.00   -0.50 (VIOLATED)
+io_pps_pin_1cycle_PAD                   0.50    1.00   -0.50 (VIOLATED)
+io_ser_tx_PAD                           0.50    1.00   -0.50 (VIOLATED)
+sg13g2_IOPad_io_flash_clk/pad           0.50    1.00   -0.50 (VIOLATED)
+sg13g2_IOPad_io_flash_csb/pad           0.50    1.00   -0.50 (VIOLATED)
+sg13g2_IOPad_io_phy_mii_clk/pad         0.50    1.00   -0.50 (VIOLATED)
+sg13g2_IOPad_io_phy_rst_n/pad           0.50    1.00   -0.50 (VIOLATED)
+sg13g2_IOPad_io_phy_tx_data_0/pad       0.50    1.00   -0.50 (VIOLATED)
+sg13g2_IOPad_io_phy_tx_data_1/pad       0.50    1.00   -0.50 (VIOLATED)
+sg13g2_IOPad_io_phy_tx_data_2/pad       0.50    1.00   -0.50 (VIOLATED)
+sg13g2_IOPad_io_phy_tx_data_3/pad       0.50    1.00   -0.50 (VIOLATED)
+sg13g2_IOPad_io_phy_tx_en/pad           0.50    1.00   -0.50 (VIOLATED)
+sg13g2_IOPad_io_pps_led_100ms/pad       0.50    1.00   -0.50 (VIOLATED)
+sg13g2_IOPad_io_pps_pin_1cycle/pad      0.50    1.00   -0.50 (VIOLATED)
+sg13g2_IOPad_io_ser_tx/pad              0.50    1.00   -0.50 (VIOLATED)
+
+
+==========================================================================
+global route max_slew_check_slack
+--------------------------------------------------------------------------
+-0.11887535452842712
+
+==========================================================================
+global route max_slew_check_limit
+--------------------------------------------------------------------------
+1.2000000476837158
+
+==========================================================================
+global route max_slew_check_slack_limit
+--------------------------------------------------------------------------
+-0.0991
+
+==========================================================================
+global route max_fanout_check_slack
+--------------------------------------------------------------------------
+-13.0
+
+==========================================================================
+global route max_fanout_check_limit
+--------------------------------------------------------------------------
+8.0
+
+==========================================================================
+global route max_fanout_check_slack_limit
+--------------------------------------------------------------------------
+-1.6250
+
+==========================================================================
+global route max_capacitance_check_slack
+--------------------------------------------------------------------------
+-0.7415589690208435
+
+==========================================================================
+global route max_capacitance_check_limit
+--------------------------------------------------------------------------
+0.5
+
+==========================================================================
+global route max_capacitance_check_slack_limit
+--------------------------------------------------------------------------
+-1.4831
+
+==========================================================================
+global route max_slew_violation_count
+--------------------------------------------------------------------------
+max slew violation count 10
+
+==========================================================================
+global route max_fanout_violation_count
+--------------------------------------------------------------------------
+max fanout violation count 210
+
+==========================================================================
+global route max_cap_violation_count
+--------------------------------------------------------------------------
+max cap violation count 44
+
+==========================================================================
+global route setup_violation_count
+--------------------------------------------------------------------------
+setup violation count 0
+
+==========================================================================
+global route hold_violation_count
+--------------------------------------------------------------------------
+hold violation count 0
+
+==========================================================================
+global route report_checks -path_delay max reg to reg
+--------------------------------------------------------------------------
+Startpoint: picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rgs.rtc_rst_s3$_DFF_P_
+            (rising edge-triggered flip-flop clocked by clk_core)
+Endpoint: picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rtc.time_acc_30n_08f_pre_pos[25]$_DFF_PP0_
+          (recovery check against rising-edge clock clk_core)
+Path Group: asynchronous
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clk_core (rise edge)
+   0.00    0.00   clock source latency
+   0.00    0.00 ^ sg13g2_IOPad_io_clock/p2c (sg13g2_IOPadIn)
+   0.29    0.29 ^ wire21428/X (sg13g2_buf_16)
+   0.31    0.60 ^ clkbuf_regs_0_clk_core/X (sg13g2_buf_16)
+   0.08    0.69 ^ clkbuf_0_clock_regs/X (sg13g2_buf_16)
+   0.19    0.88 ^ clkbuf_1_1_0_clock_regs/X (sg13g2_buf_16)
+   0.19    1.07 ^ clkbuf_3_4_0_clock_regs/X (sg13g2_buf_16)
+   0.12    1.19 ^ clkbuf_5_18_0_clock_regs/X (sg13g2_buf_16)
+   0.11    1.30 ^ clkbuf_leaf_21_clock_regs/X (sg13g2_buf_16)
+   0.00    1.31 ^ picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rgs.rtc_rst_s3$_DFF_P_/CLK (sg13g2_dfrbpq_1)
+   0.18    1.48 ^ picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rgs.rtc_rst_s3$_DFF_P_/Q (sg13g2_dfrbpq_1)
+   0.21    1.69 ^ _080965_/Y (sg13g2_nand2b_1)
+   0.33    2.03 ^ place18706/X (sg13g2_buf_1)
+   0.25    2.28 ^ place18672/X (sg13g2_buf_1)
+   0.26    2.54 ^ place18671/X (sg13g2_buf_1)
+   0.31    2.85 ^ place18670/X (sg13g2_buf_1)
+   0.25    3.10 ^ place18666/X (sg13g2_buf_1)
+   0.25    3.35 ^ place18665/X (sg13g2_buf_1)
+   0.28    3.64 ^ place18664/X (sg13g2_buf_1)
+   0.00    3.64 ^ picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rtc.time_acc_30n_08f_pre_pos[25]$_DFF_PP0_/RESET_B (sg13g2_dfrbpq_1)
+           3.64   data arrival time
+
+  20.00   20.00   clock clk_core (rise edge)
+   0.00   20.00   clock source latency
+   0.00   20.00 ^ sg13g2_IOPad_io_clock/p2c (sg13g2_IOPadIn)
+   0.29   20.29 ^ wire21428/X (sg13g2_buf_16)
+   0.31   20.60 ^ clkbuf_regs_0_clk_core/X (sg13g2_buf_16)
+   0.08   20.69 ^ clkbuf_0_clock_regs/X (sg13g2_buf_16)
+   0.19   20.88 ^ clkbuf_1_1_0_clock_regs/X (sg13g2_buf_16)
+   0.18   21.05 ^ clkbuf_3_5_0_clock_regs/X (sg13g2_buf_16)
+   0.23   21.28 ^ clkbuf_5_23_0_clock_regs/X (sg13g2_buf_16)
+   0.16   21.44 ^ clkbuf_leaf_80_clock_regs/X (sg13g2_buf_16)
+   0.00   21.45 ^ picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rtc.time_acc_30n_08f_pre_pos[25]$_DFF_PP0_/CLK (sg13g2_dfrbpq_1)
+  -0.15   21.30   clock uncertainty
+   0.00   21.30   clock reconvergence pessimism
+  -0.19   21.11   library recovery time
+          21.11   data required time
+---------------------------------------------------------
+          21.11   data required time
+          -3.64   data arrival time
+---------------------------------------------------------
+          17.47   slack (MET)
+
+
+Startpoint: picosoc_core.soc.spimemio.xfer.dummy_count[1]$_SDFFE_PN0P_
+            (rising edge-triggered flip-flop clocked by clk_core)
+Endpoint: picosoc_core.soc.spimemio.xfer_io3_90$_DFF_N_
+          (rising edge-triggered flip-flop clocked by clk_core')
+Path Group: clk_core
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clk_core (rise edge)
+   0.00    0.00   clock source latency
+   0.00    0.00 ^ sg13g2_IOPad_io_clock/p2c (sg13g2_IOPadIn)
+   0.29    0.29 ^ wire21428/X (sg13g2_buf_16)
+   0.31    0.60 ^ clkbuf_regs_0_clk_core/X (sg13g2_buf_16)
+   0.08    0.69 ^ clkbuf_0_clock_regs/X (sg13g2_buf_16)
+   0.18    0.87 ^ clkbuf_1_0_0_clock_regs/X (sg13g2_buf_16)
+   0.19    1.05 ^ clkbuf_3_1_0_clock_regs/X (sg13g2_buf_16)
+   0.18    1.23 ^ clkbuf_5_6_0_clock_regs/X (sg13g2_buf_16)
+   0.13    1.36 ^ clkbuf_leaf_196_clock_regs/X (sg13g2_buf_16)
+   0.00    1.37 ^ picosoc_core.soc.spimemio.xfer.dummy_count[1]$_SDFFE_PN0P_/CLK (sg13g2_dfrbpq_1)
+   0.21    1.58 v picosoc_core.soc.spimemio.xfer.dummy_count[1]$_SDFFE_PN0P_/Q (sg13g2_dfrbpq_1)
+   0.69    2.27 ^ _075377_/Y (sg13g2_nor4_1)
+   0.36    2.63 ^ _076488_/X (sg13g2_and3_2)
+   0.00    2.63 ^ picosoc_core.soc.spimemio.xfer_io3_90$_DFF_N_/D (sg13g2_dfrbpq_1)
+           2.63   data arrival time
+
+  10.00   10.00   clock clk_core' (rise edge)
+   0.00   10.00   clock source latency
+   0.00   10.00 v sg13g2_IOPad_io_clock/p2c (sg13g2_IOPadIn)
+   0.29   10.29 v wire21428/X (sg13g2_buf_16)
+   0.32   10.61 v clkbuf_regs_0_clk_core/X (sg13g2_buf_16)
+   0.09   10.70 v clkbuf_0_clock_regs/X (sg13g2_buf_16)
+   0.18   10.88 v clkbuf_1_0_0_clock_regs/X (sg13g2_buf_16)
+   0.19   11.07 v clkbuf_3_1_0_clock_regs/X (sg13g2_buf_16)
+   0.17   11.23 v clkbuf_5_7_0_clock_regs/X (sg13g2_buf_16)
+   0.12   11.35 v clkbuf_leaf_195_clock_regs/X (sg13g2_buf_16)
+   0.04   11.40 ^ _076449__21422/Y (sg13g2_inv_1)
+   0.00   11.40 ^ picosoc_core.soc.spimemio.xfer_io3_90$_DFF_N_/CLK (sg13g2_dfrbpq_1)
+  -0.15   11.25   clock uncertainty
+   0.00   11.25   clock reconvergence pessimism
+  -0.13   11.11   library setup time
+          11.11   data required time
+---------------------------------------------------------
+          11.11   data required time
+          -2.63   data arrival time
+---------------------------------------------------------
+           8.48   slack (MET)
+
+
+
+==========================================================================
+global route report_checks -path_delay min reg to reg
+--------------------------------------------------------------------------
+Startpoint: picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rgs.txq_rst_d2$_DFF_P_
+            (rising edge-triggered flip-flop clocked by clk_core)
+Endpoint: picosoc_core.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.queue.dcfifo.fifo_inst.rptr_empty.rbin[0]$_DFF_PP0_
+          (removal check against rising-edge clock clk_core)
+Path Group: asynchronous
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clk_core (rise edge)
+   0.00    0.00   clock source latency
+   0.00    0.00 ^ sg13g2_IOPad_io_clock/p2c (sg13g2_IOPadIn)
+   0.29    0.29 ^ wire21428/X (sg13g2_buf_16)
+   0.31    0.60 ^ clkbuf_regs_0_clk_core/X (sg13g2_buf_16)
+   0.08    0.69 ^ clkbuf_0_clock_regs/X (sg13g2_buf_16)
+   0.19    0.88 ^ clkbuf_1_1_0_clock_regs/X (sg13g2_buf_16)
+   0.18    1.05 ^ clkbuf_3_5_0_clock_regs/X (sg13g2_buf_16)
+   0.23    1.28 ^ clkbuf_5_23_0_clock_regs/X (sg13g2_buf_16)
+   0.18    1.46 ^ clkbuf_leaf_40_clock_regs/X (sg13g2_buf_16)
+   0.01    1.47 ^ picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rgs.txq_rst_d2$_DFF_P_/CLK (sg13g2_dfrbpq_1)
+   0.18    1.65 v picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rgs.txq_rst_d2$_DFF_P_/Q (sg13g2_dfrbpq_1)
+   0.15    1.80 ^ _080979_/Y (sg13g2_nand2b_1)
+   0.01    1.81 ^ picosoc_core.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.queue.dcfifo.fifo_inst.rptr_empty.rbin[0]$_DFF_PP0_/RESET_B (sg13g2_dfrbpq_1)
+           1.81   data arrival time
+
+   0.00    0.00   clock clk_core (rise edge)
+   0.00    0.00   clock source latency
+   0.00    0.00 ^ sg13g2_IOPad_io_clock/p2c (sg13g2_IOPadIn)
+   0.29    0.29 ^ wire21428/X (sg13g2_buf_16)
+   0.31    0.60 ^ clkbuf_regs_0_clk_core/X (sg13g2_buf_16)
+   0.08    0.69 ^ clkbuf_0_clock_regs/X (sg13g2_buf_16)
+   0.19    0.88 ^ clkbuf_1_1_0_clock_regs/X (sg13g2_buf_16)
+   0.18    1.05 ^ clkbuf_3_5_0_clock_regs/X (sg13g2_buf_16)
+   0.24    1.29 ^ clkbuf_5_20_0_clock_regs/X (sg13g2_buf_16)
+   0.22    1.51 ^ clkbuf_leaf_42_clock_regs/X (sg13g2_buf_16)
+   0.00    1.51 ^ picosoc_core.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.queue.dcfifo.fifo_inst.rptr_empty.rbin[0]$_DFF_PP0_/CLK (sg13g2_dfrbpq_1)
+   0.15    1.66   clock uncertainty
+   0.00    1.66   clock reconvergence pessimism
+  -0.15    1.51   library removal time
+           1.51   data required time
+---------------------------------------------------------
+           1.51   data required time
+          -1.81   data arrival time
+---------------------------------------------------------
+           0.29   slack (MET)
+
+
+Startpoint: picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rtc.time_adj_08n_32f[4]$_DFF_PP0_
+            (rising edge-triggered flip-flop clocked by clk_core)
+Endpoint: picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rtc.time_adj_16b_00n_24f[4]$_DFF_PP0_
+          (rising edge-triggered flip-flop clocked by clk_core)
+Path Group: clk_core
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clk_core (rise edge)
+   0.00    0.00   clock source latency
+   0.00    0.00 ^ sg13g2_IOPad_io_clock/p2c (sg13g2_IOPadIn)
+   0.29    0.29 ^ wire21428/X (sg13g2_buf_16)
+   0.31    0.60 ^ clkbuf_regs_0_clk_core/X (sg13g2_buf_16)
+   0.08    0.69 ^ clkbuf_0_clock_regs/X (sg13g2_buf_16)
+   0.18    0.87 ^ clkbuf_1_0_0_clock_regs/X (sg13g2_buf_16)
+   0.19    1.05 ^ clkbuf_3_1_0_clock_regs/X (sg13g2_buf_16)
+   0.16    1.21 ^ clkbuf_5_5_0_clock_regs/X (sg13g2_buf_16)
+   0.20    1.41 ^ clkbuf_leaf_20_clock_regs/X (sg13g2_buf_16)
+   0.01    1.41 ^ picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rtc.time_adj_08n_32f[4]$_DFF_PP0_/CLK (sg13g2_dfrbpq_1)
+   0.17    1.58 v picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rtc.time_adj_08n_32f[4]$_DFF_PP0_/Q (sg13g2_dfrbpq_1)
+   0.00    1.58 v picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rtc.time_adj_16b_00n_24f[4]$_DFF_PP0_/D (sg13g2_dfrbpq_1)
+           1.58   data arrival time
+
+   0.00    0.00   clock clk_core (rise edge)
+   0.00    0.00   clock source latency
+   0.00    0.00 ^ sg13g2_IOPad_io_clock/p2c (sg13g2_IOPadIn)
+   0.29    0.29 ^ wire21428/X (sg13g2_buf_16)
+   0.31    0.60 ^ clkbuf_regs_0_clk_core/X (sg13g2_buf_16)
+   0.08    0.69 ^ clkbuf_0_clock_regs/X (sg13g2_buf_16)
+   0.18    0.87 ^ clkbuf_1_0_0_clock_regs/X (sg13g2_buf_16)
+   0.19    1.05 ^ clkbuf_3_1_0_clock_regs/X (sg13g2_buf_16)
+   0.16    1.21 ^ clkbuf_5_5_0_clock_regs/X (sg13g2_buf_16)
+   0.22    1.44 ^ clkbuf_leaf_103_clock_regs/X (sg13g2_buf_16)
+   0.00    1.44 ^ picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rtc.time_adj_16b_00n_24f[4]$_DFF_PP0_/CLK (sg13g2_dfrbpq_1)
+   0.15    1.59   clock uncertainty
+   0.00    1.59   clock reconvergence pessimism
+  -0.03    1.56   library hold time
+           1.56   data required time
+---------------------------------------------------------
+           1.56   data required time
+          -1.58   data arrival time
+---------------------------------------------------------
+           0.02   slack (MET)
+
+
+
+==========================================================================
+global route critical path target clock latency max path
+--------------------------------------------------------------------------
+1.3118
+
+==========================================================================
+global route critical path target clock latency min path
+--------------------------------------------------------------------------
+1.3888
+
+==========================================================================
+global route critical path source clock latency min path
+--------------------------------------------------------------------------
+0.0000
+
+==========================================================================
+global route critical path delay
+--------------------------------------------------------------------------
+14.6189
+
+==========================================================================
+global route critical path slack
+--------------------------------------------------------------------------
+2.2311
+
+==========================================================================
+global route slack div critical path delay
+--------------------------------------------------------------------------
+15.261750
+
+==========================================================================
+global route report_power
+--------------------------------------------------------------------------
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             1.03e-03   5.27e-05   3.33e-06   1.08e-03  55.6%
+Combinational          8.51e-05   3.49e-04   5.19e-06   4.39e-04  22.5%
+Clock                  1.25e-04   1.18e-04   4.92e-07   2.44e-04  12.5%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    7.20e-05   1.11e-04   1.69e-08   1.83e-04   9.4%
+----------------------------------------------------------------
+Total                  1.31e-03   6.31e-04   9.03e-06   1.95e-03 100.0%
+                          67.2%      32.3%       0.5%

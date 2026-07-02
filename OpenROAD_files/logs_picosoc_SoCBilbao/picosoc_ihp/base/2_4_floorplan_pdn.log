@@ -1,0 +1,40 @@
+OpenROAD dcf36133a369abc8f3c5e5738cd4d82e4903c0e0 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 20 thread(s).
+read_liberty /home/ubuntu/Documents/asictest/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lib/sg13g2_stdcell_typ_1p20V_25C.lib
+read_liberty /home/ubuntu/Documents/asictest/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lib/sg13g2_io_typ_1p2V_3p3V_25C.lib
+read_db ./results/ihp-sg13g2/picosoc_ihp/base/2_3_floorplan_tapcell.odb
+source /home/ubuntu/Documents/asictest/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/setRC.tcl
+[INFO PDN-0001] Inserting grid: grid
+[INFO PDN-0001] Inserting grid: macro_grid - picosoc_core.soc.memory.sram
+[INFO PDN-0001] Inserting grid: macro_grid - picosoc_core.soc.minimac2core.memory.rxb0.sram_ihp
+[INFO PDN-0001] Inserting grid: macro_grid - picosoc_core.soc.minimac2core.memory.rxb1.sram_ihp
+[INFO PDN-0001] Inserting grid: macro_grid - picosoc_core.soc.minimac2core.memory.txb.sram_ihp
+[INFO PDN-0001] Inserting grid: macro_grid - picosoc_core.soc.cpu.cpuregs.reg_sram
+[WARNING PDN-0110] No via inserted between Metal4 and TopMetal1 at (1251.6800, 600.0000) - (1252.3200, 791.3400) on VSS
+[WARNING PDN-0110] No via inserted between Metal4 and TopMetal1 at (1338.3200, 600.0000) - (1338.7900, 638.8200) on VDD
+[WARNING PDN-0110] No via inserted between Metal4 and TopMetal1 at (1338.3200, 645.4700) - (1338.7900, 791.3400) on VDD
+[WARNING PDN-0110] No via inserted between Metal4 and TopMetal1 at (1432.1900, 600.0000) - (1432.3200, 791.3400) on VSS
+[WARNING PDN-0110] No via inserted between Metal4 and TopMetal1 at (1518.3200, 600.0000) - (1519.3000, 638.8200) on VDD
+[WARNING PDN-0110] No via inserted between Metal4 and TopMetal1 at (1518.3200, 645.4700) - (1519.3000, 791.3400) on VDD
+[WARNING PDN-0110] No via inserted between Metal4 and TopMetal1 at (468.3200, 600.0000) - (469.4200, 819.7700) on VSS
+[WARNING PDN-0110] No via inserted between Metal4 and TopMetal1 at (562.2500, 600.0000) - (562.3200, 647.0400) on VDD
+[WARNING PDN-0110] No via inserted between Metal4 and TopMetal1 at (562.2500, 653.4100) - (562.3200, 819.7700) on VDD
+[WARNING PDN-0110] No via inserted between Metal4 and TopMetal1 at (468.3200, 1020.0000) - (469.4200, 1239.7700) on VSS
+[WARNING PDN-0110] No via inserted between Metal4 and TopMetal1 at (562.2500, 1020.0000) - (562.3200, 1067.0400) on VDD
+[WARNING PDN-0110] No via inserted between Metal4 and TopMetal1 at (562.2500, 1073.4100) - (562.3200, 1239.7700) on VDD
+[WARNING PDN-0110] No via inserted between Metal4 and TopMetal1 at (468.3200, 1500.0000) - (469.4200, 1719.7700) on VSS
+[WARNING PDN-0110] No via inserted between Metal4 and TopMetal1 at (562.2500, 1500.0000) - (562.3200, 1547.0400) on VDD
+[WARNING PDN-0110] No via inserted between Metal4 and TopMetal1 at (562.2500, 1553.4100) - (562.3200, 1719.7700) on VDD
+[WARNING PDN-0110] No via inserted between Metal4 and TopMetal1 at (1608.3200, 1000.0000) - (1608.5000, 1074.8700) on VSS
+[WARNING PDN-0110] No via inserted between Metal4 and TopMetal1 at (1701.3300, 1000.0000) - (1702.3200, 1047.0400) on VDD
+[WARNING PDN-0110] No via inserted between Metal4 and TopMetal1 at (1701.3300, 1053.4100) - (1702.3200, 1074.8700) on VDD
+[WARNING PDN-0110] No via inserted between Metal4 and TopMetal1 at (1758.3200, 1000.0000) - (1758.7800, 1047.0400) on VDD
+[WARNING PDN-0110] No via inserted between Metal4 and TopMetal1 at (1758.3200, 1053.4100) - (1758.7800, 1074.8700) on VDD
+[WARNING PDN-0110] No via inserted between Metal4 and TopMetal1 at (1851.6100, 1000.0000) - (1852.3200, 1074.8700) on VSS
+write_db ./results/ihp-sg13g2/picosoc_ihp/base/2_4_floorplan_pdn.odb
+Elapsed time: 0:03.48[h:]min:sec. CPU time: user 3.32 sys 0.15 (100%). Peak memory: 251736KB.
+Log                        Elapsed/s Peak Memory/MB  sha1sum .odb [0:20)
+2_4_floorplan_pdn                  3            245 c0b3a703808626d2d442

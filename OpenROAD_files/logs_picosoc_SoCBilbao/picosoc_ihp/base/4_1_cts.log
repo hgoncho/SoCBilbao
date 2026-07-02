@@ -1,0 +1,148 @@
+OpenROAD dcf36133a369abc8f3c5e5738cd4d82e4903c0e0 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 20 thread(s).
+read_liberty /home/ubuntu/Documents/asictest/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lib/sg13g2_stdcell_typ_1p20V_25C.lib
+read_liberty /home/ubuntu/Documents/asictest/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lib/sg13g2_io_typ_1p2V_3p3V_25C.lib
+read_db ./results/ihp-sg13g2/picosoc_ihp/base/3_place.odb
+source /home/ubuntu/Documents/asictest/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/setRC.tcl
+clock_tree_synthesis -sink_clustering_enable -repair_clock_nets
+[INFO CTS-0050] Root buffer is sg13g2_buf_16.
+[INFO CTS-0051] Sink buffer is sg13g2_buf_16.
+[INFO CTS-0052] The following clock buffers will be used for CTS:
+                    sg13g2_buf_16
+[INFO CTS-0049] Characterization buffer is sg13g2_buf_16.
+[INFO CTS-0007] Net "clock" found for clock "clk_core".
+[INFO CTS-0011]  Clock net "clock" for macros has 6 sinks.
+[INFO CTS-0011]  Clock net "clock_regs" for registers has 2994 sinks.
+[WARNING CTS-0041] Net "net21426" has 1 sinks. Skipping...
+[WARNING CTS-0041] Net "net21425" has 1 sinks. Skipping...
+[INFO CTS-0008] TritonCTS found 2 clock nets.
+[INFO CTS-0097] Characterization used 1 buffer(s) types.
+[INFO CTS-0201] 5 blockages from hard placement blockages and placed macros will be used.
+[INFO CTS-0027] Generating H-Tree topology for net clock.
+[INFO CTS-0028]  Total number of sinks: 6.
+[INFO CTS-0029]  Macro  sinks will be clustered in groups of up to 4 and with maximum cluster diameter of 1405.7 um.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 18900  dbu (18 um).
+[INFO CTS-0023]  Original sink region: [(807455, 600130), (1552432, 1500130)].
+[INFO CTS-0024]  Normalized sink region: [(42.7225, 31.7529), (82.1393, 79.372)].
+[INFO CTS-0025]     Width:  39.4168.
+[INFO CTS-0026]     Height: 47.6190.
+ Level 1
+    Direction: Vertical
+    Sinks per sub-region: 3
+    Sub-region size: 39.4168 X 23.8095
+[INFO CTS-0034]     Segment length (rounded): 12.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 8.
+[INFO CTS-0035]  Number of sinks covered: 6.
+[INFO CTS-0201] 5 blockages from hard placement blockages and placed macros will be used.
+[INFO CTS-0027] Generating H-Tree topology for net clock_regs.
+[INFO CTS-0028]  Total number of sinks: 2994.
+[INFO CTS-0090]  Sinks will be clustered based on buffer max cap.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 18900  dbu (18 um).
+[INFO CTS-0206] Best clustering solution was found from clustering size of 8 and clustering diameter of 50.
+[INFO CTS-0019]  Total number of sinks after clustering: 220.
+[INFO CTS-0024]  Normalized sink region: [(34.6444, 22.2568), (119.805, 122.444)].
+[INFO CTS-0025]     Width:  85.1609.
+[INFO CTS-0026]     Height: 100.1877.
+ Level 1
+    Direction: Vertical
+    Sinks per sub-region: 110
+    Sub-region size: 85.1609 X 50.0938
+[INFO CTS-0034]     Segment length (rounded): 26.
+ Level 2
+    Direction: Horizontal
+    Sinks per sub-region: 55
+    Sub-region size: 42.5804 X 50.0938
+[INFO CTS-0034]     Segment length (rounded): 22.
+ Level 3
+    Direction: Vertical
+    Sinks per sub-region: 28
+    Sub-region size: 42.5804 X 25.0469
+[INFO CTS-0034]     Segment length (rounded): 12.
+ Level 4
+    Direction: Horizontal
+    Sinks per sub-region: 14
+    Sub-region size: 21.2902 X 25.0469
+[INFO CTS-0034]     Segment length (rounded): 10.
+ Level 5
+    Direction: Vertical
+    Sinks per sub-region: 7
+    Sub-region size: 21.2902 X 12.5235
+[INFO CTS-0034]     Segment length (rounded): 6.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 8.
+[INFO CTS-0035]  Number of sinks covered: 220.
+[INFO CTS-0018]     Created 3 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 2.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 2.
+[INFO CTS-0015]     Created 3 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 3:2..
+[INFO CTS-0017]     Max level of the clock tree: 1.
+[INFO CTS-0018]     Created 263 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 5.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 5.
+[INFO CTS-0015]     Created 263 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 4:1, 5:1, 6:10, 7:31, 8:7, 9:6, 10:14, 11:21, 12:17, 13:16, 14:18, 15:37, 16:35, 17:23, 18:10, 19:3, 20:2..
+[INFO CTS-0017]     Max level of the clock tree: 5.
+[INFO CTS-0098] Clock net "clock"
+[INFO CTS-0099]  Sinks 6
+[INFO CTS-0100]  Leaf buffers 0
+[INFO CTS-0101]  Average sink wire length 2547.45 um
+[INFO CTS-0102]  Path depth 2 - 2
+[INFO CTS-0207]  Dummy loads inserted 0
+[INFO CTS-0098] Clock net "clock_regs"
+[INFO CTS-0099]  Sinks 3168
+[INFO CTS-0100]  Leaf buffers 220
+[INFO CTS-0101]  Average sink wire length 1419.47 um
+[INFO CTS-0102]  Path depth 4 - 5
+[INFO CTS-0207]  Dummy loads inserted 174
+[INFO RSZ-0047] Found 1 long wires.
+[INFO RSZ-0048] Inserted 1 buffers in 1 nets.
+[INFO CTS-0033] Balancing latency for clock clk_core
+[INFO CTS-0036]  inserted 8 delay buffers
+[INFO CTS-0037] Total number of delay buffers: 8
+Took 5 seconds: clock_tree_synthesis -sink_clustering_enable -repair_clock_nets
+estimate_parasitics -placement
+Placement Analysis
+---------------------------------
+total displacement       2782.8 u
+average displacement        0.1 u
+max displacement            9.5 u
+original HPWL         2134262.8 u
+legalized HPWL        2160764.5 u
+delta HPWL                    1 %
+
+estimate_parasitics -placement
+repair_timing -setup_margin 0 -hold_margin 0 -repair_tns 100 -match_cell_footprint -verbose
+[INFO RSZ-0100] Repair move sequence: UnbufferMove SizeUpMove SwapPinsMove BufferMove CloneMove SplitLoadMove 
+[INFO RSZ-0098] No setup violations found
+[INFO RSZ-0046] Found 6 endpoints with hold violations.
+Iteration | Resized | Buffers | Cloned Gates |   Area   |   WNS   |   TNS   | Endpoint
+--------------------------------------------------------------------------------------
+        0 |       0 |       0 |            0 |    +0.0% |  -0.098 |  -0.276 | picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rtc.time_adj_16b_00n_24f[20]$_DFF_PP0_/D
+    final |       0 |       6 |            0 |    +0.0% |   0.017 |   0.000 | picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rgs.tx_q_data_int[88]$_DFF_P_/D
+--------------------------------------------------------------------------------------
+[INFO RSZ-0032] Inserted 6 hold buffers.
+Placement Analysis
+---------------------------------
+total displacement         22.6 u
+average displacement        0.0 u
+max displacement            4.2 u
+original HPWL         2160778.9 u
+legalized HPWL        2160800.2 u
+delta HPWL                    0 %
+
+Report metrics stage 4, cts final...
+
+==========================================================================
+cts final report_design_area
+--------------------------------------------------------------------------
+Design area 1398218 um^2 35% utilization.
+write_db ./results/ihp-sg13g2/picosoc_ihp/base/4_1_cts.odb
+write_sdc -no_timestamp ./results/ihp-sg13g2/picosoc_ihp/base/4_cts.sdc
+Elapsed time: 0:32.85[h:]min:sec. CPU time: user 70.85 sys 12.52 (253%). Peak memory: 449976KB.
+Log                        Elapsed/s Peak Memory/MB  sha1sum .odb [0:20)
+4_1_cts                           32            439 ed86a343e58b3cb97881

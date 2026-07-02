@@ -1,0 +1,24 @@
+violation type: Metal Spacing
+	srcs: net:net19274 inst:picosoc_core.soc.cpu.cpuregs.reg_sram
+	bbox = (1187.6600, 1074.8700) - (1187.8600, 1075.0550) on Layer Metal4
+violation type: Metal Spacing
+	srcs: net:net19274 inst:picosoc_core.soc.cpu.cpuregs.reg_sram
+	bbox = (1187.6550, 1074.8700) - (1187.8650, 1075.0550) on Layer Metal4
+violation type: Short
+	srcs: net:_025246_ net:picosoc_core.iomem_wdata\[9\]
+	bbox = (1182.4000, 1077.0200) - (1182.6000, 1077.2200) on Layer Metal5
+violation type: Short
+	srcs: net:net19274 net:picosoc_core.iomem_wdata\[0\]
+	bbox = (1186.9600, 1073.1800) - (1187.1600, 1073.3800) on Layer Metal5
+violation type: Short
+	srcs: net:net19274 net:picosoc_core.iomem_wdata\[15\]
+	bbox = (1186.9600, 1072.2200) - (1187.1600, 1072.4200) on Layer Metal5
+violation type: Short
+	srcs: net:picosoc_core.iomem_wdata\[21\] net:picosoc_core.iomem_wdata\[9\]
+	bbox = (1175.5600, 1076.5400) - (1175.7600, 1076.7400) on Layer Metal5
+violation type: Short
+	srcs: net:picosoc_core.iomem_wdata\[9\] net:picosoc_core.soc.spimemio.dout_data\[1\]
+	bbox = (1177.8400, 1076.5400) - (1178.0400, 1076.7400) on Layer Metal5
+violation type: Short
+	srcs: net:net19274 net:VSS
+	bbox = (1148.1800, 1020.4550) - (1148.3800, 1020.7450) on Layer Metal2

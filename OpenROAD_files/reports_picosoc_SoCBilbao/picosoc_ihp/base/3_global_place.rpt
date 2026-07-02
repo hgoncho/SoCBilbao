@@ -1,0 +1,320 @@
+
+==========================================================================
+global place report_tns
+--------------------------------------------------------------------------
+tns max 0.00
+
+==========================================================================
+global place report_wns
+--------------------------------------------------------------------------
+wns max 0.00
+
+==========================================================================
+global place report_worst_slack
+--------------------------------------------------------------------------
+worst slack max 3.59
+
+==========================================================================
+global place report_clock_min_period
+--------------------------------------------------------------------------
+clk_core period_min = 10.22 fmax = 97.83
+
+==========================================================================
+global place report_checks -path_delay min
+--------------------------------------------------------------------------
+Startpoint: picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rgs.txq_rst_d2$_DFF_P_
+            (rising edge-triggered flip-flop clocked by clk_core)
+Endpoint: picosoc_core.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.queue.dcfifo.fifo_inst.rptr_empty.rbin[1]$_DFF_PP0_
+          (removal check against rising-edge clock clk_core)
+Path Group: asynchronous
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.25    0.00    0.00   clock clk_core (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.25    0.00    0.00 ^ picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rgs.txq_rst_d2$_DFF_P_/CLK (sg13g2_dfrbpq_1)
+     2    0.01    0.03    0.25    0.25 v picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rgs.txq_rst_d2$_DFF_P_/Q (sg13g2_dfrbpq_1)
+                                         picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rgs.txq_rst_d2 (net)
+                  0.03    0.00    0.25 v _080979_/B (sg13g2_nand2b_1)
+     3    0.04    0.17    0.14    0.38 ^ _080979_/Y (sg13g2_nand2b_1)
+                                         _028222_ (net)
+                  0.17    0.01    0.39 ^ picosoc_core.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.queue.dcfifo.fifo_inst.rptr_empty.rbin[1]$_DFF_PP0_/RESET_B (sg13g2_dfrbpq_1)
+                                  0.39   data arrival time
+
+                  0.25    0.00    0.00   clock clk_core (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.15    0.15   clock uncertainty
+                          0.00    0.15   clock reconvergence pessimism
+                                  0.15 ^ picosoc_core.soc.PTP_HA1588.ha1588_inst.u_tx_tsu.queue.dcfifo.fifo_inst.rptr_empty.rbin[1]$_DFF_PP0_/CLK (sg13g2_dfrbpq_1)
+                         -0.12    0.03   library removal time
+                                  0.03   data required time
+-----------------------------------------------------------------------------
+                                  0.03   data required time
+                                 -0.39   data arrival time
+-----------------------------------------------------------------------------
+                                  0.36   slack (MET)
+
+
+Startpoint: picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rx_tsu.ts_req_d1$_DFF_PN0_
+            (rising edge-triggered flip-flop clocked by clk_core)
+Endpoint: picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rx_tsu.ts_req_d2$_DFF_PN0_
+          (rising edge-triggered flip-flop clocked by clk_core)
+Path Group: clk_core
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.25    0.00    0.00   clock clk_core (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.25    0.00    0.00 ^ picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rx_tsu.ts_req_d1$_DFF_PN0_/CLK (sg13g2_dfrbpq_1)
+     1    0.00    0.02    0.24    0.24 v picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rx_tsu.ts_req_d1$_DFF_PN0_/Q (sg13g2_dfrbpq_1)
+                                         picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rx_tsu.ts_req_d1 (net)
+                  0.02    0.00    0.24 v picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rx_tsu.ts_req_d2$_DFF_PN0_/D (sg13g2_dfrbpq_1)
+                                  0.24   data arrival time
+
+                  0.25    0.00    0.00   clock clk_core (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.15    0.15   clock uncertainty
+                          0.00    0.15   clock reconvergence pessimism
+                                  0.15 ^ picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rx_tsu.ts_req_d2$_DFF_PN0_/CLK (sg13g2_dfrbpq_1)
+                          0.01    0.16   library hold time
+                                  0.16   data required time
+-----------------------------------------------------------------------------
+                                  0.16   data required time
+                                 -0.24   data arrival time
+-----------------------------------------------------------------------------
+                                  0.07   slack (MET)
+
+
+
+==========================================================================
+global place report_checks -path_delay max
+--------------------------------------------------------------------------
+Startpoint: io_resetn_PAD (input port clocked by clk_core)
+Endpoint: picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rx_tsu.ts_req_d1$_DFF_PN0_
+          (recovery check against rising-edge clock clk_core)
+Path Group: asynchronous
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.25    0.00    0.00   clock clk_core (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          3.00    3.00 ^ input external delay
+     2    1.24    0.00    0.00    3.00 ^ io_resetn_PAD (inout)
+                                         io_resetn_PAD (net)
+                  0.00    0.00    3.00 ^ sg13g2_IOPad_io_reset/pad (sg13g2_IOPadIn)
+     6    0.15    0.28    0.13    3.13 ^ sg13g2_IOPad_io_reset/p2c (sg13g2_IOPadIn)
+                                         picosoc_core.resetn (net)
+                  0.31    0.11    3.23 ^ place20740/A (sg13g2_buf_1)
+     8    0.35    1.37    0.82    4.06 ^ place20740/X (sg13g2_buf_1)
+                                         net20739 (net)
+                  1.37    0.02    4.08 ^ place20681/A (sg13g2_buf_1)
+     8    0.06    0.26    0.42    4.50 ^ place20681/X (sg13g2_buf_1)
+                                         net20680 (net)
+                  0.26    0.01    4.51 ^ place20680/A (sg13g2_buf_1)
+     8    0.05    0.23    0.27    4.78 ^ place20680/X (sg13g2_buf_1)
+                                         net20679 (net)
+                  0.23    0.00    4.78 ^ place20679/A (sg13g2_buf_1)
+     8    0.06    0.25    0.28    5.06 ^ place20679/X (sg13g2_buf_1)
+                                         net20678 (net)
+                  0.25    0.00    5.07 ^ place20678/A (sg13g2_buf_1)
+     8    0.06    0.23    0.27    5.34 ^ place20678/X (sg13g2_buf_1)
+                                         net20677 (net)
+                  0.23    0.01    5.35 ^ place20677/A (sg13g2_buf_1)
+     5    0.10    0.43    0.39    5.74 ^ place20677/X (sg13g2_buf_1)
+                                         net20676 (net)
+                  0.43    0.02    5.75 ^ place20676/A (sg13g2_buf_1)
+     8    0.07    0.27    0.33    6.08 ^ place20676/X (sg13g2_buf_1)
+                                         net20675 (net)
+                  0.27    0.00    6.09 ^ place20675/A (sg13g2_buf_1)
+     7    0.11    0.43    0.40    6.49 ^ place20675/X (sg13g2_buf_1)
+                                         net20674 (net)
+                  0.44    0.03    6.53 ^ place20674/A (sg13g2_buf_1)
+     8    0.09    0.39    0.39    6.92 ^ place20674/X (sg13g2_buf_1)
+                                         net20673 (net)
+                  0.40    0.04    6.96 ^ place20673/A (sg13g2_buf_1)
+     4    0.03    0.13    0.23    7.19 ^ place20673/X (sg13g2_buf_1)
+                                         net20672 (net)
+                  0.13    0.00    7.19 ^ picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rx_tsu.ts_req_d1$_DFF_PN0_/RESET_B (sg13g2_dfrbpq_1)
+                                  7.19   data arrival time
+
+                  0.25   20.00   20.00   clock clk_core (rise edge)
+                          0.00   20.00   clock network delay (ideal)
+                         -0.15   19.85   clock uncertainty
+                          0.00   19.85   clock reconvergence pessimism
+                                 19.85 ^ picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rx_tsu.ts_req_d1$_DFF_PN0_/CLK (sg13g2_dfrbpq_1)
+                         -0.12   19.73   library recovery time
+                                 19.73   data required time
+-----------------------------------------------------------------------------
+                                 19.73   data required time
+                                 -7.19   data arrival time
+-----------------------------------------------------------------------------
+                                 12.53   slack (MET)
+
+
+Startpoint: picosoc_core.soc.spimemio.xfer_io3_90$_DFF_N_
+            (rising edge-triggered flip-flop clocked by clk_core')
+Endpoint: io_flash_io3_PAD (output port clocked by clk_core)
+Path Group: clk_core
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.25   10.00   10.00   clock clk_core' (rise edge)
+                          0.00   10.00   clock network delay (ideal)
+                  0.25    0.00   10.00 ^ picosoc_core.soc.spimemio.xfer_io3_90$_DFF_N_/CLK (sg13g2_dfrbpq_1)
+     1    0.00    0.03    0.25   10.25 ^ picosoc_core.soc.spimemio.xfer_io3_90$_DFF_N_/Q (sg13g2_dfrbpq_1)
+                                         picosoc_core.soc.spimemio.xfer_io3_90 (net)
+                  0.03    0.00   10.25 ^ _118585_/A1 (sg13g2_mux2_1)
+     1    0.02    0.09    0.13   10.38 ^ _118585_/X (sg13g2_mux2_1)
+                                         _059210_ (net)
+                  0.09    0.00   10.38 ^ _118587_/A1 (sg13g2_mux2_1)
+     1    0.10    0.43    0.38   10.76 ^ _118587_/X (sg13g2_mux2_1)
+                                         _059212_ (net)
+                  0.44    0.06   10.83 ^ place17378/A (sg13g2_buf_2)
+     1    0.24    0.40    0.40   11.23 ^ place17378/X (sg13g2_buf_2)
+                                         net17377 (net)
+                  0.95    0.29   11.52 ^ sg13g2_IOPad_io_flash_io3/c2p (sg13g2_IOPadInOut4mA)
+     2    1.21    1.32    1.75   13.26 ^ sg13g2_IOPad_io_flash_io3/pad (sg13g2_IOPadInOut4mA)
+                                         io_flash_io3_PAD (net)
+                  0.99    0.00   13.26 ^ io_flash_io3_PAD (inout)
+                                 13.26   data arrival time
+
+                  0.25   20.00   20.00   clock clk_core (rise edge)
+                          0.00   20.00   clock network delay (ideal)
+                         -0.15   19.85   clock uncertainty
+                          0.00   19.85   clock reconvergence pessimism
+                         -3.00   16.85   output external delay
+                                 16.85   data required time
+-----------------------------------------------------------------------------
+                                 16.85   data required time
+                                -13.26   data arrival time
+-----------------------------------------------------------------------------
+                                  3.59   slack (MET)
+
+
+
+==========================================================================
+global place report_checks -unconstrained
+--------------------------------------------------------------------------
+Startpoint: io_resetn_PAD (input port clocked by clk_core)
+Endpoint: picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rx_tsu.ts_req_d1$_DFF_PN0_
+          (recovery check against rising-edge clock clk_core)
+Path Group: asynchronous
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.25    0.00    0.00   clock clk_core (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          3.00    3.00 ^ input external delay
+     2    1.24    0.00    0.00    3.00 ^ io_resetn_PAD (inout)
+                                         io_resetn_PAD (net)
+                  0.00    0.00    3.00 ^ sg13g2_IOPad_io_reset/pad (sg13g2_IOPadIn)
+     6    0.15    0.28    0.13    3.13 ^ sg13g2_IOPad_io_reset/p2c (sg13g2_IOPadIn)
+                                         picosoc_core.resetn (net)
+                  0.31    0.11    3.23 ^ place20740/A (sg13g2_buf_1)
+     8    0.35    1.37    0.82    4.06 ^ place20740/X (sg13g2_buf_1)
+                                         net20739 (net)
+                  1.37    0.02    4.08 ^ place20681/A (sg13g2_buf_1)
+     8    0.06    0.26    0.42    4.50 ^ place20681/X (sg13g2_buf_1)
+                                         net20680 (net)
+                  0.26    0.01    4.51 ^ place20680/A (sg13g2_buf_1)
+     8    0.05    0.23    0.27    4.78 ^ place20680/X (sg13g2_buf_1)
+                                         net20679 (net)
+                  0.23    0.00    4.78 ^ place20679/A (sg13g2_buf_1)
+     8    0.06    0.25    0.28    5.06 ^ place20679/X (sg13g2_buf_1)
+                                         net20678 (net)
+                  0.25    0.00    5.07 ^ place20678/A (sg13g2_buf_1)
+     8    0.06    0.23    0.27    5.34 ^ place20678/X (sg13g2_buf_1)
+                                         net20677 (net)
+                  0.23    0.01    5.35 ^ place20677/A (sg13g2_buf_1)
+     5    0.10    0.43    0.39    5.74 ^ place20677/X (sg13g2_buf_1)
+                                         net20676 (net)
+                  0.43    0.02    5.75 ^ place20676/A (sg13g2_buf_1)
+     8    0.07    0.27    0.33    6.08 ^ place20676/X (sg13g2_buf_1)
+                                         net20675 (net)
+                  0.27    0.00    6.09 ^ place20675/A (sg13g2_buf_1)
+     7    0.11    0.43    0.40    6.49 ^ place20675/X (sg13g2_buf_1)
+                                         net20674 (net)
+                  0.44    0.03    6.53 ^ place20674/A (sg13g2_buf_1)
+     8    0.09    0.39    0.39    6.92 ^ place20674/X (sg13g2_buf_1)
+                                         net20673 (net)
+                  0.40    0.04    6.96 ^ place20673/A (sg13g2_buf_1)
+     4    0.03    0.13    0.23    7.19 ^ place20673/X (sg13g2_buf_1)
+                                         net20672 (net)
+                  0.13    0.00    7.19 ^ picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rx_tsu.ts_req_d1$_DFF_PN0_/RESET_B (sg13g2_dfrbpq_1)
+                                  7.19   data arrival time
+
+                  0.25   20.00   20.00   clock clk_core (rise edge)
+                          0.00   20.00   clock network delay (ideal)
+                         -0.15   19.85   clock uncertainty
+                          0.00   19.85   clock reconvergence pessimism
+                                 19.85 ^ picosoc_core.soc.PTP_HA1588.ha1588_inst.u_rx_tsu.ts_req_d1$_DFF_PN0_/CLK (sg13g2_dfrbpq_1)
+                         -0.12   19.73   library recovery time
+                                 19.73   data required time
+-----------------------------------------------------------------------------
+                                 19.73   data required time
+                                 -7.19   data arrival time
+-----------------------------------------------------------------------------
+                                 12.53   slack (MET)
+
+
+Startpoint: picosoc_core.soc.spimemio.xfer_io3_90$_DFF_N_
+            (rising edge-triggered flip-flop clocked by clk_core')
+Endpoint: io_flash_io3_PAD (output port clocked by clk_core)
+Path Group: clk_core
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.25   10.00   10.00   clock clk_core' (rise edge)
+                          0.00   10.00   clock network delay (ideal)
+                  0.25    0.00   10.00 ^ picosoc_core.soc.spimemio.xfer_io3_90$_DFF_N_/CLK (sg13g2_dfrbpq_1)
+     1    0.00    0.03    0.25   10.25 ^ picosoc_core.soc.spimemio.xfer_io3_90$_DFF_N_/Q (sg13g2_dfrbpq_1)
+                                         picosoc_core.soc.spimemio.xfer_io3_90 (net)
+                  0.03    0.00   10.25 ^ _118585_/A1 (sg13g2_mux2_1)
+     1    0.02    0.09    0.13   10.38 ^ _118585_/X (sg13g2_mux2_1)
+                                         _059210_ (net)
+                  0.09    0.00   10.38 ^ _118587_/A1 (sg13g2_mux2_1)
+     1    0.10    0.43    0.38   10.76 ^ _118587_/X (sg13g2_mux2_1)
+                                         _059212_ (net)
+                  0.44    0.06   10.83 ^ place17378/A (sg13g2_buf_2)
+     1    0.24    0.40    0.40   11.23 ^ place17378/X (sg13g2_buf_2)
+                                         net17377 (net)
+                  0.95    0.29   11.52 ^ sg13g2_IOPad_io_flash_io3/c2p (sg13g2_IOPadInOut4mA)
+     2    1.21    1.32    1.75   13.26 ^ sg13g2_IOPad_io_flash_io3/pad (sg13g2_IOPadInOut4mA)
+                                         io_flash_io3_PAD (net)
+                  0.99    0.00   13.26 ^ io_flash_io3_PAD (inout)
+                                 13.26   data arrival time
+
+                  0.25   20.00   20.00   clock clk_core (rise edge)
+                          0.00   20.00   clock network delay (ideal)
+                         -0.15   19.85   clock uncertainty
+                          0.00   19.85   clock reconvergence pessimism
+                         -3.00   16.85   output external delay
+                                 16.85   data required time
+-----------------------------------------------------------------------------
+                                 16.85   data required time
+                                -13.26   data arrival time
+-----------------------------------------------------------------------------
+                                  3.59   slack (MET)
+
+
+
+==========================================================================
+global place report_power
+--------------------------------------------------------------------------
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             1.03e-03   4.20e-05   3.33e-06   1.07e-03  63.9%
+Combinational          8.39e-05   3.01e-04   5.17e-06   3.90e-04  23.3%
+Clock                  9.04e-09   4.28e-08   6.30e-11   5.19e-08   0.0%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    7.18e-05   1.42e-04   1.69e-08   2.14e-04  12.8%
+----------------------------------------------------------------
+Total                  1.18e-03   4.85e-04   8.52e-06   1.67e-03 100.0%
+                          70.5%      29.0%       0.5%

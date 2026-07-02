@@ -1,0 +1,96 @@
+OpenROAD dcf36133a369abc8f3c5e5738cd4d82e4903c0e0 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 20 thread(s).
+read_liberty /home/ubuntu/Documents/asictest/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lib/sg13g2_stdcell_typ_1p20V_25C.lib
+read_liberty /home/ubuntu/Documents/asictest/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lib/sg13g2_io_typ_1p2V_3p3V_25C.lib
+read_db ./results/ihp-sg13g2/picosoc_ihp/base/1_synth.odb
+source /home/ubuntu/Documents/asictest/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/setRC.tcl
+
+==========================================================================
+Floorplan check_setup
+--------------------------------------------------------------------------
+Warning: There are 19 input ports missing set_input_delay.
+Warning: There are 13 output ports missing set_output_delay.
+Warning: There are 4390 unclocked register/latch pins.
+Warning: There are 4446 unconstrained endpoints.
+number instances in verilog is 66794
+[WARNING IFP-0028] Core area lower left (400.000, 400.000) snapped to (400.320, 400.680).
+[INFO IFP-0001] Added 528 rows of 4166 site CoreSite.
+[INFO IFP-0100] Die BBox:  (  0.000  0.000 ) ( 2800.000 2800.000 ) um
+[INFO IFP-0101] Core BBox: ( 400.320 400.680 ) ( 2400.000 2396.520 ) um
+[INFO IFP-0102] Core area:                      3991041.331 um^2
+[INFO IFP-0103] Total instances area:           1990908.824 um^2
+[INFO IFP-0104] Effective utilization:                0.499
+[INFO IFP-0105] Number of instances:                  66794
+source /home/ubuntu/Documents/asictest/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/make_tracks.tcl
+source /home/ubuntu/Documents/asictest/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/fastroute.tcl
+source /home/ubuntu/Documents/asictest/OpenROAD-flow-scripts/flow/designs/ihp-sg13g2/picosoc_SoCBilbao/pad.tcl
+[INFO PAD-0116] Creating terminal for io_clk_PAD on TopMetal2 at (825.000um, 2660.000um) - (895.000um, 2730.000um)
+[INFO PAD-0116] Creating terminal for io_flash_clk_PAD on TopMetal2 at (609.000um, 2660.000um) - (679.000um, 2730.000um)
+[INFO PAD-0116] Creating terminal for io_flash_csb_PAD on TopMetal2 at (1689.000um, 2660.000um) - (1759.000um, 2730.000um)
+[INFO PAD-0116] Creating terminal for io_flash_io0_PAD on TopMetal2 at (1041.000um, 2660.000um) - (1111.000um, 2730.000um)
+[INFO PAD-0116] Creating terminal for io_flash_io1_PAD on TopMetal2 at (1473.000um, 2660.000um) - (1543.000um, 2730.000um)
+[INFO PAD-0116] Creating terminal for io_flash_io2_PAD on TopMetal2 at (1905.000um, 2660.000um) - (1975.000um, 2730.000um)
+[INFO PAD-0116] Creating terminal for io_flash_io3_PAD on TopMetal2 at (2121.000um, 2660.000um) - (2191.000um, 2730.000um)
+[INFO PAD-0116] Creating terminal for io_phy_mii_data_PAD on TopMetal2 at (2660.000um, 1257.000um) - (2730.000um, 1327.000um)
+[INFO PAD-0116] Creating terminal for io_phy_dv_PAD on TopMetal2 at (1473.000um, 70.000um) - (1543.000um, 140.000um)
+[INFO PAD-0116] Creating terminal for io_phy_mii_clk_PAD on TopMetal2 at (2660.000um, 1689.000um) - (2730.000um, 1759.000um)
+[INFO PAD-0116] Creating terminal for io_phy_rst_n_PAD on TopMetal2 at (2660.000um, 1473.000um) - (2730.000um, 1543.000um)
+[INFO PAD-0116] Creating terminal for io_phy_rx_clk_PAD on TopMetal2 at (70.000um, 609.000um) - (140.000um, 679.000um)
+[INFO PAD-0116] Creating terminal for io_phy_rx_data_0_PAD on TopMetal2 at (1257.000um, 70.000um) - (1327.000um, 140.000um)
+[INFO PAD-0116] Creating terminal for io_phy_rx_data_1_PAD on TopMetal2 at (1689.000um, 70.000um) - (1759.000um, 140.000um)
+[INFO PAD-0116] Creating terminal for io_phy_rx_data_2_PAD on TopMetal2 at (609.000um, 70.000um) - (679.000um, 140.000um)
+[INFO PAD-0116] Creating terminal for io_phy_rx_data_3_PAD on TopMetal2 at (1041.000um, 70.000um) - (1111.000um, 140.000um)
+[INFO PAD-0116] Creating terminal for io_phy_tx_clk_PAD on TopMetal2 at (70.000um, 2121.000um) - (140.000um, 2191.000um)
+[INFO PAD-0116] Creating terminal for io_phy_tx_data_0_PAD on TopMetal2 at (70.000um, 1905.000um) - (140.000um, 1975.000um)
+[INFO PAD-0116] Creating terminal for io_phy_tx_data_1_PAD on TopMetal2 at (70.000um, 1689.000um) - (140.000um, 1759.000um)
+[INFO PAD-0116] Creating terminal for io_phy_tx_data_2_PAD on TopMetal2 at (70.000um, 1473.000um) - (140.000um, 1543.000um)
+[INFO PAD-0116] Creating terminal for io_phy_tx_data_3_PAD on TopMetal2 at (70.000um, 1257.000um) - (140.000um, 1327.000um)
+[INFO PAD-0116] Creating terminal for io_phy_tx_en_PAD on TopMetal2 at (70.000um, 1041.000um) - (140.000um, 1111.000um)
+[INFO PAD-0116] Creating terminal for io_phy_tx_er_PAD on TopMetal2 at (70.000um, 825.000um) - (140.000um, 895.000um)
+[INFO PAD-0116] Creating terminal for io_pps_led_100ms_PAD on TopMetal2 at (2660.000um, 825.000um) - (2730.000um, 895.000um)
+[INFO PAD-0116] Creating terminal for io_pps_pin_1cycle_PAD on TopMetal2 at (2660.000um, 1041.000um) - (2730.000um, 1111.000um)
+[INFO PAD-0116] Creating terminal for io_resetn_PAD on TopMetal2 at (1257.000um, 2660.000um) - (1327.000um, 2730.000um)
+[INFO PAD-0116] Creating terminal for io_ser_rx_PAD on TopMetal2 at (2660.000um, 1905.000um) - (2730.000um, 1975.000um)
+[INFO PAD-0116] Creating terminal for io_ser_tx_PAD on TopMetal2 at (2660.000um, 2121.000um) - (2730.000um, 2191.000um)
+[WARNING PAD-0033] Could not find a block terminal associated with net: "VSS", creating now.
+[INFO PAD-0116] Creating terminal for VSS on TopMetal2 at (393.000um, 70.000um) - (463.000um, 140.000um)
+[INFO PAD-0116] Creating terminal for VSS on TopMetal2 at (2337.000um, 70.000um) - (2407.000um, 140.000um)
+[INFO PAD-0116] Creating terminal for VSS on TopMetal2 at (2660.000um, 2337.000um) - (2730.000um, 2407.000um)
+[WARNING PAD-0033] Could not find a block terminal associated with net: "VDD", creating now.
+[INFO PAD-0116] Creating terminal for VDD on TopMetal2 at (2660.000um, 609.000um) - (2730.000um, 679.000um)
+[INFO PAD-0116] Creating terminal for VSS on TopMetal2 at (2660.000um, 393.000um) - (2730.000um, 463.000um)
+[INFO PAD-0116] Creating terminal for VSS on TopMetal2 at (393.000um, 2660.000um) - (463.000um, 2730.000um)
+[INFO PAD-0116] Creating terminal for VDD on TopMetal2 at (2337.000um, 2660.000um) - (2407.000um, 2730.000um)
+[INFO PAD-0116] Creating terminal for VDD on TopMetal2 at (70.000um, 2337.000um) - (140.000um, 2407.000um)
+[WARNING PAD-0033] Could not find a block terminal associated with net: "IOVSS", creating now.
+[INFO PAD-0116] Creating terminal for IOVSS on TopMetal2 at (70.000um, 393.000um) - (140.000um, 463.000um)
+Repair tie lo fanout...
+[INFO RSZ-0042] Inserted 653 tie sg13g2_tielo instances.
+Repair tie hi fanout...
+[INFO RSZ-0042] Inserted 6190 tie sg13g2_tiehi instances.
+repair_timing -setup_margin 0 -hold_margin 0 -repair_tns 100 -match_cell_footprint -setup -skip_last_gasp -sequence unbuffer,sizeup,swap,buffer,vt_swap -verbose
+[WARNING EST-0027] no estimated parasitics. Using wire load models.
+[INFO RSZ-0100] Repair move sequence: UnbufferMove SizeUpMove SwapPinsMove BufferMove 
+[INFO RSZ-0098] No setup violations found
+Default units for flow
+ time 1ns
+ capacitance 1pF
+ resistance 1kohm
+ voltage 1v
+ current 1uA
+ power 1pW
+ distance 1um
+Report metrics stage 2, floorplan final...
+
+==========================================================================
+floorplan final report_design_area
+--------------------------------------------------------------------------
+Design area 1637358 um^2 41% utilization.
+write_db ./results/ihp-sg13g2/picosoc_ihp/base/2_1_floorplan.odb
+write_sdc -no_timestamp ./results/ihp-sg13g2/picosoc_ihp/base/2_1_floorplan.sdc
+Elapsed time: 0:18.25[h:]min:sec. CPU time: user 30.39 sys 5.46 (196%). Peak memory: 336784KB.
+Log                        Elapsed/s Peak Memory/MB  sha1sum .odb [0:20)
+2_1_floorplan                     18            328 884c5f10aef648ab9c34

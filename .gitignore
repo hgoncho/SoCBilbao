@@ -1,0 +1,4 @@
+# Resultados intermedios ORFS (demasiado grandes para GitHub)
+*.odb
+OpenROAD_files/results_picosoc_SoCBilbao/picosoc_ihp/base/6_1_merged.gds
+OpenROAD_files/results_picosoc_SoCBilbao/picosoc_ihp/base/6_final.def

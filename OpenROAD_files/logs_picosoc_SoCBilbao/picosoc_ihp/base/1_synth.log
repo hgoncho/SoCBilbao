@@ -1,0 +1,24 @@
+OpenROAD dcf36133a369abc8f3c5e5738cd4d82e4903c0e0 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 20 thread(s).
+read_liberty /home/ubuntu/Documents/asictest/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lib/sg13g2_stdcell_typ_1p20V_25C.lib
+read_liberty /home/ubuntu/Documents/asictest/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lib/sg13g2_io_typ_1p2V_3p3V_25C.lib
+[INFO ODB-0227] LEF file: /home/ubuntu/Documents/asictest/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lef/sg13g2_tech.lef, created 19 layers, 70 vias
+[INFO ODB-0227] LEF file: /home/ubuntu/Documents/asictest/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lef/sg13g2_stdcell.lef, created 84 library cells
+[INFO ODB-0227] LEF file: /home/ubuntu/Documents/asictest/OpenROAD-flow-scripts/flow/designs/ihp-sg13g2/picosoc_SoCBilbao/lef/RM_IHPSG13_1P_512x32_c2_bm_bist.lef, created 1 library cells
+[INFO ODB-0227] LEF file: /home/ubuntu/Documents/asictest/OpenROAD-flow-scripts/flow/designs/ihp-sg13g2/picosoc_SoCBilbao/lef/RM_IHPSG13_2P_512x32_c2_bm_bist.lef, created 1 library cells
+[INFO ODB-0227] LEF file: /home/ubuntu/Documents/asictest/OpenROAD-flow-scripts/flow/designs/ihp-sg13g2/picosoc_SoCBilbao/lef/RM_IHPSG13_2P_64x32_c2.lef, created 1 library cells
+[INFO ODB-0227] LEF file: /home/ubuntu/Documents/asictest/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lef/sg13g2_io.lef, created 22 library cells
+[INFO ODB-0227] LEF file: /home/ubuntu/Documents/asictest/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lef/bondpad_70x70.lef, created 1 library cells
+link_design picosoc_ihp
+[WARNING ORD-2011] LEF master RM_IHPSG13_2P_64x32_c2 has no liberty cell.
+[WARNING ORD-2011] LEF master RM_IHPSG13_1P_512x32_c2_bm_bist has no liberty cell.
+[WARNING ORD-2011] LEF master RM_IHPSG13_2P_512x32_c2_bm_bist has no liberty cell.
+source /home/ubuntu/Documents/asictest/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/setRC.tcl
+write_db ./results/ihp-sg13g2/picosoc_ihp/base/1_synth.odb
+write_sdc -no_timestamp ./results/ihp-sg13g2/picosoc_ihp/base/1_synth.sdc
+Elapsed time: 0:01.92[h:]min:sec. CPU time: user 1.80 sys 0.12 (100%). Peak memory: 234912KB.
+Log                        Elapsed/s Peak Memory/MB  sha1sum .odb [0:20)
+1_synth                            1            229 136a2576aae45354747e

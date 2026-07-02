@@ -1,0 +1,91 @@
+OpenROAD dcf36133a369abc8f3c5e5738cd4d82e4903c0e0 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 20 thread(s).
+read_liberty /home/ubuntu/Documents/asictest/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lib/sg13g2_stdcell_typ_1p20V_25C.lib
+read_liberty /home/ubuntu/Documents/asictest/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lib/sg13g2_io_typ_1p2V_3p3V_25C.lib
+read_db ./results/ihp-sg13g2/picosoc_ihp/base/6_1_fill.odb
+source /home/ubuntu/Documents/asictest/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/setRC.tcl
+write_db ./results/ihp-sg13g2/picosoc_ihp/base/6_final.odb
+Deleted 0 routing obstructions
+[INFO RCX-0431] Defined process_corner X with ext_model_index 0
+[INFO RCX-0029] Defined extraction corner X
+[INFO RCX-0435] Reading extraction model file /home/ubuntu/Documents/asictest/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/rcx_patterns.rules ...
+[INFO RCX-0436] RC segment generation picosoc_ihp (max_merge_res 50.0) ...
+[INFO RCX-0040] Final 220771 rc segments
+[INFO RCX-0439] Coupling Cap extraction picosoc_ihp ...
+[INFO RCX-0440] Coupling threshhold is 0.1000 fF, coupling capacitance less than 0.1000 fF will be grounded.
+[INFO RCX-0442] 11% of 383962 wires extracted
+[INFO RCX-0442] 23% of 383962 wires extracted
+[INFO RCX-0442] 32% of 383962 wires extracted
+[INFO RCX-0442] 42% of 383962 wires extracted
+[INFO RCX-0442] 49% of 383962 wires extracted
+[INFO RCX-0442] 54% of 383962 wires extracted
+[INFO RCX-0442] 64% of 383962 wires extracted
+[INFO RCX-0442] 79% of 383962 wires extracted
+[INFO RCX-0442] 92% of 383962 wires extracted
+[INFO RCX-0442] 100% of 383962 wires extracted
+[INFO RCX-0045] Extract 47795 nets, 268535 rsegs, 268535 caps, 394082 ccs
+[INFO RCX-0443] 47793 nets finished
+[INFO PSM-0040] All shapes on net VDD are connected.
+########## IR report #################
+Net              : VDD
+Corner           : default
+Total power      : 2.03e-03 W
+Supply voltage   : 1.20e+00 V
+Worstcase voltage: 1.20e+00 V
+Average voltage  : 1.20e+00 V
+Average IR drop  : 1.31e-06 V
+Worstcase IR drop: 2.35e-04 V
+Percentage drop  : 0.02 %
+######################################
+[INFO PSM-0040] All shapes on net VSS are connected.
+########## IR report #################
+Net              : VSS
+Corner           : default
+Total power      : 2.03e-03 W
+Supply voltage   : 0.00e+00 V
+Worstcase voltage: 3.16e-04 V
+Average voltage  : 1.53e-06 V
+Average IR drop  : 1.53e-06 V
+Worstcase IR drop: 3.16e-04 V
+Percentage drop  : 0.03 %
+######################################
+Cell type report:                       Count       Area
+  Macro                                     5  584291.19
+  Input pad                                13  187200.00
+  Output pad                               13  187200.00
+  Input/output pad                          5   72000.00
+  Power pad                                 9  129600.00
+  Pad spacer                              260 1108800.00
+  Fill cell                            230394 2566929.66
+  Cover                                    40  196000.00
+  Antenna cell                            289    1573.08
+  Clock buffer                            348   15137.54
+  Timing Repair Buffer                   4573   33566.40
+  Inverter                                996    5914.94
+  Clock inverter                          108    1262.82
+  Sequential cell                        7384  361733.30
+  Multi-Input combinational cell        34291  396647.80
+  Total                                278728 5847856.74
+Report metrics stage 6, finish...
+
+==========================================================================
+finish report_design_area
+--------------------------------------------------------------------------
+Design area 1400127 um^2 35% utilization.
+[WARNING GUI-0076] qglx_findConfig: Failed to finding matching FBConfig for QSurfaceFormat(version 2.0, options QFlags<QSurfaceFormat::FormatOption>(), depthBufferSize -1, redBufferSize 1, greenBufferSize 1, blueBufferSize 1, alphaBufferSize -1, stencilBufferSize -1, samples -1, swapBehavior QSurfaceFormat::SingleBuffer, swapInterval 1, colorSpace QSurfaceFormat::DefaultColorSpace, profile  QSurfaceFormat::NoProfile)
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/ihp-sg13g2/picosoc_ihp/base/final_all.webp.png
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/ihp-sg13g2/picosoc_ihp/base/final_routing.webp.png
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/ihp-sg13g2/picosoc_ihp/base/final_placement.webp.png
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/ihp-sg13g2/picosoc_ihp/base/final_ir_drop.webp.png
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/ihp-sg13g2/picosoc_ihp/base/final_clocks.webp.png
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/ihp-sg13g2/picosoc_ihp/base/cts_clk_core.webp.png
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/ihp-sg13g2/picosoc_ihp/base/cts_clk_core_layout.webp.png
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/ihp-sg13g2/picosoc_ihp/base/final_resizer.webp.png
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/ihp-sg13g2/picosoc_ihp/base/final_congestion.webp.png
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/ihp-sg13g2/picosoc_ihp/base/final_worst_path.webp.png
+Elapsed time: 4:55.14[h:]min:sec. CPU time: user 317.20 sys 12.58 (111%). Peak memory: 3742844KB.
+Log                        Elapsed/s Peak Memory/MB  sha1sum .odb [0:20)
+6_report                         295           3655                  N/A

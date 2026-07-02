@@ -1,0 +1,28 @@
+violation type: Vertical congestion
+	srcs: net:net18990 net:_023008_ net:_024564_ net:_024769_ net:_024866_ net:_025057_ net:_025180_ net:_025444_ net:net20728 net:clknet_leaf_11_clock_regs net:_051274_ net:net19344 net:net19326 net:net19209 net:net18876 net:net18373 net:picosoc_core.iomem_addr\[4\] net:picosoc_core.iomem_addr\[9\] net:picosoc_core.iomem_wdata\[13\] net:picosoc_core.iomem_wdata\[25\] net:picosoc_core.iomem_wdata\[28\] net:picosoc_core.iomem_wdata\[2\] net:net17010 net:picosoc_core.soc.minimac2core.ctlif.slot1_state\[0\] net:picosoc_core.soc.minimac2core.sync.rx_done_1.level2
+	comment: capacity:24 usage:25 overflow:1
+	bbox = (1152.9000, 1064.7000) - (1159.2000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net21398 net:net18990 net:_022530_ net:_023340_ net:_024456_ net:_024509_ net:_024610_ net:_024688_ net:_024734_ net:_024769_ net:_025043_ net:_025099_ net:_025288_ net:_025412_ net:_025594_ net:net21405 net:_049821_ net:net19343 net:net19266 net:net19250 net:net18857 net:net17256 net:picosoc_core.iomem_addr\[21\] net:picosoc_core.iomem_wdata\[15\] net:picosoc_core.iomem_wdata\[6\] net:picosoc_core.iomem_wdata\[7\] net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[0\]
+	comment: capacity:26 usage:27 overflow:1
+	bbox = (1140.3000, 1014.3000) - (1146.6000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:delaynet_6_clk_core net:_022530_ net:_023041_ net:_023053_ net:_023174_ net:_023295_ net:_024471_ net:_024831_ net:_025246_ net:net20703 net:net20702 net:_048440_ net:_048645_ net:clknet_leaf_205_clock_regs net:clknet_2_0_0_clock_regs net:_049821_ net:net19328 net:net19283 net:net19251 net:net18806 net:net16987 net:picosoc_core.iomem_addr\[12\] net:picosoc_core.iomem_addr\[23\] net:picosoc_core.iomem_wdata\[10\] net:picosoc_core.iomem_wdata\[11\] net:picosoc_core.iomem_wdata\[21\] net:picosoc_core.iomem_wdata\[8\]
+	comment: capacity:28 usage:29 overflow:1
+	bbox = (1178.1000, 1064.7000) - (1184.4000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_025004_ net:_025125_ net:_025368_ net:_025622_ net:net19262 net:clknet_1_1__leaf_clock net:net19327 net:net19272 net:net19268 net:net19220 net:picosoc_core.iomem_addr\[19\] net:picosoc_core.iomem_addr\[21\] net:picosoc_core.iomem_wdata\[0\] net:picosoc_core.iomem_wdata\[4\] net:picosoc_core.phy_rx_data\[1\] net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[1\] net:picosoc_core.soc.spimemio.dout_data\[2\]
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (1134.0000, 1052.1000) - (1140.3000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_022534_ net:_022739_ net:_022993_ net:_023041_ net:_023053_ net:_023174_ net:_023295_ net:_024471_ net:_024831_ net:_025246_ net:net20703 net:net20702 net:_048440_ net:_048645_ net:clknet_2_0_0_clock_regs net:net19283 net:net19251 net:net18806 net:net18091 net:net16987 net:net16992 net:picosoc_core.iomem_addr\[12\] net:picosoc_core.iomem_addr\[18\] net:picosoc_core.iomem_addr\[22\] net:picosoc_core.iomem_wdata\[10\] net:picosoc_core.iomem_wdata\[11\] net:picosoc_core.iomem_wdata\[21\] net:picosoc_core.iomem_wdata\[8\]
+	comment: capacity:28 usage:29 overflow:1
+	bbox = (1178.1000, 1033.2000) - (1184.4000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net19235 net:_022743_ net:_023043_ net:_023058_ net:_023836_ net:_024656_ net:_024700_ net:_024880_ net:_024928_ net:_025016_ net:_025681_ net:net19288 net:net21063 net:net19302 net:net19275 net:net19255 net:net19213 net:net19203 net:picosoc_core.iomem_addr\[10\] net:picosoc_core.iomem_addr\[14\] net:picosoc_core.iomem_addr\[16\] net:picosoc_core.iomem_addr\[17\] net:picosoc_core.iomem_addr\[18\] net:picosoc_core.iomem_addr\[8\] net:picosoc_core.iomem_wdata\[14\] net:picosoc_core.iomem_wdata\[22\] net:picosoc_core.iomem_wdata\[27\] net:picosoc_core.phy_rx_data\[0\] net:picosoc_core.phy_rx_data\[3\]
+	comment: capacity:28 usage:29 overflow:1
+	bbox = (1165.5000, 1052.1000) - (1171.8000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_024880_ net:_025527_ net:net19288 net:net21406 net:clknet_5_1__leaf_clock_regs net:net19249 net:picosoc_core.iomem_addr\[19\] net:picosoc_core.iomem_wdata\[16\] net:picosoc_core.iomem_wdata\[9\] net:picosoc_core.soc.ram_ready net:picosoc_core.soc.spimemio.dout_data\[0\]
+	comment: capacity:10 usage:11 overflow:1
+	bbox = (1146.6000, 1064.7000) - (1152.9000, 1071.0000) on Layer -

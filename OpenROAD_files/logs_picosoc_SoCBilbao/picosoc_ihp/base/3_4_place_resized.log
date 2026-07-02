@@ -1,0 +1,82 @@
+OpenROAD dcf36133a369abc8f3c5e5738cd4d82e4903c0e0 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 20 thread(s).
+read_liberty /home/ubuntu/Documents/asictest/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lib/sg13g2_stdcell_typ_1p20V_25C.lib
+read_liberty /home/ubuntu/Documents/asictest/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lib/sg13g2_io_typ_1p2V_3p3V_25C.lib
+read_db ./results/ihp-sg13g2/picosoc_ihp/base/3_3_place_gp.odb
+source /home/ubuntu/Documents/asictest/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/setRC.tcl
+estimate_parasitics -placement
+Perform buffer insertion and gate resizing...
+repair_design -verbose -match_cell_footprint
+Iteration |   Area    | Resized | Buffers | Nets repaired | Remaining
+---------------------------------------------------------------------
+        0 |     +0.0% |       0 |       0 |             0 |     47574
+     1000 |     +0.0% |       0 |       0 |             0 |     46574
+     2000 |     +0.0% |       0 |       0 |             0 |     45574
+     3000 |     +0.0% |       0 |       0 |             0 |     44574
+     4000 |     +0.0% |       0 |       0 |             0 |     43574
+     5000 |     +0.0% |       0 |       0 |             0 |     42574
+     6000 |     +0.0% |       0 |       0 |             0 |     41574
+     7000 |     +0.0% |       0 |       0 |             0 |     40574
+     8000 |     +0.0% |       0 |       0 |             0 |     39574
+     9000 |     +0.0% |       0 |       0 |             0 |     38574
+    10000 |     +0.0% |       0 |       0 |             0 |     37574
+    11000 |     +0.0% |       0 |       0 |             0 |     36574
+    12000 |     +0.0% |       0 |       0 |             0 |     35574
+    13000 |     +0.0% |       0 |       0 |             0 |     34574
+    14000 |     +0.0% |       0 |       0 |             0 |     33574
+    15000 |     +0.0% |       0 |       0 |             0 |     32574
+    16000 |     +0.0% |       0 |       0 |             0 |     31574
+    17000 |     +0.0% |       0 |       0 |             0 |     30574
+    18000 |     +0.0% |       0 |       0 |             0 |     29574
+    19000 |     +0.0% |       0 |       0 |             0 |     28574
+    20000 |     +0.0% |       0 |       0 |             0 |     27574
+    21000 |     +0.0% |       0 |       0 |             0 |     26574
+    22000 |     +0.0% |       0 |       0 |             0 |     25574
+    23000 |     +0.0% |       0 |       0 |             0 |     24574
+    24000 |     +0.0% |       0 |       0 |             0 |     23574
+    25000 |     +0.0% |       0 |       0 |             0 |     22574
+    26000 |     +0.0% |       0 |       0 |             0 |     21574
+    27000 |     +0.0% |       0 |       0 |             0 |     20574
+    28000 |     +0.0% |       0 |       0 |             0 |     19574
+    29000 |     +0.0% |       0 |       0 |             0 |     18574
+    30000 |     +0.0% |       0 |       0 |             0 |     17574
+    31000 |     +0.0% |       0 |       0 |             0 |     16574
+    32000 |     +0.0% |       0 |       0 |             0 |     15574
+    33000 |     +0.0% |       0 |       0 |             0 |     14574
+    34000 |     +0.0% |       0 |       0 |             0 |     13574
+    35000 |     +0.0% |       0 |       0 |             0 |     12574
+    36000 |     +0.0% |       0 |       0 |             0 |     11574
+    37000 |     +0.0% |       0 |       0 |             0 |     10574
+    38000 |     +0.0% |       0 |       1 |             1 |      9574
+    39000 |     +0.0% |       0 |       3 |             3 |      8574
+    40000 |     +0.0% |       0 |       3 |             3 |      7574
+    41000 |     +0.0% |       0 |       3 |             3 |      6574
+    42000 |     +0.0% |       0 |       3 |             3 |      5574
+    43000 |     +0.0% |       0 |       3 |             3 |      4574
+    44000 |     +0.0% |       0 |       3 |             3 |      3574
+    45000 |     +0.0% |       0 |       3 |             3 |      2574
+    46000 |     +0.0% |       0 |       3 |             3 |      1574
+    47000 |     +0.0% |       0 |       3 |             3 |       574
+    final |     +0.0% |       0 |       3 |             3 |         0
+---------------------------------------------------------------------
+[INFO RSZ-0036] Found 6 capacitance violations.
+[INFO RSZ-0038] Inserted 3 buffers in 3 nets.
+Took 6 seconds: repair_design -verbose -match_cell_footprint
+Floating nets: 
+[WARNING RSZ-0020] found 3 floating nets.
+[WARNING RSZ-0095] found 6 floating pins.
+Report metrics stage 3, resizer...
+
+==========================================================================
+resizer report_design_area
+--------------------------------------------------------------------------
+Design area 1381725 um^2 35% utilization.
+Instance count before 47564, after 47567
+Pin count before 152545, after 152551
+write_db ./results/ihp-sg13g2/picosoc_ihp/base/3_4_place_resized.odb
+Elapsed time: 0:28.80[h:]min:sec. CPU time: user 58.16 sys 9.01 (233%). Peak memory: 333748KB.
+Log                        Elapsed/s Peak Memory/MB  sha1sum .odb [0:20)
+3_4_place_resized                 28            325 3baf9c1a70c5b31219f8

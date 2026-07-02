@@ -1,0 +1,2120 @@
+violation type: Horizontal congestion
+	srcs: net:net16998 net:net19336 net:_023280_ net:_023340_ net:_025099_ net:_025288_ net:_025412_ net:_025444_ net:net19334 net:net19250 net:net18875 net:picosoc_core.soc.minimac2core.memory.rxb1.ADDRB\[4\]
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (1127.7000, 1014.3000) - (1134.0000, 1020.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[8\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1127.7000, 1020.6000) - (1134.0000, 1026.9000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:picosoc_core.soc.minimac2core.memory.rxb0.b_bm_32\[16\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (932.4000, 598.5000) - (938.7000, 604.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net19036
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1184.4000, 1045.8000) - (1190.7000, 1052.1000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net19325
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1184.4000, 1064.7000) - (1190.7000, 1071.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_023862_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1341.9000, 598.5000) - (1348.2000, 604.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[6\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1190.7000, 1026.9000) - (1197.0000, 1033.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:picosoc_core.soc.minimac2core.memory.txb.WEA\[0\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (516.6000, 1499.4000) - (522.9000, 1505.7000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_023865_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1241.1000, 598.5000) - (1247.4000, 604.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net17249
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1020.6000, 598.5000) - (1026.9000, 604.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:picosoc_core.soc.minimac2core.memory.rxb0.b_bm_32\[0\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (548.1000, 598.5000) - (554.4000, 604.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net19036
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1190.7000, 1045.8000) - (1197.0000, 1052.1000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_023866_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1556.1000, 598.5000) - (1562.4000, 604.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_023866_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1512.0000, 598.5000) - (1518.3000, 604.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_024470_ net:clknet_5_6_0_clock_regs net:net19329 net:picosoc_core.iomem_addr\[6\] net:picosoc_core.iomem_wdata\[21\]
+	comment: capacity:4 usage:5 overflow:1
+	bbox = (1184.4000, 1071.0000) - (1190.7000, 1077.3000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:picosoc_core.soc.minimac2core.memory.rxb0.b_bm_32\[10\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (705.6000, 598.5000) - (711.9000, 604.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_023867_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1455.3000, 598.5000) - (1461.6000, 604.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_023862_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1297.8000, 598.5000) - (1304.1000, 604.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[6\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1184.4000, 1026.9000) - (1190.7000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[9\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1474.2000, 1033.2000) - (1480.5000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net16998 net:_022714_ net:_024426_ net:_024522_ net:_024656_ net:_024700_ net:_024783_ net:_024928_ net:_025139_ net:_025412_ net:_048623_ net:_048645_ net:clknet_5_6_0_clock_regs net:_050215_ net:net19344 net:net19341 net:net19335 net:net19290 net:net19288 net:net19286 net:net19274 net:net19260 net:net19240 net:net18805 net:net18101 net:picosoc_core.iomem_addr\[16\] net:picosoc_core.iomem_addr\[17\] net:picosoc_core.iomem_wdata\[11\] net:net17007
+	comment: capacity:28 usage:29 overflow:1
+	bbox = (1165.5000, 1020.6000) - (1171.8000, 1026.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023602_ net:picosoc_core.soc.cpu.cpuregs.rdata1\[4\]
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1335.6000, 1020.6000) - (1341.9000, 1026.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023008_ net:_024456_ net:_024769_ net:_024866_ net:_024880_ net:_024976_ net:_025016_ net:_025288_ net:_025444_ net:_025681_ net:net21077 net:net19329 net:net19307 net:net19266 net:net19203 net:net18855 net:net18379 net:net17261 net:picosoc_core.iomem_addr\[12\] net:picosoc_core.iomem_addr\[18\] net:picosoc_core.iomem_wdata\[22\] net:picosoc_core.iomem_wdata\[30\] net:picosoc_core.phy_rx_data\[3\] net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[8\] net:picosoc_core.soc.ram_ready net:picosoc_core.soc.spimemio.dout_data\[0\]
+	comment: capacity:24 usage:26 overflow:2
+	bbox = (1152.9000, 1026.9000) - (1159.2000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.iomem_addr\[23\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1266.3000, 1001.7000) - (1272.6000, 1008.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.cpu_state\[1\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1789.2000, 1026.9000) - (1795.5000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.cpuregs.rdata1\[7\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1348.2000, 1064.7000) - (1354.5000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023738_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1493.1000, 1045.8000) - (1499.4000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.cpuregs.rdata1\[10\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1701.0000, 1020.6000) - (1707.3000, 1026.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.cpuregs.rdata1\[10\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1701.0000, 1008.0000) - (1707.3000, 1014.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023635_ net:net20728
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1430.1000, 1026.9000) - (1436.4000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net19278 net:_022530_ net:_022534_ net:_022982_ net:_022991_ net:_023041_ net:_023043_ net:_023053_ net:_023295_ net:_024621_ net:_025246_ net:_025368_ net:_048597_ net:clknet_leaf_205_clock_regs net:clknet_1_0_0_clock_regs net:net19324 net:net19294 net:net19270 net:net19034 net:net17099 net:picosoc_core.iomem_addr\[10\] net:picosoc_core.iomem_addr\[13\] net:picosoc_core.iomem_addr\[19\] net:picosoc_core.iomem_addr\[3\] net:picosoc_core.iomem_wdata\[0\] net:picosoc_core.iomem_wdata\[29\] net:picosoc_core.soc.cpu.cpuregs.rdata1\[3\] net:net17008 net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[9\]
+	comment: capacity:28 usage:30 overflow:2
+	bbox = (1178.1000, 1058.4000) - (1184.4000, 1064.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055300_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1782.9000, 1001.7000) - (1789.2000, 1008.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055196_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1719.9000, 1020.6000) - (1726.2000, 1026.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023734_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1757.7000, 1064.7000) - (1764.0000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023734_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1757.7000, 1008.0000) - (1764.0000, 1014.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023722_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1764.0000, 1026.9000) - (1770.3000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023640_ net:clknet_leaf_201_clock_regs
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1367.1000, 1033.2000) - (1373.4000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023051_ net:_025527_ net:_025635_ net:net18988 net:net19333 net:net19323 net:net19271 net:net19268 net:picosoc_core.iomem_addr\[17\] net:picosoc_core.iomem_addr\[8\] net:picosoc_core.iomem_wdata\[7\] net:picosoc_core.iomem_wstrb\[1\] net:picosoc_core.soc.cpu.cpuregs.rdata1\[5\] net:picosoc_core.soc.minimac2core.memory.rxb1.ADDRB\[4\]
+	comment: capacity:12 usage:14 overflow:2
+	bbox = (1159.2000, 1064.7000) - (1165.5000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.iomem_addr\[22\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1272.6000, 1008.0000) - (1278.9000, 1014.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023446_ net:_023684_ net:picosoc_core.soc.cpu.cpuregs.rdata1\[8\]
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (1354.5000, 1064.7000) - (1360.8000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20736
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1442.7000, 1039.5000) - (1449.0000, 1045.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023688_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1253.7000, 1026.9000) - (1260.0000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net18061
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1726.2000, 1033.2000) - (1732.5000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023738_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1493.1000, 1058.4000) - (1499.4000, 1064.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023008_ net:_023141_ net:_023244_ net:_023340_ net:_023836_ net:_024509_ net:_024564_ net:_024610_ net:_024688_ net:_025043_ net:_025099_ net:_025180_ net:_025355_ net:_025594_ net:_025622_ net:_049821_ net:net19342 net:net19264 net:net19220 net:picosoc_core.iomem_addr\[6\] net:picosoc_core.iomem_wdata\[21\] net:picosoc_core.iomem_wdata\[7\] net:picosoc_core.phy_rx_data\[0\] net:picosoc_core.phy_rx_data\[1\] net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[10\] net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[2\] net:picosoc_core.soc.minimac2core.sync.sys_rx_count_1_r\[0\]
+	comment: capacity:26 usage:27 overflow:1
+	bbox = (1140.3000, 1014.3000) - (1146.6000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20565
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1297.8000, 1064.7000) - (1304.1000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055082_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1776.6000, 1008.0000) - (1782.9000, 1014.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[9\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1474.2000, 1001.7000) - (1480.5000, 1008.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20738
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1386.0000, 995.4000) - (1392.3000, 1001.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055300_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1782.9000, 1052.1000) - (1789.2000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[7\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1480.5000, 1020.6000) - (1486.8000, 1026.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023446_ net:_023684_ net:picosoc_core.soc.cpu.cpuregs.rdata1\[8\]
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (1354.5000, 1008.0000) - (1360.8000, 1014.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net21418
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1417.5000, 1033.2000) - (1423.8000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[2\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1486.8000, 1058.4000) - (1493.1000, 1064.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.iomem_addr\[14\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1234.8000, 1064.7000) - (1241.1000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20738
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1386.0000, 1014.3000) - (1392.3000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[6\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1197.0000, 1033.2000) - (1203.3000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net17315
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1512.0000, 1052.1000) - (1518.3000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20565
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1297.8000, 1058.4000) - (1304.1000, 1064.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023602_ net:picosoc_core.soc.cpu.cpuregs.rdata1\[4\]
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1335.6000, 1058.4000) - (1341.9000, 1064.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20004
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1619.1000, 1058.4000) - (1625.4000, 1064.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023734_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1757.7000, 1026.9000) - (1764.0000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net19278 net:_022530_ net:_022534_ net:_022982_ net:_022991_ net:_023041_ net:_023043_ net:_023053_ net:_023295_ net:_024621_ net:_025246_ net:_048597_ net:clknet_leaf_205_clock_regs net:clknet_1_0_0_clock_regs net:net19324 net:net19294 net:net19270 net:net19034 net:net17099 net:picosoc_core.iomem_addr\[10\] net:picosoc_core.iomem_addr\[13\] net:picosoc_core.iomem_addr\[19\] net:picosoc_core.iomem_addr\[3\] net:picosoc_core.iomem_wdata\[0\] net:picosoc_core.iomem_wdata\[29\] net:picosoc_core.soc.cpu.cpuregs.rdata1\[3\] net:net17008 net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[9\]
+	comment: capacity:28 usage:29 overflow:1
+	bbox = (1178.1000, 1045.8000) - (1184.4000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.cpu_state\[1\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1789.2000, 1045.8000) - (1795.5000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net21419 net:clknet_1_1__leaf_clock net:_051274_ net:net19325 net:net19256 net:net19244 net:picosoc_core.iomem_addr\[7\] net:picosoc_core.iomem_wdata\[15\] net:picosoc_core.iomem_wdata\[1\] net:picosoc_core.iomem_wdata\[9\] net:picosoc_core.soc.minimac2core.ctlif.slot0_state\[0\] net:picosoc_core.soc.spimemio.dout_data\[1\]
+	comment: capacity:10 usage:12 overflow:2
+	bbox = (1146.6000, 1052.1000) - (1152.9000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023644_ net:_051096_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1436.4000, 1033.2000) - (1442.7000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055300_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1782.9000, 1058.4000) - (1789.2000, 1064.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_049044_ net:picosoc_core.soc.cpu.cpuregs.rdata1\[6\]
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1310.4000, 1045.8000) - (1316.7000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[2\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1486.8000, 1033.2000) - (1493.1000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net21419 net:net21415 net:clknet_1_1__leaf_clock net:_051274_ net:net19325 net:net19256 net:net19244 net:picosoc_core.iomem_wdata\[15\] net:picosoc_core.iomem_wdata\[1\] net:picosoc_core.iomem_wdata\[9\] net:picosoc_core.iomem_wstrb\[1\] net:picosoc_core.soc.minimac2core.ctlif.slot0_state\[0\] net:picosoc_core.soc.minimac2core.memory.rxb1.ADDRB\[4\]
+	comment: capacity:10 usage:13 overflow:3
+	bbox = (1146.6000, 1026.9000) - (1152.9000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.cpuregs.rdata1\[10\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1701.0000, 1026.9000) - (1707.3000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.iomem_addr\[23\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1266.3000, 1008.0000) - (1272.6000, 1014.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023602_ net:picosoc_core.soc.cpu.cpuregs.rdata1\[4\]
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1335.6000, 1052.1000) - (1341.9000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[9\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1474.2000, 1008.0000) - (1480.5000, 1014.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023648_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1392.3000, 1001.7000) - (1398.6000, 1008.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20033
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1795.5000, 1026.9000) - (1801.8000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20033
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1795.5000, 1045.8000) - (1801.8000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20736
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1442.7000, 1045.8000) - (1449.0000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023446_ net:_023684_ net:picosoc_core.soc.cpu.cpuregs.rdata1\[8\]
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (1354.5000, 1045.8000) - (1360.8000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023446_ net:_023684_ net:picosoc_core.soc.cpu.cpuregs.rdata1\[8\]
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (1354.5000, 1026.9000) - (1360.8000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_049044_ net:picosoc_core.soc.cpu.cpuregs.rdata1\[6\]
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1310.4000, 1039.5000) - (1316.7000, 1045.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_048722_ net:picosoc_core.iomem_addr\[21\]
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1304.1000, 1058.4000) - (1310.4000, 1064.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.iomem_addr\[23\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1266.3000, 1052.1000) - (1272.6000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023738_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1493.1000, 1008.0000) - (1499.4000, 1014.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023635_ net:net20728
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1430.1000, 1064.7000) - (1436.4000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023450_ net:_054265_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1379.7000, 1026.9000) - (1386.0000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.iomem_addr\[23\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1266.3000, 1039.5000) - (1272.6000, 1045.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net18061
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1726.2000, 1039.5000) - (1732.5000, 1045.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055300_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1782.9000, 1014.3000) - (1789.2000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20736
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1442.7000, 995.4000) - (1449.0000, 1001.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.iomem_addr\[14\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1234.8000, 1026.9000) - (1241.1000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_052423_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1713.6000, 1008.0000) - (1719.9000, 1014.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_049044_ net:picosoc_core.soc.cpu.cpuregs.rdata1\[6\]
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1310.4000, 1064.7000) - (1316.7000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[1\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1499.4000, 1045.8000) - (1505.7000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023635_ net:net20728
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1430.1000, 1052.1000) - (1436.4000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20033
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1795.5000, 1014.3000) - (1801.8000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023688_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1253.7000, 1033.2000) - (1260.0000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023051_ net:_025527_ net:net18988 net:net19323 net:net19271 net:net19268 net:net18875 net:net19036 net:picosoc_core.iomem_addr\[20\] net:picosoc_core.iomem_addr\[7\] net:picosoc_core.iomem_addr\[8\] net:picosoc_core.soc.cpu.cpuregs.rdata1\[5\] net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[7\] net:picosoc_core.soc.spimemio.dout_data\[1\]
+	comment: capacity:12 usage:14 overflow:2
+	bbox = (1159.2000, 1026.9000) - (1165.5000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20565
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1297.8000, 1052.1000) - (1304.1000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055082_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1776.6000, 1039.5000) - (1782.9000, 1045.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.iomem_addr\[22\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1272.6000, 1020.6000) - (1278.9000, 1026.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055082_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1776.6000, 1001.7000) - (1782.9000, 1008.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20004
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1619.1000, 1014.3000) - (1625.4000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[7\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1480.5000, 1058.4000) - (1486.8000, 1064.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[6\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1197.0000, 1039.5000) - (1203.3000, 1045.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[9\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1474.2000, 1064.7000) - (1480.5000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023602_ net:picosoc_core.soc.cpu.cpuregs.rdata1\[4\]
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1335.6000, 1033.2000) - (1341.9000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20737
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1228.5000, 1014.3000) - (1234.8000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net21418
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1417.5000, 995.4000) - (1423.8000, 1001.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.iomem_addr\[14\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1234.8000, 1058.4000) - (1241.1000, 1064.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055196_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1719.9000, 1026.9000) - (1726.2000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20737
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1228.5000, 1026.9000) - (1234.8000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[1\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1499.4000, 1039.5000) - (1505.7000, 1045.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.iomem_addr\[14\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1234.8000, 1014.3000) - (1241.1000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023680_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1455.3000, 1008.0000) - (1461.6000, 1014.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.iomem_addr\[22\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1272.6000, 1045.8000) - (1278.9000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.cpuregs.rdata1\[10\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1701.0000, 995.4000) - (1707.3000, 1001.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055361_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1732.5000, 1020.6000) - (1738.8000, 1026.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[2\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1486.8000, 1008.0000) - (1493.1000, 1014.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023644_ net:_051096_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1436.4000, 1020.6000) - (1442.7000, 1026.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.cpuregs.rdata1\[10\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1701.0000, 1064.7000) - (1707.3000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[7\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1480.5000, 1045.8000) - (1486.8000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.iomem_addr\[22\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1272.6000, 995.4000) - (1278.9000, 1001.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net17315
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1512.0000, 1020.6000) - (1518.3000, 1026.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_049044_ net:picosoc_core.soc.cpu.cpuregs.rdata1\[6\]
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1310.4000, 1001.7000) - (1316.7000, 1008.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.iomem_addr\[14\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1234.8000, 1039.5000) - (1241.1000, 1045.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net19036
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1203.3000, 1052.1000) - (1209.6000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023644_ net:_051096_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1436.4000, 1039.5000) - (1442.7000, 1045.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net19278 net:_022993_ net:_023058_ net:_023174_ net:_023836_ net:_023868_ net:_024470_ net:_024831_ net:_025004_ net:_025057_ net:_025230_ net:_025368_ net:_025635_ net:net21420 net:clknet_0_clock net:clknet_5_4_0_clock_regs net:net19343 net:net19333 net:net19208 net:net18881 net:_055199_ net:net17100 net:net16987 net:picosoc_core.iomem_addr\[15\] net:picosoc_core.iomem_addr\[4\] net:picosoc_core.iomem_wdata\[12\] net:picosoc_core.iomem_wdata\[3\] net:picosoc_core.soc.minimac2core.ctlif.slot1_state\[0\]
+	comment: capacity:28 usage:29 overflow:1
+	bbox = (1171.8000, 1033.2000) - (1178.1000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023635_ net:net20728
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1430.1000, 1039.5000) - (1436.4000, 1045.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023446_ net:_023684_ net:picosoc_core.soc.cpu.cpuregs.rdata1\[8\]
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (1354.5000, 1014.3000) - (1360.8000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20736
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1442.7000, 1033.2000) - (1449.0000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023738_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1493.1000, 1026.9000) - (1499.4000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[2\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1486.8000, 1039.5000) - (1493.1000, 1045.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20738
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1386.0000, 1064.7000) - (1392.3000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023648_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1392.3000, 1052.1000) - (1398.6000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023722_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1764.0000, 1045.8000) - (1770.3000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20736
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1442.7000, 1001.7000) - (1449.0000, 1008.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023446_ net:_023684_ net:picosoc_core.soc.cpu.cpuregs.rdata1\[8\]
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (1354.5000, 995.4000) - (1360.8000, 1001.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023722_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1764.0000, 1052.1000) - (1770.3000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_052423_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1713.6000, 1039.5000) - (1719.9000, 1045.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055196_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1719.9000, 1014.3000) - (1726.2000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net17315
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1512.0000, 1064.7000) - (1518.3000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023051_ net:_025527_ net:net18988 net:net19323 net:net19271 net:net19268 net:net18875 net:net19036 net:picosoc_core.iomem_addr\[20\] net:picosoc_core.iomem_addr\[7\] net:picosoc_core.iomem_addr\[8\] net:picosoc_core.soc.cpu.cpuregs.rdata1\[5\] net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[7\] net:picosoc_core.soc.minimac2core.memory.rxb1.ADDRB\[4\] net:picosoc_core.soc.spimemio.dout_data\[1\]
+	comment: capacity:12 usage:15 overflow:3
+	bbox = (1159.2000, 1033.2000) - (1165.5000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023722_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1764.0000, 1001.7000) - (1770.3000, 1008.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[2\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1486.8000, 1052.1000) - (1493.1000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023450_ net:_054265_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1379.7000, 1033.2000) - (1386.0000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023688_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1253.7000, 1014.3000) - (1260.0000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_048722_ net:picosoc_core.iomem_addr\[21\]
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1304.1000, 1045.8000) - (1310.4000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023635_ net:net20728
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1430.1000, 1033.2000) - (1436.4000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20738
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1386.0000, 1039.5000) - (1392.3000, 1045.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_052423_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1713.6000, 1020.6000) - (1719.9000, 1026.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.cpuregs.rdata1\[7\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1348.2000, 1033.2000) - (1354.5000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055196_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1719.9000, 1008.0000) - (1726.2000, 1014.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20565
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1297.8000, 995.4000) - (1304.1000, 1001.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.cpu_state\[1\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1789.2000, 995.4000) - (1795.5000, 1001.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023680_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1455.3000, 1026.9000) - (1461.6000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[6\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1197.0000, 1052.1000) - (1203.3000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20033
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1795.5000, 995.4000) - (1801.8000, 1001.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[6\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1197.0000, 1045.8000) - (1203.3000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net16998 net:_022714_ net:_024426_ net:_024522_ net:_024656_ net:_024700_ net:_024783_ net:_024928_ net:_025139_ net:_025412_ net:_048623_ net:_048645_ net:clknet_5_6_0_clock_regs net:_050215_ net:net19344 net:net19341 net:net19335 net:net19290 net:net19288 net:net19286 net:net19274 net:net19260 net:net19240 net:net18805 net:net18101 net:picosoc_core.iomem_addr\[16\] net:picosoc_core.iomem_addr\[17\] net:picosoc_core.iomem_wdata\[11\] net:net17007
+	comment: capacity:28 usage:29 overflow:1
+	bbox = (1165.5000, 1026.9000) - (1171.8000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023635_ net:net20728
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1430.1000, 1014.3000) - (1436.4000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_048722_ net:picosoc_core.iomem_addr\[21\]
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1304.1000, 995.4000) - (1310.4000, 1001.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023450_ net:_054265_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1379.7000, 1039.5000) - (1386.0000, 1045.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net18061
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1726.2000, 1058.4000) - (1732.5000, 1064.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_048722_ net:picosoc_core.iomem_addr\[21\]
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1304.1000, 1020.6000) - (1310.4000, 1026.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023635_ net:net20728
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1430.1000, 1045.8000) - (1436.4000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023738_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1493.1000, 1033.2000) - (1499.4000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_049044_ net:picosoc_core.soc.cpu.cpuregs.rdata1\[6\]
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1310.4000, 1058.4000) - (1316.7000, 1064.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023450_ net:_054265_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1379.7000, 995.4000) - (1386.0000, 1001.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net19278 net:_022530_ net:_022534_ net:_022982_ net:_022991_ net:_023041_ net:_023043_ net:_023053_ net:_023295_ net:_024621_ net:_025246_ net:_025368_ net:_048597_ net:clknet_leaf_205_clock_regs net:clknet_1_0_0_clock_regs net:net19324 net:net19294 net:net19270 net:net19034 net:net17099 net:picosoc_core.iomem_addr\[10\] net:picosoc_core.iomem_addr\[13\] net:picosoc_core.iomem_addr\[19\] net:picosoc_core.iomem_addr\[3\] net:picosoc_core.iomem_wdata\[0\] net:picosoc_core.iomem_wdata\[29\] net:picosoc_core.soc.cpu.cpuregs.rdata1\[3\] net:net17008 net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[9\]
+	comment: capacity:28 usage:30 overflow:2
+	bbox = (1178.1000, 1052.1000) - (1184.4000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023450_ net:_054265_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1379.7000, 1020.6000) - (1386.0000, 1026.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023734_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1757.7000, 1058.4000) - (1764.0000, 1064.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023688_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1253.7000, 1039.5000) - (1260.0000, 1045.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net17315
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1512.0000, 995.4000) - (1518.3000, 1001.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023640_ net:clknet_leaf_201_clock_regs
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1367.1000, 1001.7000) - (1373.4000, 1008.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20004
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1619.1000, 1039.5000) - (1625.4000, 1045.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023722_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1764.0000, 1008.0000) - (1770.3000, 1014.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023640_ net:clknet_leaf_201_clock_regs
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1367.1000, 1039.5000) - (1373.4000, 1045.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[2\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1486.8000, 1020.6000) - (1493.1000, 1026.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_052423_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1713.6000, 1058.4000) - (1719.9000, 1064.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023738_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1493.1000, 1014.3000) - (1499.4000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023738_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1493.1000, 1052.1000) - (1499.4000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023602_ net:picosoc_core.soc.cpu.cpuregs.rdata1\[4\]
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1335.6000, 1001.7000) - (1341.9000, 1008.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net17315
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1512.0000, 1045.8000) - (1518.3000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023450_ net:_054265_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1379.7000, 1001.7000) - (1386.0000, 1008.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20565
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1297.8000, 1045.8000) - (1304.1000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20737
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1228.5000, 1008.0000) - (1234.8000, 1014.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023734_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1757.7000, 1001.7000) - (1764.0000, 1008.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[7\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1480.5000, 1014.3000) - (1486.8000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20004
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1619.1000, 1045.8000) - (1625.4000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023602_ net:picosoc_core.soc.cpu.cpuregs.rdata1\[4\]
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1335.6000, 1064.7000) - (1341.9000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055082_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1776.6000, 1026.9000) - (1782.9000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055300_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1782.9000, 1064.7000) - (1789.2000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.iomem_addr\[14\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1234.8000, 1008.0000) - (1241.1000, 1014.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[2\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1486.8000, 1045.8000) - (1493.1000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[1\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1499.4000, 1020.6000) - (1505.7000, 1026.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023644_ net:_051096_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1436.4000, 1026.9000) - (1442.7000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055196_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1719.9000, 1058.4000) - (1726.2000, 1064.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net17315
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1512.0000, 1014.3000) - (1518.3000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023640_ net:clknet_leaf_201_clock_regs
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1367.1000, 1052.1000) - (1373.4000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023640_ net:clknet_leaf_201_clock_regs
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1367.1000, 995.4000) - (1373.4000, 1001.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_049044_ net:picosoc_core.soc.cpu.cpuregs.rdata1\[6\]
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1310.4000, 1052.1000) - (1316.7000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023680_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1455.3000, 1033.2000) - (1461.6000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_048722_ net:picosoc_core.iomem_addr\[21\]
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1304.1000, 1026.9000) - (1310.4000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.cpu_state\[1\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1789.2000, 1033.2000) - (1795.5000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[1\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1499.4000, 1026.9000) - (1505.7000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_048722_ net:picosoc_core.iomem_addr\[21\]
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1304.1000, 1001.7000) - (1310.4000, 1008.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20004
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1619.1000, 1033.2000) - (1625.4000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023644_ net:_051096_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1436.4000, 1052.1000) - (1442.7000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023450_ net:_054265_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1379.7000, 1008.0000) - (1386.0000, 1014.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023648_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1392.3000, 1045.8000) - (1398.6000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[1\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1499.4000, 1033.2000) - (1505.7000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net18061
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1726.2000, 1001.7000) - (1732.5000, 1008.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023734_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1757.7000, 1039.5000) - (1764.0000, 1045.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[7\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1480.5000, 1039.5000) - (1486.8000, 1045.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_052423_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1713.6000, 1001.7000) - (1719.9000, 1008.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.cpuregs.rdata1\[7\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1348.2000, 1014.3000) - (1354.5000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023602_ net:picosoc_core.soc.cpu.cpuregs.rdata1\[4\]
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1335.6000, 1045.8000) - (1341.9000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055196_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1719.9000, 1052.1000) - (1726.2000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[2\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1486.8000, 1014.3000) - (1493.1000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023722_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1764.0000, 995.4000) - (1770.3000, 1001.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055196_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1719.9000, 1064.7000) - (1726.2000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055300_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1782.9000, 1045.8000) - (1789.2000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023450_ net:_054265_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1379.7000, 1014.3000) - (1386.0000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_052423_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1713.6000, 1014.3000) - (1719.9000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20736
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1442.7000, 1020.6000) - (1449.0000, 1026.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20736
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1442.7000, 1058.4000) - (1449.0000, 1064.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.cpuregs.rdata1\[7\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1348.2000, 1026.9000) - (1354.5000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023648_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1392.3000, 1008.0000) - (1398.6000, 1014.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net19036
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1203.3000, 1045.8000) - (1209.6000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[6\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1197.0000, 1064.7000) - (1203.3000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023648_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1392.3000, 1033.2000) - (1398.6000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.cpuregs.rdata1\[7\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1348.2000, 995.4000) - (1354.5000, 1001.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023008_ net:_024456_ net:_024769_ net:_024866_ net:_024880_ net:_024976_ net:_025016_ net:_025288_ net:_025444_ net:_025681_ net:net21077 net:net19329 net:net19307 net:net19266 net:net19203 net:net18855 net:net18379 net:net17261 net:picosoc_core.iomem_addr\[12\] net:picosoc_core.iomem_addr\[18\] net:picosoc_core.iomem_wdata\[22\] net:picosoc_core.iomem_wdata\[30\] net:picosoc_core.phy_rx_data\[3\] net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[8\] net:picosoc_core.soc.ram_ready net:picosoc_core.soc.spimemio.dout_data\[0\]
+	comment: capacity:24 usage:26 overflow:2
+	bbox = (1152.9000, 1052.1000) - (1159.2000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20033
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1795.5000, 1058.4000) - (1801.8000, 1064.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023644_ net:_051096_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1436.4000, 1045.8000) - (1442.7000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net19036
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1203.3000, 1058.4000) - (1209.6000, 1064.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[9\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1474.2000, 1039.5000) - (1480.5000, 1045.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20738
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1386.0000, 1033.2000) - (1392.3000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.iomem_addr\[23\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1266.3000, 1045.8000) - (1272.6000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_052423_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1713.6000, 1033.2000) - (1719.9000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023648_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1392.3000, 1064.7000) - (1398.6000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net19278 net:_022993_ net:_023058_ net:_023174_ net:_023836_ net:_023868_ net:_024470_ net:_024831_ net:_025004_ net:_025057_ net:_025230_ net:_025368_ net:_025635_ net:net21420 net:clknet_0_clock net:clknet_5_4_0_clock_regs net:net19343 net:net19333 net:net19208 net:net18881 net:_055199_ net:net17100 net:net16987 net:picosoc_core.iomem_addr\[15\] net:picosoc_core.iomem_addr\[4\] net:picosoc_core.iomem_wdata\[12\] net:picosoc_core.iomem_wdata\[3\] net:picosoc_core.soc.minimac2core.ctlif.slot1_state\[0\]
+	comment: capacity:28 usage:29 overflow:1
+	bbox = (1171.8000, 1026.9000) - (1178.1000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.cpuregs.rdata1\[10\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1701.0000, 1045.8000) - (1707.3000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023734_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1757.7000, 1052.1000) - (1764.0000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20736
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1442.7000, 1014.3000) - (1449.0000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023450_ net:_054265_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1379.7000, 1045.8000) - (1386.0000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20004
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1619.1000, 1001.7000) - (1625.4000, 1008.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055082_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1776.6000, 1052.1000) - (1782.9000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023722_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1764.0000, 1020.6000) - (1770.3000, 1026.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20033
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1795.5000, 1039.5000) - (1801.8000, 1045.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.iomem_addr\[23\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1266.3000, 1026.9000) - (1272.6000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20565
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1297.8000, 1014.3000) - (1304.1000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023648_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1392.3000, 1039.5000) - (1398.6000, 1045.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net18061
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1726.2000, 1020.6000) - (1732.5000, 1026.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023635_ net:net20728
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1430.1000, 1008.0000) - (1436.4000, 1014.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023738_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1493.1000, 1001.7000) - (1499.4000, 1008.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[1\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1499.4000, 995.4000) - (1505.7000, 1001.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.iomem_addr\[14\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1234.8000, 1001.7000) - (1241.1000, 1008.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023680_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1455.3000, 1020.6000) - (1461.6000, 1026.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.iomem_addr\[14\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1234.8000, 1033.2000) - (1241.1000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.cpuregs.rdata1\[7\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1348.2000, 1058.4000) - (1354.5000, 1064.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20565
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1297.8000, 1033.2000) - (1304.1000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.cpuregs.rdata1\[7\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1348.2000, 1045.8000) - (1354.5000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20737
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1228.5000, 1039.5000) - (1234.8000, 1045.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20737
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1228.5000, 1033.2000) - (1234.8000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net21418
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1417.5000, 1020.6000) - (1423.8000, 1026.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023680_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1455.3000, 1052.1000) - (1461.6000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net21418
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1417.5000, 1045.8000) - (1423.8000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023008_ net:_024456_ net:_024769_ net:_024866_ net:_024880_ net:_024976_ net:_025016_ net:_025288_ net:_025444_ net:_025681_ net:net21077 net:net19329 net:net19307 net:net19266 net:net19203 net:net18855 net:net18379 net:net17261 net:picosoc_core.iomem_addr\[12\] net:picosoc_core.iomem_addr\[18\] net:picosoc_core.iomem_wdata\[22\] net:picosoc_core.iomem_wdata\[30\] net:picosoc_core.phy_rx_data\[3\] net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[8\] net:picosoc_core.soc.ram_ready net:picosoc_core.soc.spimemio.dout_data\[0\]
+	comment: capacity:24 usage:26 overflow:2
+	bbox = (1152.9000, 1045.8000) - (1159.2000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.cpu_state\[1\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1789.2000, 1064.7000) - (1795.5000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[2\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1486.8000, 1026.9000) - (1493.1000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023446_ net:_023684_ net:picosoc_core.soc.cpu.cpuregs.rdata1\[8\]
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (1354.5000, 1020.6000) - (1360.8000, 1026.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.cpu_state\[1\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1789.2000, 1014.3000) - (1795.5000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20004
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1619.1000, 1026.9000) - (1625.4000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20737
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1228.5000, 1001.7000) - (1234.8000, 1008.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023734_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1757.7000, 1045.8000) - (1764.0000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055300_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1782.9000, 1020.6000) - (1789.2000, 1026.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net21418
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1417.5000, 1064.7000) - (1423.8000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[1\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1499.4000, 1052.1000) - (1505.7000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023688_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1253.7000, 1052.1000) - (1260.0000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20004
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1619.1000, 995.4000) - (1625.4000, 1001.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20736
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1442.7000, 1064.7000) - (1449.0000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023446_ net:_023684_ net:picosoc_core.soc.cpu.cpuregs.rdata1\[8\]
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (1354.5000, 1052.1000) - (1360.8000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20737
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1228.5000, 1020.6000) - (1234.8000, 1026.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_048722_ net:picosoc_core.iomem_addr\[21\]
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1304.1000, 1008.0000) - (1310.4000, 1014.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055361_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1732.5000, 995.4000) - (1738.8000, 1001.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_049044_ net:picosoc_core.soc.cpu.cpuregs.rdata1\[6\]
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1310.4000, 1026.9000) - (1316.7000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_048722_ net:picosoc_core.iomem_addr\[21\]
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1304.1000, 1064.7000) - (1310.4000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[2\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1486.8000, 995.4000) - (1493.1000, 1001.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_024734_ net:_025125_ net:_025232_ net:_025498_ net:net21414 net:net21409 net:net19250 net:picosoc_core.iomem_addr\[9\] net:picosoc_core.iomem_wdata\[14\] net:picosoc_core.iomem_wdata\[23\] net:picosoc_core.iomem_wdata\[30\] net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[0\] net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[1\] net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[3\] net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[4\] net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[5\] net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[9\] net:picosoc_core.soc.minimac2core.ctlif.slot0_state\[0\] net:picosoc_core.soc.minimac2core.sync.rx_done_1.level2 net:picosoc_core.soc.minimac2core.sync.sys_rx_count_1_r\[2\]
+	comment: capacity:16 usage:20 overflow:4
+	bbox = (1134.0000, 1014.3000) - (1140.3000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023688_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1253.7000, 1020.6000) - (1260.0000, 1026.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055361_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1732.5000, 1026.9000) - (1738.8000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[1\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1499.4000, 1058.4000) - (1505.7000, 1064.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[1\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1499.4000, 1064.7000) - (1505.7000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20033
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1795.5000, 1008.0000) - (1801.8000, 1014.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20565
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1297.8000, 1020.6000) - (1304.1000, 1026.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023446_ net:_023684_ net:picosoc_core.soc.cpu.cpuregs.rdata1\[8\]
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (1354.5000, 1033.2000) - (1360.8000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055300_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1782.9000, 1008.0000) - (1789.2000, 1014.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net18061
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1726.2000, 1014.3000) - (1732.5000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.cpu_state\[1\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1789.2000, 1001.7000) - (1795.5000, 1008.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023680_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1455.3000, 1014.3000) - (1461.6000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055361_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1732.5000, 1033.2000) - (1738.8000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.iomem_addr\[23\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1266.3000, 1058.4000) - (1272.6000, 1064.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[2\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1486.8000, 1001.7000) - (1493.1000, 1008.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net18061
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1726.2000, 1064.7000) - (1732.5000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023648_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1392.3000, 1058.4000) - (1398.6000, 1064.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.iomem_addr\[23\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1266.3000, 1014.3000) - (1272.6000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023602_ net:picosoc_core.soc.cpu.cpuregs.rdata1\[4\]
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1335.6000, 1026.9000) - (1341.9000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.cpu_state\[1\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1789.2000, 1008.0000) - (1795.5000, 1014.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023644_ net:_051096_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1436.4000, 1008.0000) - (1442.7000, 1014.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20565
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1297.8000, 1039.5000) - (1304.1000, 1045.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055196_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1719.9000, 1045.8000) - (1726.2000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20737
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1228.5000, 1052.1000) - (1234.8000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055082_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1776.6000, 1033.2000) - (1782.9000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net18061
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1726.2000, 1008.0000) - (1732.5000, 1014.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net17315
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1512.0000, 1001.7000) - (1518.3000, 1008.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net16998 net:_022714_ net:_024426_ net:_024522_ net:_024656_ net:_024700_ net:_024783_ net:_024928_ net:_025139_ net:_025412_ net:net21415 net:_048623_ net:_048645_ net:clknet_5_6_0_clock_regs net:_050215_ net:net19344 net:net19341 net:net19335 net:net19290 net:net19288 net:net19286 net:net19274 net:net19260 net:net19240 net:net18805 net:net18101 net:picosoc_core.iomem_addr\[16\] net:picosoc_core.iomem_wdata\[11\] net:net17007
+	comment: capacity:28 usage:29 overflow:1
+	bbox = (1165.5000, 1064.7000) - (1171.8000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023640_ net:clknet_leaf_201_clock_regs
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1367.1000, 1014.3000) - (1373.4000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[7\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1480.5000, 1001.7000) - (1486.8000, 1008.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055082_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1776.6000, 1064.7000) - (1782.9000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023640_ net:clknet_leaf_201_clock_regs
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1367.1000, 1008.0000) - (1373.4000, 1014.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023680_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1455.3000, 995.4000) - (1461.6000, 1001.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.cpuregs.rdata1\[10\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1701.0000, 1001.7000) - (1707.3000, 1008.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[6\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1197.0000, 1058.4000) - (1203.3000, 1064.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20738
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1386.0000, 1008.0000) - (1392.3000, 1014.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023688_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1253.7000, 1058.4000) - (1260.0000, 1064.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023722_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1764.0000, 1058.4000) - (1770.3000, 1064.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net17315
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1512.0000, 1039.5000) - (1518.3000, 1045.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023680_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1455.3000, 1064.7000) - (1461.6000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.iomem_addr\[14\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1234.8000, 1020.6000) - (1241.1000, 1026.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20737
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1228.5000, 1045.8000) - (1234.8000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055196_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1719.9000, 995.4000) - (1726.2000, 1001.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.cpuregs.rdata1\[7\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1348.2000, 1039.5000) - (1354.5000, 1045.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_048722_ net:picosoc_core.iomem_addr\[21\]
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1304.1000, 1014.3000) - (1310.4000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023738_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1493.1000, 1064.7000) - (1499.4000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055361_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1732.5000, 1014.3000) - (1738.8000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023722_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1764.0000, 1014.3000) - (1770.3000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023680_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1455.3000, 1045.8000) - (1461.6000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023648_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1392.3000, 995.4000) - (1398.6000, 1001.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20033
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1795.5000, 1033.2000) - (1801.8000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055300_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1782.9000, 995.4000) - (1789.2000, 1001.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.iomem_addr\[23\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1266.3000, 1064.7000) - (1272.6000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023602_ net:picosoc_core.soc.cpu.cpuregs.rdata1\[4\]
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1335.6000, 1014.3000) - (1341.9000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023450_ net:_054265_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1379.7000, 1052.1000) - (1386.0000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[1\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1499.4000, 1008.0000) - (1505.7000, 1014.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20033
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1795.5000, 1052.1000) - (1801.8000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20737
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1228.5000, 1064.7000) - (1234.8000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_022993_ net:_023058_ net:_023174_ net:_023836_ net:_023868_ net:_024470_ net:_024831_ net:_025004_ net:_025057_ net:_025230_ net:net21420 net:net19284 net:net21419 net:clknet_0_clock net:clknet_5_4_0_clock_regs net:delaynet_7_clk_core net:net19343 net:net19208 net:net18881 net:_055199_ net:net17100 net:net16987 net:picosoc_core.iomem_addr\[15\] net:picosoc_core.iomem_addr\[20\] net:picosoc_core.iomem_addr\[4\] net:picosoc_core.iomem_wdata\[12\] net:picosoc_core.iomem_wdata\[3\]
+	comment: capacity:28 usage:29 overflow:1
+	bbox = (1171.8000, 1064.7000) - (1178.1000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_049044_ net:picosoc_core.soc.cpu.cpuregs.rdata1\[6\]
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1310.4000, 1033.2000) - (1316.7000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023280_ net:net21419 net:net21415 net:_051274_ net:net19325 net:net19256 net:net18875 net:picosoc_core.iomem_addr\[7\] net:picosoc_core.iomem_wdata\[15\] net:picosoc_core.iomem_wdata\[1\] net:picosoc_core.iomem_wdata\[9\] net:picosoc_core.iomem_wstrb\[1\] net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[6\] net:picosoc_core.soc.minimac2core.memory.rxb1.ADDRB\[4\]
+	comment: capacity:10 usage:14 overflow:4
+	bbox = (1146.6000, 1014.3000) - (1152.9000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_022530_ net:_022534_ net:_022982_ net:_022991_ net:_023041_ net:_023043_ net:_023053_ net:_023295_ net:_024621_ net:_025246_ net:net19284 net:_048597_ net:clknet_leaf_205_clock_regs net:clknet_1_0_0_clock_regs net:net19324 net:net19294 net:net19270 net:net19034 net:net17099 net:picosoc_core.iomem_addr\[10\] net:picosoc_core.iomem_addr\[13\] net:picosoc_core.iomem_addr\[19\] net:picosoc_core.iomem_addr\[3\] net:picosoc_core.iomem_wdata\[0\] net:picosoc_core.iomem_wdata\[29\] net:picosoc_core.soc.cpu.cpuregs.rdata1\[3\] net:net17008 net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[9\]
+	comment: capacity:28 usage:29 overflow:1
+	bbox = (1178.1000, 1033.2000) - (1184.4000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023734_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1757.7000, 1014.3000) - (1764.0000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net17315
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1512.0000, 1008.0000) - (1518.3000, 1014.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023722_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1764.0000, 1033.2000) - (1770.3000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055361_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1732.5000, 1008.0000) - (1738.8000, 1014.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net18061
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1726.2000, 1045.8000) - (1732.5000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023688_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1253.7000, 1045.8000) - (1260.0000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[1\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1499.4000, 1001.7000) - (1505.7000, 1008.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023722_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1764.0000, 1064.7000) - (1770.3000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023640_ net:clknet_leaf_201_clock_regs
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1367.1000, 1026.9000) - (1373.4000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023635_ net:net20728
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1430.1000, 1001.7000) - (1436.4000, 1008.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023644_ net:_051096_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1436.4000, 1014.3000) - (1442.7000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023680_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1455.3000, 1058.4000) - (1461.6000, 1064.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023635_ net:net20728
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1430.1000, 995.4000) - (1436.4000, 1001.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20004
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1619.1000, 1008.0000) - (1625.4000, 1014.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net19278 net:_022530_ net:_022534_ net:_022982_ net:_022991_ net:_023041_ net:_023043_ net:_023053_ net:_023295_ net:_024621_ net:_025246_ net:_025368_ net:_048597_ net:clknet_leaf_205_clock_regs net:clknet_1_0_0_clock_regs net:net19324 net:net19294 net:net19270 net:net19034 net:net17099 net:picosoc_core.iomem_addr\[10\] net:picosoc_core.iomem_addr\[13\] net:picosoc_core.iomem_addr\[19\] net:picosoc_core.iomem_addr\[3\] net:picosoc_core.iomem_wdata\[0\] net:picosoc_core.iomem_wdata\[29\] net:picosoc_core.iomem_wdata\[9\] net:picosoc_core.soc.cpu.cpuregs.rdata1\[3\] net:net17008 net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[9\]
+	comment: capacity:28 usage:31 overflow:3
+	bbox = (1178.1000, 1064.7000) - (1184.4000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20033
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1795.5000, 1064.7000) - (1801.8000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.cpuregs.rdata1\[10\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1701.0000, 1058.4000) - (1707.3000, 1064.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023640_ net:clknet_leaf_201_clock_regs
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1367.1000, 1058.4000) - (1373.4000, 1064.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[7\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1480.5000, 1033.2000) - (1486.8000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.iomem_addr\[23\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1266.3000, 1033.2000) - (1272.6000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055361_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1732.5000, 1039.5000) - (1738.8000, 1045.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023450_ net:_054265_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1379.7000, 1064.7000) - (1386.0000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023644_ net:_051096_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1436.4000, 1001.7000) - (1442.7000, 1008.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net21418
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1417.5000, 1014.3000) - (1423.8000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20565
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1297.8000, 1001.7000) - (1304.1000, 1008.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net21418
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1417.5000, 1026.9000) - (1423.8000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_052423_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1713.6000, 1052.1000) - (1719.9000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_048722_ net:picosoc_core.iomem_addr\[21\]
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1304.1000, 1039.5000) - (1310.4000, 1045.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023051_ net:_025527_ net:_025635_ net:net18988 net:net19333 net:net19271 net:net19268 net:picosoc_core.iomem_addr\[17\] net:picosoc_core.iomem_addr\[8\] net:picosoc_core.iomem_wdata\[7\] net:picosoc_core.iomem_wstrb\[1\] net:picosoc_core.soc.cpu.cpuregs.rdata1\[5\] net:picosoc_core.soc.minimac2core.memory.rxb1.ADDRB\[4\]
+	comment: capacity:12 usage:13 overflow:1
+	bbox = (1159.2000, 1058.4000) - (1165.5000, 1064.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_022993_ net:_023058_ net:_023174_ net:_023836_ net:_023868_ net:_024470_ net:_024831_ net:_025004_ net:_025057_ net:_025230_ net:net21420 net:net19284 net:clknet_0_clock net:clknet_5_4_0_clock_regs net:delaynet_7_clk_core net:net19343 net:net19208 net:net18881 net:_055199_ net:net17100 net:net16987 net:picosoc_core.iomem_addr\[15\] net:picosoc_core.iomem_addr\[20\] net:picosoc_core.iomem_addr\[4\] net:picosoc_core.iomem_wdata\[12\] net:picosoc_core.iomem_wdata\[3\] net:picosoc_core.soc.minimac2core.ctlif.slot1_state\[0\]
+	comment: capacity:28 usage:29 overflow:1
+	bbox = (1171.8000, 1052.1000) - (1178.1000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20565
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1297.8000, 1026.9000) - (1304.1000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.cpuregs.rdata1\[7\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1348.2000, 1001.7000) - (1354.5000, 1008.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023648_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1392.3000, 1026.9000) - (1398.6000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.cpuregs.rdata1\[10\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1701.0000, 1014.3000) - (1707.3000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055082_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1776.6000, 1020.6000) - (1782.9000, 1026.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023738_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1493.1000, 1039.5000) - (1499.4000, 1045.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net19262 net:picosoc_core.iomem_wdata\[6\] net:picosoc_core.soc.ram_ready net:picosoc_core.soc.spimemio.dout_data\[1\]
+	comment: capacity:2 usage:4 overflow:2
+	bbox = (1184.4000, 1064.7000) - (1190.7000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net18061
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1726.2000, 1052.1000) - (1732.5000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055196_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1719.9000, 1039.5000) - (1726.2000, 1045.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055196_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1719.9000, 1033.2000) - (1726.2000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net16998 net:_022714_ net:_024426_ net:_024522_ net:_024656_ net:_024700_ net:_024783_ net:_024928_ net:_025139_ net:_025412_ net:_048623_ net:_048645_ net:clknet_5_6_0_clock_regs net:_050215_ net:net19344 net:net19341 net:net19335 net:net19290 net:net19288 net:net19286 net:net19274 net:net19260 net:net19240 net:net18805 net:net18101 net:picosoc_core.iomem_addr\[16\] net:picosoc_core.iomem_addr\[17\] net:picosoc_core.iomem_wdata\[11\] net:net17007
+	comment: capacity:28 usage:29 overflow:1
+	bbox = (1165.5000, 1033.2000) - (1171.8000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023648_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1392.3000, 1020.6000) - (1398.6000, 1026.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055361_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1732.5000, 1064.7000) - (1738.8000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[9\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1474.2000, 1014.3000) - (1480.5000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20736
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1442.7000, 1026.9000) - (1449.0000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023644_ net:_051096_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1436.4000, 1064.7000) - (1442.7000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023644_ net:_051096_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1436.4000, 1058.4000) - (1442.7000, 1064.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.iomem_addr\[14\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1234.8000, 1045.8000) - (1241.1000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[7\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1480.5000, 1026.9000) - (1486.8000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023141_ net:_023244_ net:_023340_ net:_024509_ net:_024564_ net:_024610_ net:_024688_ net:_024734_ net:_025043_ net:_025099_ net:_025180_ net:_025355_ net:_025594_ net:_025622_ net:_049821_ net:net19342 net:net19264 net:net19220 net:picosoc_core.iomem_addr\[6\] net:picosoc_core.iomem_wdata\[21\] net:picosoc_core.iomem_wdata\[7\] net:picosoc_core.phy_rx_data\[0\] net:picosoc_core.phy_rx_data\[1\] net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[10\] net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[2\] net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[5\] net:picosoc_core.soc.minimac2core.sync.sys_rx_count_1_r\[0\]
+	comment: capacity:26 usage:27 overflow:1
+	bbox = (1140.3000, 1026.9000) - (1146.6000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023280_ net:_025125_ net:_025232_ net:_025498_ net:net21414 net:net21409 net:net19250 net:picosoc_core.iomem_addr\[9\] net:picosoc_core.iomem_wdata\[14\] net:picosoc_core.iomem_wdata\[23\] net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[0\] net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[1\] net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[3\] net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[4\] net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[7\] net:picosoc_core.soc.minimac2core.sync.rx_done_1.level2 net:picosoc_core.soc.minimac2core.sync.sys_rx_count_1_r\[2\]
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (1134.0000, 1045.8000) - (1140.3000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.iomem_addr\[22\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1272.6000, 1058.4000) - (1278.9000, 1064.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023734_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1757.7000, 1020.6000) - (1764.0000, 1026.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023602_ net:picosoc_core.soc.cpu.cpuregs.rdata1\[4\]
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1335.6000, 1008.0000) - (1341.9000, 1014.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[9\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1474.2000, 1026.9000) - (1480.5000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.cpuregs.rdata1\[7\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1348.2000, 1008.0000) - (1354.5000, 1014.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.cpuregs.rdata1\[10\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1701.0000, 1033.2000) - (1707.3000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055082_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1776.6000, 995.4000) - (1782.9000, 1001.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net16998 net:_022714_ net:_024426_ net:_024522_ net:_024656_ net:_024700_ net:_024783_ net:_024928_ net:_025139_ net:_025412_ net:net21415 net:_048623_ net:_048645_ net:clknet_5_6_0_clock_regs net:_050215_ net:net19344 net:net19341 net:net19335 net:net19290 net:net19288 net:net19286 net:net19274 net:net19260 net:net19240 net:net18805 net:net18101 net:picosoc_core.iomem_addr\[16\] net:picosoc_core.iomem_wdata\[11\] net:net17007
+	comment: capacity:28 usage:29 overflow:1
+	bbox = (1165.5000, 1052.1000) - (1171.8000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20737
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1228.5000, 1058.4000) - (1234.8000, 1064.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[7\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1480.5000, 1052.1000) - (1486.8000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20565
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1297.8000, 1008.0000) - (1304.1000, 1014.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20737
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1228.5000, 995.4000) - (1234.8000, 1001.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.iomem_addr\[22\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1272.6000, 1033.2000) - (1278.9000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20738
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1386.0000, 1026.9000) - (1392.3000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net21418
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1417.5000, 1039.5000) - (1423.8000, 1045.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055300_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1782.9000, 1033.2000) - (1789.2000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.cpuregs.rdata1\[10\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1701.0000, 1052.1000) - (1707.3000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_049044_ net:picosoc_core.soc.cpu.cpuregs.rdata1\[6\]
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1310.4000, 1020.6000) - (1316.7000, 1026.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055361_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1732.5000, 1001.7000) - (1738.8000, 1008.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023738_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1493.1000, 1020.6000) - (1499.4000, 1026.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055300_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1782.9000, 1026.9000) - (1789.2000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.iomem_addr\[22\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1272.6000, 1039.5000) - (1278.9000, 1045.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[9\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1474.2000, 1052.1000) - (1480.5000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023602_ net:picosoc_core.soc.cpu.cpuregs.rdata1\[4\]
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1335.6000, 1039.5000) - (1341.9000, 1045.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[1\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1499.4000, 1014.3000) - (1505.7000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_048722_ net:picosoc_core.iomem_addr\[21\]
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1304.1000, 1033.2000) - (1310.4000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_052423_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1713.6000, 1026.9000) - (1719.9000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net19336 net:_023051_ net:_025527_ net:net18988 net:net19323 net:net19271 net:net19268 net:net19036 net:picosoc_core.iomem_addr\[20\] net:picosoc_core.iomem_addr\[8\] net:picosoc_core.soc.cpu.cpuregs.rdata1\[5\] net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[7\] net:picosoc_core.soc.spimemio.dout_data\[1\]
+	comment: capacity:12 usage:13 overflow:1
+	bbox = (1159.2000, 1014.3000) - (1165.5000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20738
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1386.0000, 1020.6000) - (1392.3000, 1026.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023688_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1253.7000, 1008.0000) - (1260.0000, 1014.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net21418
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1417.5000, 1008.0000) - (1423.8000, 1014.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_022530_ net:_022534_ net:_022982_ net:_022991_ net:_023041_ net:_023043_ net:_023053_ net:_023295_ net:_024621_ net:_025246_ net:net19284 net:_048597_ net:clknet_leaf_205_clock_regs net:clknet_1_0_0_clock_regs net:net19324 net:net19294 net:net19270 net:net19034 net:net17099 net:picosoc_core.iomem_addr\[10\] net:picosoc_core.iomem_addr\[13\] net:picosoc_core.iomem_addr\[19\] net:picosoc_core.iomem_addr\[3\] net:picosoc_core.iomem_wdata\[0\] net:picosoc_core.iomem_wdata\[29\] net:picosoc_core.soc.cpu.cpuregs.rdata1\[3\] net:net17008 net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[9\]
+	comment: capacity:28 usage:29 overflow:1
+	bbox = (1178.1000, 1026.9000) - (1184.4000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055361_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1732.5000, 1052.1000) - (1738.8000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.cpuregs.rdata1\[10\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1701.0000, 1039.5000) - (1707.3000, 1045.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[9\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1474.2000, 1058.4000) - (1480.5000, 1064.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023635_ net:net20728
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1430.1000, 1020.6000) - (1436.4000, 1026.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_052423_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1713.6000, 995.4000) - (1719.9000, 1001.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20004
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1619.1000, 1064.7000) - (1625.4000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.cpuregs.rdata1\[7\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1348.2000, 1020.6000) - (1354.5000, 1026.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_052423_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1713.6000, 1045.8000) - (1719.9000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023640_ net:clknet_leaf_201_clock_regs
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1367.1000, 1020.6000) - (1373.4000, 1026.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055361_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1732.5000, 1058.4000) - (1738.8000, 1064.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net17315
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1512.0000, 1026.9000) - (1518.3000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net18061
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1726.2000, 995.4000) - (1732.5000, 1001.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_024456_ net:_024769_ net:_024866_ net:_024880_ net:_024976_ net:_025016_ net:_025288_ net:_025444_ net:_025681_ net:net21077 net:clknet_1_1__leaf_clock net:net19329 net:net19307 net:net19266 net:net19244 net:net19203 net:net18855 net:net18379 net:net17261 net:picosoc_core.iomem_addr\[12\] net:picosoc_core.iomem_addr\[18\] net:picosoc_core.iomem_wdata\[22\] net:picosoc_core.phy_rx_data\[3\] net:picosoc_core.soc.ram_ready net:picosoc_core.soc.spimemio.dout_data\[0\]
+	comment: capacity:24 usage:25 overflow:1
+	bbox = (1152.9000, 1014.3000) - (1159.2000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20033
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1795.5000, 1020.6000) - (1801.8000, 1026.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net21418
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1417.5000, 1058.4000) - (1423.8000, 1064.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net21418
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1417.5000, 1001.7000) - (1423.8000, 1008.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023688_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1253.7000, 1064.7000) - (1260.0000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023648_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1392.3000, 1014.3000) - (1398.6000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023446_ net:_023684_ net:picosoc_core.soc.cpu.cpuregs.rdata1\[8\]
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (1354.5000, 1058.4000) - (1360.8000, 1064.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_048722_ net:picosoc_core.iomem_addr\[21\]
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1304.1000, 1052.1000) - (1310.4000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[2\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1486.8000, 1064.7000) - (1493.1000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023680_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1455.3000, 1039.5000) - (1461.6000, 1045.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023688_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1253.7000, 1001.7000) - (1260.0000, 1008.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.iomem_addr\[22\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1272.6000, 1064.7000) - (1278.9000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.cpuregs.rdata1\[7\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1348.2000, 1052.1000) - (1354.5000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_052423_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1713.6000, 1064.7000) - (1719.9000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.iomem_addr\[14\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1234.8000, 1052.1000) - (1241.1000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023008_ net:_024456_ net:_024769_ net:_024866_ net:_024880_ net:_024976_ net:_025016_ net:_025288_ net:_025444_ net:_025681_ net:net21077 net:net19329 net:net19307 net:net19266 net:net19203 net:net18855 net:net18379 net:net17261 net:picosoc_core.iomem_addr\[12\] net:picosoc_core.iomem_addr\[18\] net:picosoc_core.iomem_wdata\[22\] net:picosoc_core.iomem_wdata\[30\] net:picosoc_core.phy_rx_data\[3\] net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[8\] net:picosoc_core.soc.ram_ready net:picosoc_core.soc.spimemio.dout_data\[0\]
+	comment: capacity:24 usage:26 overflow:2
+	bbox = (1152.9000, 1033.2000) - (1159.2000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023722_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1764.0000, 1039.5000) - (1770.3000, 1045.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20738
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1386.0000, 1058.4000) - (1392.3000, 1064.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20736
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1442.7000, 1008.0000) - (1449.0000, 1014.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net19036
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1203.3000, 1064.7000) - (1209.6000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.cpu_state\[1\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1789.2000, 1058.4000) - (1795.5000, 1064.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023640_ net:clknet_leaf_201_clock_regs
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1367.1000, 1064.7000) - (1373.4000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.iomem_addr\[22\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1272.6000, 1026.9000) - (1278.9000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[7\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1480.5000, 1008.0000) - (1486.8000, 1014.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.iomem_addr\[22\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1272.6000, 1001.7000) - (1278.9000, 1008.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[6\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1197.0000, 1026.9000) - (1203.3000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023141_ net:_023244_ net:_023340_ net:_024509_ net:_024564_ net:_024610_ net:_024688_ net:_024734_ net:_025043_ net:_025099_ net:_025180_ net:_025355_ net:_025594_ net:_025622_ net:clknet_1_1__leaf_clock net:_049821_ net:net19342 net:net19264 net:net19220 net:picosoc_core.iomem_addr\[6\] net:picosoc_core.iomem_wdata\[21\] net:picosoc_core.iomem_wdata\[30\] net:picosoc_core.phy_rx_data\[0\] net:picosoc_core.phy_rx_data\[1\] net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[10\] net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[2\] net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[5\] net:picosoc_core.soc.minimac2core.sync.sys_rx_count_1_r\[0\]
+	comment: capacity:26 usage:28 overflow:2
+	bbox = (1140.3000, 1064.7000) - (1146.6000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_049044_ net:picosoc_core.soc.cpu.cpuregs.rdata1\[6\]
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1310.4000, 995.4000) - (1316.7000, 1001.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055300_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1782.9000, 1039.5000) - (1789.2000, 1045.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20004
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1619.1000, 1020.6000) - (1625.4000, 1026.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.cpu_state\[1\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1789.2000, 1039.5000) - (1795.5000, 1045.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023734_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1757.7000, 1033.2000) - (1764.0000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055361_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1732.5000, 1045.8000) - (1738.8000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023734_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1757.7000, 995.4000) - (1764.0000, 1001.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023141_ net:_023244_ net:_023340_ net:_024509_ net:_024564_ net:_024610_ net:_024688_ net:_024734_ net:_025043_ net:_025099_ net:_025180_ net:_025355_ net:_025594_ net:_025622_ net:_049821_ net:net19342 net:net19264 net:net19220 net:picosoc_core.iomem_addr\[6\] net:picosoc_core.iomem_wdata\[21\] net:picosoc_core.iomem_wdata\[7\] net:picosoc_core.phy_rx_data\[0\] net:picosoc_core.phy_rx_data\[1\] net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[10\] net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[2\] net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[5\] net:picosoc_core.soc.minimac2core.sync.sys_rx_count_1_r\[0\]
+	comment: capacity:26 usage:27 overflow:1
+	bbox = (1140.3000, 1033.2000) - (1146.6000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net16998 net:_022714_ net:_024426_ net:_024522_ net:_024656_ net:_024700_ net:_024783_ net:_024928_ net:_025139_ net:_025412_ net:net21415 net:_048623_ net:_048645_ net:clknet_5_6_0_clock_regs net:_050215_ net:net19344 net:net19341 net:net19335 net:net19290 net:net19288 net:net19286 net:net19274 net:net19260 net:net19240 net:net18805 net:net18101 net:picosoc_core.iomem_addr\[16\] net:picosoc_core.iomem_wdata\[11\] net:net17007
+	comment: capacity:28 usage:29 overflow:1
+	bbox = (1165.5000, 1058.4000) - (1171.8000, 1064.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023450_ net:_054265_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1379.7000, 1058.4000) - (1386.0000, 1064.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023688_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1253.7000, 995.4000) - (1260.0000, 1001.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[7\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1480.5000, 1064.7000) - (1486.8000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023680_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1455.3000, 1001.7000) - (1461.6000, 1008.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055196_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1719.9000, 1001.7000) - (1726.2000, 1008.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023051_ net:_025527_ net:_025635_ net:net18988 net:net19333 net:net19323 net:net19271 net:net19268 net:net18875 net:picosoc_core.iomem_addr\[17\] net:picosoc_core.iomem_addr\[8\] net:picosoc_core.iomem_wdata\[7\] net:picosoc_core.iomem_wstrb\[1\] net:picosoc_core.soc.cpu.cpuregs.rdata1\[5\] net:picosoc_core.soc.minimac2core.memory.rxb1.ADDRB\[4\]
+	comment: capacity:12 usage:15 overflow:3
+	bbox = (1159.2000, 1045.8000) - (1165.5000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20738
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1386.0000, 1052.1000) - (1392.3000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20736
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1442.7000, 1052.1000) - (1449.0000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055082_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1776.6000, 1014.3000) - (1782.9000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net21418
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1417.5000, 1052.1000) - (1423.8000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023446_ net:_023684_ net:picosoc_core.soc.cpu.cpuregs.rdata1\[8\]
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (1354.5000, 1039.5000) - (1360.8000, 1045.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.iomem_addr\[23\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1266.3000, 1020.6000) - (1272.6000, 1026.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[9\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1474.2000, 995.4000) - (1480.5000, 1001.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20004
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1619.1000, 1052.1000) - (1625.4000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net19325
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1190.7000, 1064.7000) - (1197.0000, 1071.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20738
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1386.0000, 1045.8000) - (1392.3000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.iomem_addr\[22\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1272.6000, 1052.1000) - (1278.9000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023446_ net:_023684_ net:picosoc_core.soc.cpu.cpuregs.rdata1\[8\]
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (1354.5000, 1001.7000) - (1360.8000, 1008.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055082_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1776.6000, 1045.8000) - (1782.9000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_049044_ net:picosoc_core.soc.cpu.cpuregs.rdata1\[6\]
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1310.4000, 1008.0000) - (1316.7000, 1014.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023051_ net:_025527_ net:_025635_ net:net18988 net:net19333 net:net19323 net:net19271 net:net19268 net:net18875 net:picosoc_core.iomem_addr\[17\] net:picosoc_core.iomem_addr\[8\] net:picosoc_core.iomem_wdata\[7\] net:picosoc_core.iomem_wstrb\[1\] net:picosoc_core.soc.cpu.cpuregs.rdata1\[5\] net:picosoc_core.soc.minimac2core.memory.rxb1.ADDRB\[4\]
+	comment: capacity:12 usage:15 overflow:3
+	bbox = (1159.2000, 1052.1000) - (1165.5000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.iomem_addr\[14\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1234.8000, 995.4000) - (1241.1000, 1001.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023640_ net:clknet_leaf_201_clock_regs
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1367.1000, 1045.8000) - (1373.4000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[9\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1474.2000, 1020.6000) - (1480.5000, 1026.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023635_ net:net20728
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1430.1000, 1058.4000) - (1436.4000, 1064.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_049044_ net:picosoc_core.soc.cpu.cpuregs.rdata1\[6\]
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1310.4000, 1014.3000) - (1316.7000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net21419 net:clknet_1_1__leaf_clock net:_051274_ net:net19325 net:net19256 net:net19244 net:picosoc_core.iomem_addr\[7\] net:picosoc_core.iomem_wdata\[15\] net:picosoc_core.iomem_wdata\[1\] net:picosoc_core.iomem_wdata\[9\] net:picosoc_core.soc.minimac2core.ctlif.slot0_state\[0\] net:picosoc_core.soc.spimemio.dout_data\[1\]
+	comment: capacity:10 usage:12 overflow:2
+	bbox = (1146.6000, 1045.8000) - (1152.9000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20738
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1386.0000, 1001.7000) - (1392.3000, 1008.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023280_ net:_025125_ net:_025232_ net:_025498_ net:net21414 net:net21409 net:net19250 net:picosoc_core.iomem_addr\[9\] net:picosoc_core.iomem_wdata\[14\] net:picosoc_core.iomem_wdata\[23\] net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[0\] net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[1\] net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[3\] net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[4\] net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[7\] net:picosoc_core.soc.minimac2core.sync.rx_done_1.level2 net:picosoc_core.soc.minimac2core.sync.sys_rx_count_1_r\[2\]
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (1134.0000, 1052.1000) - (1140.3000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023644_ net:_051096_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1436.4000, 995.4000) - (1442.7000, 1001.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[9\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1474.2000, 1045.8000) - (1480.5000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023602_ net:picosoc_core.soc.cpu.cpuregs.rdata1\[4\]
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (1335.6000, 995.4000) - (1341.9000, 1001.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.irq_pending\[7\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1480.5000, 995.4000) - (1486.8000, 1001.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net20033
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1795.5000, 1001.7000) - (1801.8000, 1008.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.cpu_state\[1\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1789.2000, 1052.1000) - (1795.5000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.iomem_addr\[23\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1266.3000, 995.4000) - (1272.6000, 1001.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.minimac2core.ctlif.rx_count_0\[8\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1121.4000, 1014.3000) - (1127.7000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.iomem_addr\[22\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1272.6000, 1014.3000) - (1278.9000, 1020.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_055082_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1776.6000, 1058.4000) - (1782.9000, 1064.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net18061
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1726.2000, 1026.9000) - (1732.5000, 1033.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net17315
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1512.0000, 1058.4000) - (1518.3000, 1064.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:picosoc_core.soc.cpu.cpu_state\[1\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1789.2000, 1020.6000) - (1795.5000, 1026.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net16998 net:_022714_ net:_024426_ net:_024522_ net:_024656_ net:_024700_ net:_024783_ net:_024928_ net:_025139_ net:_025412_ net:net21415 net:_048623_ net:_048645_ net:clknet_5_6_0_clock_regs net:_050215_ net:net19344 net:net19341 net:net19335 net:net19290 net:net19288 net:net19286 net:net19274 net:net19260 net:net19240 net:net18805 net:net18101 net:picosoc_core.iomem_addr\[16\] net:picosoc_core.iomem_wdata\[11\] net:net17007
+	comment: capacity:28 usage:29 overflow:1
+	bbox = (1165.5000, 1045.8000) - (1171.8000, 1052.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net21419 net:net21415 net:clknet_1_1__leaf_clock net:_051274_ net:net19325 net:net19256 net:net19244 net:picosoc_core.iomem_wdata\[15\] net:picosoc_core.iomem_wdata\[1\] net:picosoc_core.iomem_wdata\[9\] net:picosoc_core.iomem_wstrb\[1\] net:picosoc_core.soc.minimac2core.ctlif.slot0_state\[0\]
+	comment: capacity:10 usage:12 overflow:2
+	bbox = (1146.6000, 1033.2000) - (1152.9000, 1039.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_023738_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1493.1000, 995.4000) - (1499.4000, 1001.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net17315
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1512.0000, 1033.2000) - (1518.3000, 1039.5000) on Layer -

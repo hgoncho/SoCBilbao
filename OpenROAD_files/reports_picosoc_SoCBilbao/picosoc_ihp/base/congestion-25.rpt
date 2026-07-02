@@ -1,0 +1,12 @@
+violation type: Horizontal congestion
+	srcs: net:_023845_ net:net448 net:net450 net:net485 net:net527 net:net529 net:net533 net:net540 net:net560 net:net565 net:net566 net:net567 net:net569 net:net571 net:net573 net:net596 net:net598 net:net604 net:net637 net:net638 net:net639 net:net6385
+	comment: capacity:21 usage:22 overflow:1
+	bbox = (1127.7000, 970.2000) - (1134.0000, 976.5000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_023842_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (1127.7000, 989.1000) - (1134.0000, 995.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net19267 net:picosoc_core.soc.minimac2core.memory.txb.DOA\[17\] net:picosoc_core.soc.minimac2core.memory.txb.DOA\[30\] net:picosoc_core.soc.minimac2core.memory.txb.b_dout_32\[26\] net:picosoc_core.soc.minimac2core.memory.txb.b_dout_32\[31\] net:net489 net:net490 net:net491 net:net495 net:net524 net:net525 net:net530 net:net535 net:net536 net:net537 net:net538 net:net541 net:net558 net:net593 net:net595 net:net602 net:net610 net:net641
+	comment: capacity:22 usage:23 overflow:1
+	bbox = (1127.7000, 976.5000) - (1134.0000, 982.8000) on Layer -
