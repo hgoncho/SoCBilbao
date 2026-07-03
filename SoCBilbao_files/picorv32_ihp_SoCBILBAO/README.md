@@ -8,7 +8,6 @@ Contiene todo el código fuente del proyecto: descripción RTL en Verilog, firmw
 
 ```
 picorv32_ihp_SoCBILBAO/
-├── shell.nix                  # Entorno Nix con versiones fijas de las herramientas ORFS
 └── picosoc/
     ├── Makefile               # Sistema de construcción unificado (firmware + simulación)
     ├── start.s                # Código de arranque: inicializa SP y salta a main()
