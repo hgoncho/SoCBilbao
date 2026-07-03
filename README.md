@@ -38,6 +38,7 @@ Desarrollado como Trabajo de Fin de Máster en la Universidad del País Vasco (U
 SoCBilbao/
 ├── SoCBilbao_files/          # Fuentes RTL, firmware y simulación
 │   └── picorv32_ihp_SoCBILBAO/
+│       ├── picorv.v          # Procesador picorv32 en Verilog
 │       └── picosoc/
 │           ├── Makefile      # Sistema de construcción unificado
 │           ├── start.s       # Código de arranque RISC-V
