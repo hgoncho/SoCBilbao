@@ -82,10 +82,6 @@ vsim -do "vsim tb_dual_core; run -all"
 
 ---
 
-## `shell.nix`
-
-Define el entorno Nix con versiones exactas y fijas de todas las herramientas EDA open-source necesarias para el flujo ASIC: Yosys, OpenROAD, KLayout, etc. Lanzar `nix-shell` en el directorio `picorv32_ihp_SoCBILBAO/` garantiza un entorno reproducible independientemente del sistema operativo del host.
-
 ## `ASIC/`
 
 Contiene los ficheros de las macros SRAM del PDK IHP SG13G2 necesarios tanto para la simulación funcional (modelos Verilog `.v`) como para el flujo físico ORFS (`.gds`, `.lef`, `.lib`, `.cdl`). Estos ficheros se distribuyen por separado del directorio `OpenROAD_files/` porque también se usan en la simulación del diseño ASIC con el testbench `tb_dual_core`.
