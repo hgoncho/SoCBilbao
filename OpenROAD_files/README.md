@@ -18,7 +18,6 @@ OpenROAD_files/
 │       ├── pdn.tcl                 # Red de distribución de energía (PDN)
 │       ├── pad.tcl                 # Distribución de 40 IOPads en el perímetro
 │       ├── macro_placement.tcl     # Posicionamiento manual de las 5 macros SRAM
-│       ├── pre_grt.tcl             # Script pre-enrutamiento global (ajustes extra)
 │       ├── cdl/                    # Ficheros CDL de las macros SRAM (para LVS)
 │       ├── gds/                    # Ficheros GDS de las macros SRAM
 │       ├── lef/                    # Ficheros LEF de las macros SRAM (abstracciones físicas)
